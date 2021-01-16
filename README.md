@@ -50,16 +50,6 @@
 
 ***
 
-# Parental Control
-### SafeSearch
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enforce SafeSearch
-### YouTube Restricted Mode
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enforce YouTube Restricted Mode
-### Block Bypass Methods
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Block Bypass Methods
-
-***
-
 # Denylist
 	graph.facebook.com *(disable for active FB users)*
 	pubnub.com
