@@ -1,85 +1,85 @@
 ## Security
  #### Threat Intelligence Feeds
- 		Use Threat Intelligence Feeds = Enabled
+ 	✅ Use Threat Intelligence Feeds
  #### Google Safe Browsing
-		Enable Google Safe Browsing = Enabled
+	✅ Enable Google Safe Browsing
  #### Cryptojacking Protection
-		Enable Cryptojacking Protection = Disabled
+	❌ Enable Cryptojacking Protection
  #### DNS Rebinding Protection
-		Enable DNS Rebinding Protection = Enabled
+	✅ Enable DNS Rebinding Protection
  #### IDN Homograph Attacks Protection
-		Enable Homograph Attacks Protection = Enabled
+	✅ Enable Homograph Attacks Protection
  #### Typosquatting Protection
-		Enable Typosquatting Protection = Enabled
+	✅ Enable Typosquatting Protection
  #### Domain Generation Algorithms (DGAs) Protection
-		Enable DGA Protection = Enabled
+	✅ Enable DGA Protection
  #### Block Newly Registered Domains (NRDs)
-		Block Newly Registered Domains (NRDs) = Enabled
+	✅ Block Newly Registered Domains (NRDs)
  #### Block Parked Domains
-		Block Parked Domains = Enabled
+	✅ Block Parked Domains
  #### Block Top-Level Domains (TLDs)
-		.buzz
-		.casa
-		.club
-		.sh
-		.tk
-		.top
+ 	.buzz
+ 	.casa
+ 	.club
+ 	.sh
+ 	.tk
+ 	.top
  #### Block Child Sexual Abuse Material
-		Block Child Sexual Abuse Material = Enabled
+	✅ Block Child Sexual Abuse Material
 
 ***
 		
 ## Privacy
  #### Blocklists
-		1Hosts (Lite)
-		Anudeep's Blacklist
-		oisd
+	1Hosts (Lite)
+	Anudeep's Blacklist
+	oisd
  #### Native Tracking Protection *(All enabled)*
-		Amazon Alexa
-		Apple
-		Huawei
-		Roku
-		Samsung
-		Sonos
-		Windows
-		Xiaomi
+	Amazon Alexa
+	Apple
+	Huawei
+	Roku
+	Samsung
+	Sonos
+	Windows
+	Xiaomi
  #### Block Disguised Third-Party Trackers
-		Block Disguised Third-Party Trackers = Enabled
+	✅ Block Disguised Third-Party Trackers
  #### Allow Affiliate & Tracking Links
-		Allow Affiliate & Tracking Links = Enabled
+	✅ Allow Affiliate & Tracking Links
 
 ***
 
 ## Parental Control
  #### SafeSearch
-		Enforce SafeSearch = Disabled
+	❌ Enforce SafeSearch
  #### YouTube Restricted Mode
-		Enforce YouTube Restricted Mode = Disabled
+	❌ Enforce YouTube Restricted Mode
  #### Block Bypass Methods
-		Block Bypass Methods = Disabled
+	❌ Block Bypass Methods
 
 ***
 
 ## Denylist
-	graph.facebook.com *<- disable for active FB users*
+	graph.facebook.com *(disable for active FB users)*
 	pubnub.com
 
 ***
 
 ## Allowlist
-	graph.instagram.com *<- enable for active FB users*
+	graph.instagram.com *(enable for active FB users)*
 
 ***
 
 ## Settings
  #### Block Page
-		Enable Block Page = Disabled
+	❌ Enable Block Page
  #### Anonymized EDNS Client Subnet
-			Enable Anonymized EDNS Client Subnet = Disabled
+	❌ Enable Anonymized EDNS Client Subnet
  #### Cache Boost
-			Enable Cache Boost = Enabled
+	✅ Enable Cache Boost
  #### CNAME Flattening
-			Enable CNAME Flattening = Enabled
+	✅ Enable CNAME Flattening
  #### Handshake
-		Resolve Handshake domains = Enabled
+	✅ Resolve Handshake domains
 		
