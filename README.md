@@ -1,3 +1,5 @@
+***
+
 # Security
 ### Threat Intelligence Feeds
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Use Threat Intelligence Feeds
@@ -72,3 +74,5 @@
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable CNAME Flattening
 ### Handshake
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Resolve Handshake domains
+
+***
