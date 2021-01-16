@@ -4,7 +4,7 @@
 ### Google Safe Browsing
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Google Safe Browsing
 ### Cryptojacking Protection
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Cryptojacking Protection
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Cryptojacking Protection :warning:
 ### DNS Rebinding Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable DNS Rebinding Protection
 ### IDN Homograph Attacks Protection
@@ -63,7 +63,7 @@
 
 # Settings
 ### Block Page
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Block Page
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Block Page :warning:
 ### Anonymized EDNS Client Subnet
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Anonymized EDNS Client Subnet
 ### Cache Boost
