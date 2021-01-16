@@ -51,13 +51,13 @@
 ***
 
 # Denylist
-	graph.facebook.com (do not add when active FB users)
+	graph.facebook.com (do not add when active FaceBook users)
 	pubnub.com
 
 ***
 
 # Allowlist
-	graph.instagram.com (add when active FB users)
+	graph.instagram.com (add when active FaceBook/Instagram users)
 
 ***
 
