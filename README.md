@@ -65,7 +65,7 @@
 ### Block Page
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Block Page
 ### Anonymized EDNS Client Subnet
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Anonymized EDNS Client Subnet
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Anonymized EDNS Client Subnet
 ### Cache Boost
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Cache Boost
 ### CNAME Flattening
