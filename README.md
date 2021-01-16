@@ -1,40 +1,40 @@
-## Security
- #### Threat Intelligence Feeds
- 	✅ Use Threat Intelligence Feeds
- #### Google Safe Browsing
-	✅ Enable Google Safe Browsing
- #### Cryptojacking Protection
-	❌ Enable Cryptojacking Protection
- #### DNS Rebinding Protection
-	✅ Enable DNS Rebinding Protection
- #### IDN Homograph Attacks Protection
-	✅ Enable Homograph Attacks Protection
- #### Typosquatting Protection
-	✅ Enable Typosquatting Protection
- #### Domain Generation Algorithms (DGAs) Protection
-	✅ Enable DGA Protection
- #### Block Newly Registered Domains (NRDs)
-	✅ Block Newly Registered Domains (NRDs)
- #### Block Parked Domains
-	✅ Block Parked Domains
- #### Block Top-Level Domains (TLDs)
+# Security
+### Threat Intelligence Feeds
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Use Threat Intelligence Feeds
+### Google Safe Browsing
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Google Safe Browsing
+### Cryptojacking Protection
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Cryptojacking Protection
+### DNS Rebinding Protection
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable DNS Rebinding Protection
+### IDN Homograph Attacks Protection
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Homograph Attacks Protection
+### Typosquatting Protection
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Typosquatting Protection
+### Domain Generation Algorithms (DGAs) Protection
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable DGA Protection
+### Block Newly Registered Domains (NRDs)
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Block Newly Registered Domains (NRDs)
+### Block Parked Domains
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Block Parked Domains
+### Block Top-Level Domains (TLDs)
  	.buzz
  	.casa
  	.club
  	.sh
  	.tk
  	.top
- #### Block Child Sexual Abuse Material
-	✅ Block Child Sexual Abuse Material
+### Block Child Sexual Abuse Material
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Block Child Sexual Abuse Material
 
 ***
 		
-## Privacy
- #### Blocklists
+# Privacy
+### Blocklists
 	1Hosts (Lite)
 	Anudeep's Blacklist
 	oisd
- #### Native Tracking Protection *(All enabled)*
+### Native Tracking Protection *(All enabled)*
 	Amazon Alexa
 	Apple
 	Huawei
@@ -43,43 +43,42 @@
 	Sonos
 	Windows
 	Xiaomi
- #### Block Disguised Third-Party Trackers
-	✅ Block Disguised Third-Party Trackers
- #### Allow Affiliate & Tracking Links
-	✅ Allow Affiliate & Tracking Links
+### Block Disguised Third-Party Trackers
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Block Disguised Third-Party Trackers
+### Allow Affiliate & Tracking Links
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Allow Affiliate & Tracking Links
 
 ***
 
-## Parental Control
- #### SafeSearch
-	❌ Enforce SafeSearch
- #### YouTube Restricted Mode
-	❌ Enforce YouTube Restricted Mode
- #### Block Bypass Methods
-	❌ Block Bypass Methods
+# Parental Control
+### SafeSearch
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enforce SafeSearch
+### YouTube Restricted Mode
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enforce YouTube Restricted Mode
+### Block Bypass Methods
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Block Bypass Methods
 
 ***
 
-## Denylist
+# Denylist
 	graph.facebook.com *(disable for active FB users)*
 	pubnub.com
 
 ***
 
-## Allowlist
+# Allowlist
 	graph.instagram.com *(enable for active FB users)*
 
 ***
 
-## Settings
- #### Block Page
-	❌ Enable Block Page
- #### Anonymized EDNS Client Subnet
-	❌ Enable Anonymized EDNS Client Subnet
- #### Cache Boost
-	✅ Enable Cache Boost
- #### CNAME Flattening
-	✅ Enable CNAME Flattening
- #### Handshake
-	✅ Resolve Handshake domains
-		
+# Settings
+### Block Page
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Block Page
+### Anonymized EDNS Client Subnet
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Anonymized EDNS Client Subnet
+### Cache Boost
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Cache Boost
+### CNAME Flattening
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable CNAME Flattening
+### Handshake
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Resolve Handshake domains
