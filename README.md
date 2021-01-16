@@ -4,7 +4,7 @@
 ### Google Safe Browsing
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Google Safe Browsing
 ### Cryptojacking Protection
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Cryptojacking Protection :warning:
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Cryptojacking Protection
 ### DNS Rebinding Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable DNS Rebinding Protection
 ### IDN Homograph Attacks Protection
@@ -51,19 +51,19 @@
 ***
 
 # Denylist
-	graph.facebook.com *(disable for active FB users)*
+	graph.facebook.com (do not add when active FB users)
 	pubnub.com
 
 ***
 
 # Allowlist
-	graph.instagram.com *(enable for active FB users)*
+	graph.instagram.com (add when active FB users)
 
 ***
 
 # Settings
 ### Block Page
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Block Page :warning:
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Block Page
 ### Anonymized EDNS Client Subnet
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Anonymized EDNS Client Subnet
 ### Cache Boost
