@@ -2,13 +2,13 @@
 
 # Security
 ### Threat Intelligence Feeds
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled2.png) Use Threat Intelligence Feeds
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Use Threat Intelligence Feeds
 ### Google Safe Browsing
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled2.png) Enable Google Safe Browsing
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Google Safe Browsing
 ### Cryptojacking Protection
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled2.png) Enable Cryptojacking Protection
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Disabled.png) Enable Cryptojacking Protection
 ### DNS Rebinding Protection
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled2.png) Enable DNS Rebinding Protection
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable DNS Rebinding Protection
 ### IDN Homograph Attacks Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Homograph Attacks Protection
 ### Typosquatting Protection
@@ -30,7 +30,7 @@
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Block Child Sexual Abuse Material
 
 ***
-
+		
 # Privacy
 ### Blocklists
 	1Hosts (Lite)
