@@ -2,7 +2,7 @@
 
 # Security
 ### Threat Intelligence Feeds
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Use Threat Intelligence Feeds
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Use Threat Intelligence Feeds
 ### Google Safe Browsing
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Enable Google Safe Browsing
 ### Cryptojacking Protection
@@ -30,7 +30,7 @@
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/Enabled.png) Block Child Sexual Abuse Material
 
 ***
-		
+
 # Privacy
 ### Blocklists
 	1Hosts (Lite)
