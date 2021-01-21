@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="6mm"
-   height="3.3599999mm"
-   viewBox="0 0 6 3.3599999"
+   width="28.595779"
+   height="16.014307"
+   viewBox="0 0 7.5659665 4.2371185"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="28.963094"
-     inkscape:cx="11.987196"
-     inkscape:cy="10.741885"
+     inkscape:zoom="32"
+     inkscape:cx="14.41717"
+     inkscape:cy="11.087976"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -37,7 +37,12 @@
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -56,7 +61,7 @@
      id="layer1">
     <g
        id="g918"
-       transform="matrix(0.60000562,0,0,0.60000562,0,-2.6379566e-6)">
+       transform="matrix(0.75660378,0,0,0.75660378,0,-1.6051942e-6)">
       <path
          id="path74"
          style="fill:#007bff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999999"
