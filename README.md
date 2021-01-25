@@ -6,7 +6,7 @@
 ### Google Safe Browsing
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable Google Safe Browsing
 ### Cryptojacking Protection
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable Cryptojacking Protection - :radioactive: *Enabling did cause breakages and it is already covered by ***oisd*** blocklist*
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable Cryptojacking Protection → :radioactive: *Enabling did cause breakages and it's already covered by ***oisd*** blocklist*
 ### DNS Rebinding Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable DNS Rebinding Protection
 ### IDN Homograph Attacks Protection
@@ -54,7 +54,7 @@
 
 # Parental Control
 ### YouTube Restricted Mode
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enforce YouTube Restricted Mode - :radioactive: *Enabling will cause breakages*
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enforce YouTube Restricted Mode → :radioactive: *Enabling will cause breakages*
 
 ***
 
