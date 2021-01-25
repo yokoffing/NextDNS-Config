@@ -71,7 +71,7 @@
 
 # Settings
 ### Block Page
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable Block Page
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable Block Page → :radioactive: *Enabling will cause breakages*
 ### Anonymized EDNS Client Subnet
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable Anonymized EDNS Client Subnet
 ### Cache Boost
