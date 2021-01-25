@@ -72,7 +72,5 @@
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable Cache Boost
 ### CNAME Flattening
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable CNAME Flattening
-### Handshake
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Resolve Handshake domains
 
 ***
