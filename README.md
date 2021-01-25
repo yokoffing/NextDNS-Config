@@ -59,13 +59,13 @@
 ***
 
 # Denylist
-	graph.facebook.com → :radioactive: ***do not add*** *when active FaceBook users*
+	graph.facebook.com → :radioactive: ***do not add*** when active FaceBook users*
 	pubnub.com
 
 ***
 
 # Allowlist
-	graph.instagram.com → :radioactive: ***add*** *when active FaceBook/Instagram users*
+	graph.instagram.com → :radioactive: ***add*** when active FaceBook/Instagram users*
 
 ***
 
