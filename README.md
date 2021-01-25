@@ -80,3 +80,5 @@
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable CNAME Flattening
 
 ***
+
+![Visit count](https://profile-counter.glitch.me/crssi/count.svg)
