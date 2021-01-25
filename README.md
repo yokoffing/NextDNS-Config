@@ -82,3 +82,4 @@
 ***
 
 ![Visit count](https://profile-counter.glitch.me/crssi/count.svg)
+[![Visit count](https://badges.pufler.dev/visits/crssi/NextDNS-Config)]
