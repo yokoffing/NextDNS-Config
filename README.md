@@ -34,8 +34,9 @@
 # Privacy
 ### Blocklists
 	1Hosts (Lite)
-	Anudeep's Blacklist
+	AdGuard DNS filter
 	oisd
+	yhosts
 ### Native Tracking Protection *(All enabled)*
 	Amazon Alexa
 	Apple
