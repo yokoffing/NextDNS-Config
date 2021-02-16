@@ -61,7 +61,7 @@
 
 # Denylist
 	graph.facebook.com → DO NOT ADD when active FaceBook users
-  gvt2.com [Investigation in progress...]
+	gvt2.com [Investigation in progress...]
 	pubnub.com
 
 ***
