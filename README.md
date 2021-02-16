@@ -34,7 +34,7 @@
 # Privacy
 ### Blocklists
 	1Hosts (Lite)
-	AdGuard DNS filter
+	AdGuard DNS filter [Investigation in progress...]
 	oisd
 	yhosts
 ### Native Tracking Protection *(All enabled)*
@@ -61,6 +61,7 @@
 
 # Denylist
 	graph.facebook.com → DO NOT ADD when active FaceBook users
+  gvt2.com [Investigation in progress...]
 	pubnub.com
 
 ***
