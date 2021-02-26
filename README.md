@@ -19,13 +19,6 @@
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Block Newly Registered Domains (NRDs)
 ### Block Parked Domains
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Block Parked Domains
-### Block Top-Level Domains (TLDs)
- 	.buzz
- 	.casa
- 	.club
- 	.sh
- 	.tk
- 	.top
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Block Child Sexual Abuse Material
 
@@ -34,9 +27,7 @@
 # Privacy
 ### Blocklists
 	1Hosts (Lite)
-	AdGuard DNS filter [Investigation in progress...]
 	oisd
-	yhosts
 ### Native Tracking Protection *(All enabled)*
 	Amazon Alexa
 	Apple
@@ -61,13 +52,10 @@
 
 # Denylist
 	graph.facebook.com → DO NOT ADD when active FaceBook users
-	gvt2.com [Investigation in progress...]
+	graph.instagram.com → DO NOT ADD when active FaceBook/Instagram users
+	gvt2.com
 	pubnub.com
-
-***
-
-# Allowlist
-	graph.instagram.com → ADD when active FaceBook/Instagram users
+	s0.2mdn.net
 
 ***
 
