@@ -28,6 +28,7 @@
 ### Blocklists
 	1Hosts (Lite)
 	oisd
+	yhosts
 ### Native Tracking Protection *(All enabled)*
 	Amazon Alexa
 	Apple
@@ -55,7 +56,6 @@
 	graph.instagram.com → DO NOT ADD when active FaceBook/Instagram users
 	gvt2.com
 	pubnub.com
-	s0.2mdn.net
 
 ***
 
