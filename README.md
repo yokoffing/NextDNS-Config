@@ -28,6 +28,8 @@
 ### Blocklists
 	1Hosts (Lite)
 	oisd
+### Native Tracking Protection
+:radioactive: *Enabling will cause breakages*
 ### Block Disguised Third-Party Trackers
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Block Disguised Third-Party Trackers
 ### Allow Affiliate & Tracking Links
