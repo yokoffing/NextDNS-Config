@@ -28,16 +28,6 @@
 ### Blocklists
 	1Hosts (Lite)
 	oisd
-	yhosts
-### Native Tracking Protection *(All enabled)*
-	Amazon Alexa
-	Apple
-	Huawei
-	Roku
-	Samsung
-	Sonos
-	Windows
-	Xiaomi
 ### Block Disguised Third-Party Trackers
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Block Disguised Third-Party Trackers
 ### Allow Affiliate & Tracking Links
@@ -56,6 +46,9 @@
 	graph.instagram.com → DO NOT ADD when active FaceBook/Instagram users
 	gvt2.com
 	pubnub.com
+	s0.2mdn.net
+	safebrowsing.googleapis.com → WARNING: Under investigation!
+	sb.l.google.com → WARNING: Under investigation!
 
 ***
 
