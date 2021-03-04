@@ -6,7 +6,7 @@
 ### Google Safe Browsing
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable Google Safe Browsing
 ### Cryptojacking Protection
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable Cryptojacking Protection → :radioactive: *Enabling will cause breakages; Already covered by ***oisd*** blocklist.*
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable Cryptojacking Protection → :radioactive: *Enabling will cause breakages; Covered by suggested selection of Bloclists.*
 ### DNS Rebinding Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable DNS Rebinding Protection
 ### IDN Homograph Attacks Protection
@@ -29,7 +29,7 @@
 	1Hosts (Lite)
 	oisd
 ### Native Tracking Protection
-:radioactive: *Enabling will cause breakages; Using any of those haven't brought any visible benefit.*
+:radioactive: *Enabling will cause breakages; Does not bring visible advantages when using the suggested selection of Bloclists.*
 ### Block Disguised Third-Party Trackers
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Block Disguised Third-Party Trackers
 ### Allow Affiliate & Tracking Links
