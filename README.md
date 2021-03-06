@@ -8,7 +8,7 @@
 ### Cryptojacking Protection
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable Cryptojacking Protection → :radioactive: *Enabling will cause breakages; Covered by suggested selection of Bloclists.*
 ### DNS Rebinding Protection
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable DNS Rebinding Protection
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable DNS Rebinding Protection → :radioactive: *Enabling will cause breakages*
 ### IDN Homograph Attacks Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable Homograph Attacks Protection
 ### Typosquatting Protection
@@ -49,8 +49,6 @@
 	gvt2.com
 	pubnub.com
 	s0.2mdn.net
-	safebrowsing.googleapis.com → WARNING: Under investigation!
-	sb.l.google.com → WARNING: Under investigation!
 
 ***
 
