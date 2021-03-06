@@ -6,9 +6,9 @@
 ### Google Safe Browsing
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable Google Safe Browsing
 ### Cryptojacking Protection
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable Cryptojacking Protection → :radioactive: *Enabling will cause breakages; Covered by suggested selection of Bloclists.*
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable Cryptojacking Protection → :radioactive: *Enabling can cause breakages; Covered by suggested selection of Bloclists.*
 ### DNS Rebinding Protection
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable DNS Rebinding Protection → :radioactive: *Enabling will cause breakages*
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable DNS Rebinding Protection → :radioactive: *Enabling can cause breakages*
 ### IDN Homograph Attacks Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable Homograph Attacks Protection
 ### Typosquatting Protection
@@ -29,7 +29,7 @@
 	1Hosts (Lite)
 	oisd
 ### Native Tracking Protection
-:radioactive: *Enabling will cause breakages; Does not bring visible advantages when using the suggested selection of Bloclists.*
+:radioactive: *Enabling can cause breakages; Does not bring visible advantages when using the suggested selection of Bloclists.*
 ### Block Disguised Third-Party Trackers
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Block Disguised Third-Party Trackers
 ### Allow Affiliate & Tracking Links
@@ -39,7 +39,7 @@
 
 # Parental Control
 ### YouTube Restricted Mode
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enforce YouTube Restricted Mode → :radioactive: *Enabling will cause breakages*
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enforce YouTube Restricted Mode → :radioactive: *Enabling can cause breakages*
 
 ***
 
@@ -54,7 +54,7 @@
 
 # Settings
 ### Block Page
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable Block Page → :radioactive: *Enabling will cause breakages*
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/disabled.svg) Enable Block Page → :radioactive: *Enabling can cause breakages*
 ### Anonymized EDNS Client Subnet
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/enabled.svg) Enable Anonymized EDNS Client Subnet
 ### Cache Boost
