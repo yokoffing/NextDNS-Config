@@ -46,7 +46,6 @@
 # Denylist
 	graph.facebook.com → DO NOT ADD when active FaceBook users
 	graph.instagram.com → DO NOT ADD when active FaceBook/Instagram users
-	gvt2.com
 	pubnub.com
 
 ***
