@@ -8,7 +8,7 @@
 ### Cryptojacking Protection
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Cryptojacking Protection → :radioactive: *Enabling can cause breakages; Covered by suggested selection of Bloclists.*
 ### DNS Rebinding Protection
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable DNS Rebinding Protection → :radioactive: *Enabling can cause breakages*
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg)  Enable DNS Rebinding Protection → :radioactive: *Enabling can cause breakages*
 ### IDN Homograph Attacks Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Homograph Attacks Protection
 ### Typosquatting Protection
