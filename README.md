@@ -30,7 +30,6 @@ agency
 asia
 bar
 bid
-biz (optional; may cause breakage for some small business sites)
 buzz
 cam
 casa
@@ -54,27 +53,23 @@ host
 icu
 info
 ir
-life
 link
 live
 loan
 ltda
 men
 ml
-monster (optional; will break some streaming sites, e.g., lookmovie211.xyz)
 nagoya
 nf
 okinawa
 online
 ooo
 press
-pro
 pw
 recipes
 rest
 review
 rodeo
-ru (optional)
 ryukyu
 shop
 site
@@ -93,7 +88,16 @@ website
 win
 work
 ws
-xyz (optional; will break some streaming sites, e.g., lookmovie211.xyz)
+```
+
+Allowlist/Exceptions:
+```
+biz
+life
+monster
+pro
+ru
+xyz
 ```
 
 ### Block Child Sexual Abuse Material
