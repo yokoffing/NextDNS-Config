@@ -161,11 +161,14 @@ Add these brands according to what devices you use; there is no advantage to add
 ***
 
 # Allowlist
-(optional) If your environment uses Facebook and Instagram:
+if using Facebook and Instagram:
 
 	graph.facebook.com
 	graph.instagram.com
 
+breaks CBS News (NextDNS Ads & Trackers Blocklist):
+
+	production-cmp.isgprivacy.cbsi.com
 ***
 
 # Settings
