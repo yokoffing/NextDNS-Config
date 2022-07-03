@@ -110,7 +110,7 @@ xyz (optional; will break some streaming sites, e.g., lookmovie211.xyz)
 ### Native Tracking Protection
 :radioactive: *Enabling may cause breakage (unlikely)*
 
-Filter according to what brands you own. Here are common examples:
+Add according to what device brands you use. Here are common examples (USA):
 ```
 Amazon Alexa
 Apple
@@ -134,7 +134,9 @@ Windows
 
 ***
 
-# Denylist (optional)
+# Denylist
+(optional) Most of these are blocked under [Block Dynamic DNS Hostnames](https://github.com/yokoffing/NextDNS-Config/edit/main/README.md#block-dynamic-dns-hostnames) (see [here](https://github.com/nextdns/metadata/blob/master/security/ddns/suffixes)).
+
 	pubnub.com
 	ddns.net
 	duckdns.org
@@ -154,6 +156,14 @@ Windows
 
 ***
 
+# Allowlist
+(optional) If your environment uses Facebook and Instagram:
+
+	graph.facebook.com
+	graph.instagram.com
+
+***
+
 # Settings
 ### Block Page
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Block Page → :radioactive: *Enabling may cause breakage if the NextDNS Root CA is not on your devices*
@@ -164,6 +174,11 @@ Windows
 ### CNAME Flattening
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable CNAME Flattening
 ### Web3 (optional)
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Web3
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Web3
+
+***
+
+# Credit
+Forked from the [crssi](https://github.com/crssi/NextDNS-Config#readme) config. Some inputs came from the [scafroglia93](https://github.com/scafroglia93/nextdns-setting]) config while other changes are my own.
 
 ***
