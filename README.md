@@ -35,7 +35,6 @@ cam
 casa
 cf
 club
-cn (optional)
 cricket
 date
 email
@@ -67,7 +66,6 @@ press
 pw
 recipes
 rest
-review
 rodeo
 ryukyu
 shop
@@ -87,17 +85,6 @@ website
 win
 work
 ws
-```
-
-Intentional Exceptions:
-```
-biz
-cc
-life
-monster
-pro
-ru
-xyz
 ```
 
 ### Block Child Sexual Abuse Material
