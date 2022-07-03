@@ -110,7 +110,7 @@ xyz (optional; will break some streaming sites, e.g., lookmovie211.xyz)
 ### Native Tracking Protection
 :radioactive: *Enabling may cause breakage (unlikely)*
 
-Add these according to what device brands you use; there is no advantage to adding brands you don't own. Here are common examples (USA):
+Add these brands according to what devices you use; there is no advantage to adding brands you don't own. Here are common examples (USA):
 
 	Samsung
 	Amazon Alexa
