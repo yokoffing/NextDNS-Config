@@ -8,9 +8,9 @@
 ### Google Safe Browsing
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Google Safe Browsing
 ### Cryptojacking Protection
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Cryptojacking Protection → :radioactive: *Enabling can cause breakages; Covered by suggested selection of Bloclists.*
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cryptojacking Protection → :radioactive: *Enabling may cause breakage (unlikely)*
 ### DNS Rebinding Protection
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg)  Enable DNS Rebinding Protection → :radioactive: *Enabling can cause breakages*
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg)  Enable DNS Rebinding Protection → :radioactive: *Enabling may cause breakage (unlikely)*
 ### IDN Homograph Attacks Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Homograph Attacks Protection
 ### Typosquatting Protection
@@ -18,20 +18,33 @@
 ### Domain Generation Algorithms (DGAs) Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable DGA Protection
 ### Block Newly Registered Domains (NRDs)
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs)
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Block Newly Registered Domains (NRDs) → :radioactive: *Enabling may cause breakage for everyday browsing*
+### Block Dynamic DNS Hostnames
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
 ### Block Parked Domains
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
 
+### Block Top-Level Domains (TLDs)
+	1Hosts (Lite)
+	oisd
+
 ***
 
 # Privacy
 ### Blocklists
-	1Hosts (Lite)
+	NextDNS Ads & Trackers Blocklist
+	AdGuard DNS filter
 	oisd
+	1Hosts (Lite)
 ### Native Tracking Protection
-:radioactive: *Enabling can cause breakages; Does not bring visible advantages when using the suggested selection of Bloclists.*
+:radioactive: *Enabling may cause breakages*
+Amazon Alexa
+Apple
+Roku
+Samsung
+Windows
 ### Block Disguised Third-Party Trackers
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
 ### Allow Affiliate & Tracking Links
