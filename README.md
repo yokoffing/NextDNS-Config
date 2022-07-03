@@ -33,7 +33,6 @@ bid
 buzz
 cam
 casa
-cc
 cf
 club
 cn (optional)
@@ -90,9 +89,10 @@ work
 ws
 ```
 
-Allowlist/Exceptions:
+Intentional Exceptions:
 ```
 biz
+cc
 life
 monster
 pro
