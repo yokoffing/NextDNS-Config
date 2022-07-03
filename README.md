@@ -30,7 +30,7 @@ agency
 asia
 bar
 bid
-biz (optional)
+biz (optional; may cause breakage for some small business sites)
 buzz
 cam
 casa
@@ -61,7 +61,7 @@ loan
 ltda
 men
 ml
-monster
+monster (optional; will break some streaming sites, e.g., lookmovie211.xyz)
 nagoya
 nf
 okinawa
@@ -93,6 +93,7 @@ website
 win
 work
 ws
+xyz (optional; will break some streaming sites, e.g., lookmovie211.xyz)
 ```
 
 ### Block Child Sexual Abuse Material
@@ -108,6 +109,8 @@ ws
 	1Hosts (Lite)
 ### Native Tracking Protection
 :radioactive: *Enabling may cause breakage (unlikely)*
+
+Filter according to what brands you own. Here are common examples:
 ```
 Amazon Alexa
 Apple
