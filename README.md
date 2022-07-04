@@ -80,7 +80,6 @@ rodeo
 ryukyu
 shop
 site
-space
 su
 support
 surf
