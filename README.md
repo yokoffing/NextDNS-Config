@@ -1,4 +1,9 @@
 ***
+# Guidelines
+1) Must pass the "[girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test)"
+2) Minimal allowlisting
+
+***
 
 # Security
 ### Threat Intelligence Feeds
@@ -19,6 +24,11 @@
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable DGA Protection
 ### Block Newly Registered Domains (NRDs)
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Block Newly Registered Domains (NRDs) → :radioactive: *Enabling may cause breakage*
+<br>
+<br> While there are legitimate NRDs, many are nefarious. Here's a recent (June 2022) incident of a scam NRD ([example](https://old.reddit.com/r/GaySoundsShitposts/comments/vr4fjf/be_gay_do_crime/) | commentary [1](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/iepjd69/) [2](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/ieoyygw/)). Another example is social media hacks where users click on links in there messages. Those are usually rogue NRDs.
+
+This is marked as disabled because it will cause false positives. However, if you are comfortable allowlisting occasionally, **it is strongly encouraged that you enable this**. Selectively add NRDs to your allowlist; and if you add certain ones to your allowlist, **NEVER give sensitive information to a NRD!**
+
 ### Block Dynamic DNS Hostnames
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
 ### Block Parked Domains
@@ -94,16 +104,14 @@ ws
 
 # Privacy
 ### Blocklists
-There seems to be a lot of activity on [Github](https://github.com/badmojr/1Hosts/commits/master?before=fb857882973986a3ac4575cd1d79d9079d363866+35&branch=master&qualified_name=refs%2Fheads%2Fmaster) and [Reddit](https://www.reddit.com/user/badmojr/comments/) in the past months to remove breakage from 1Hosts **Pro** (see [this](https://www.reddit.com/r/nextdns/comments/uxwabr/kind_of_amazed_at_1hosts_pro/ia2gyta/?context=3) and [that](https://www.reddit.com/r/nextdns/comments/v6yiqe/what_filterlists_do_you_recommend/ic51pa8/?context=3)). But if you experience significant breakage due to this list, drop down to 1Hosts **Lite**.
-
 	NextDNS Ads & Trackers Blocklist
 	AdGuard DNS filter
 	oisd
-	1Hosts (Pro)
+	1Hosts (Lite)
 ### Native Tracking Protection
 :radioactive: *Enabling may cause breakage (unlikely)*
 
-Add these brands according to what devices you use; there is no advantage to adding brands you don't own. However, there’s *not* a strong reason to omit any brands either.
+Add these brands according to what devices you use. There's no advantage in adding brands you don't own; however, there’s not a strong reason to omit unused brands either.
 
 	Xiaomi
 	Huawei
@@ -164,7 +172,7 @@ breaks CBS News (NextDNS Ads & Trackers Blocklist):
 
 # Settings
 ### Block Page
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Block Page → :radioactive: *Enabling may cause breakage if the NextDNS Root CA is not on your devices*
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Page → :radioactive: *Enabling may cause breakage if the NextDNS Root CA is not on your devices*
 ### Anonymized EDNS Client Subnet
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Anonymized EDNS Client Subnet
 ### Cache Boost
