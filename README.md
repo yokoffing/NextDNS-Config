@@ -35,14 +35,27 @@ This is marked as disabled because it will cause false positives. However, if yo
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 
 ### Block Top-Level Domains (TLDs)
+References:
+- https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions
+- https://www.spamhaus.org/statistics/tlds/
+- .info - https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/
+- .online - https://www.reddit.com/r/gaybros/comments/vqb2q9/warning_stop_upvoting_these_be_gay_do_crime_posts/ieoyygw/
+
 ```
 .work
 .fit
 .surf
-.asia
-.tokyo
 .info
+.cam
+.ci
+.cf
+.cn
+.ga
+.gq
+.ml
 .online
+.tk
+.top
 ```
 
 ### Block Child Sexual Abuse Material
