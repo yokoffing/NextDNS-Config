@@ -1,7 +1,7 @@
 ***
 # Guidelines
 1) Must pass the "[girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test)"
-2) Minimal allowlisting
+2) Follow [the law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., [Energized Ultimate](https://github.com/EnergizedProtection/block/issues?q=is%3Aopen+is%3Aissue), [1Hosts Pro](https://github.com/badmojr/1Hosts/issues/585), blocking too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds), etc.)
 
 ***
 
@@ -25,9 +25,11 @@
 ### Block Newly Registered Domains (NRDs)
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Block Newly Registered Domains (NRDs) → :radioactive: *Enabling may cause breakage*
 <br>
-<br> While there are legitimate NRDs, many are nefarious. Here's a recent (June 2022) incident of a scam NRD ([example](https://old.reddit.com/r/GaySoundsShitposts/comments/vr4fjf/be_gay_do_crime/) | commentary [1](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/iepjd69/) [2](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/ieoyygw/)). Another example is social media hacks where users click on links in there messages. Those are usually rogue NRDs.
+<br> Many NRDs are nefarious while a few are legitimate.
 
-This is marked as disabled because it will cause false positives. However, if you are comfortable allowlisting occasionally, **it is strongly encouraged that you enable this**. Selectively add NRDs to your allowlist; and if you add certain ones to your allowlist, **NEVER give sensitive information to a NRD!**
+Here's a recent (June 2022) incident of a scam using a NRD ([example](https://old.reddit.com/r/GaySoundsShitposts/comments/vr4fjf/be_gay_do_crime/) | commentary [1](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/iepjd69/) [2](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/ieoyygw/)). Another example is social media [account hacks](https://www.boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks/) where users click on links in their private messages.
+
+This is marked as disabled because it will cause false positives (see [guideline #1](https://github.com/yokoffing/NextDNS-Config#guidelines)). However, if you are comfortable allowlisting occasionally, **it is strongly encouraged that you enable this**. Selectively add NRDs to your allowlist; and if you add certain ones to your allowlist, **NEVER give sensitive information** to a NRD.
 
 ### Block Dynamic DNS Hostnames
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
@@ -121,14 +123,29 @@ Add these brands according to what devices you use. There's no advantage in addi
 ***
 
 # Allowlist
-if using Facebook and Instagram:
+**Facebook and Instagram**
 
 	graph.facebook.com
 	graph.instagram.com
 
-breaks CBS News (NextDNS Ads & Trackers Blocklist):
+**Apple device updates and iMessage giphs** | [1](https://oisd.nl/excludes.php?w=smoot.apple.com) [2](https://github.com/badmojr/1Hosts/issues/560) [3](https://github.com/badmojr/1Hosts/issues/562) [4](https://github.com/badmojr/1Hosts/issues/536)
+
+	smoot.apple.com
+	xp.apple.com
+
+**Microsoft Edge update** | [1](https://oisd.nl/excludes.php?w=browser.events.data.msn.com)
+	
+	browser.events.data.msn.com
+
+**Microsoft Office 365** | [1](https://github.com/badmojr/1Hosts/issues/565) [2](https://oisd.nl/excludes.php?w=self.events.data.microsoft.com) [3](https://oisd.nl/excludes.php?w=mobile.pipe.aria.microsoft.com)
+
+	self.events.data.microsoft.com
+	mobile.pipe.aria.microsoft.com
+
+**[CBS News](https://www.cbsnews.com/live/#x) streaming**
 
 	production-cmp.isgprivacy.cbsi.com
+
 ***
 
 # Settings
