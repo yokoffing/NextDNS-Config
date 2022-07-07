@@ -1,7 +1,7 @@
 ***
 # Guidelines
 1) Must pass the "[girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test)"
-2) Follow [the law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., [Energized Ultimate](https://github.com/EnergizedProtection/block/issues?q=is%3Aopen+is%3Aissue), [1Hosts Pro](https://github.com/badmojr/1Hosts/issues/585), blocking too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds), etc.)
+2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., [Energized Ultimate](https://github.com/EnergizedProtection/block/issues?q=is%3Aopen+is%3Aissue), [1Hosts Pro](https://github.com/badmojr/1Hosts/issues/585), blocking too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds), etc.)
 
 ***
 
@@ -13,7 +13,7 @@
 ### Google Safe Browsing
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Google Safe Browsing
 ### Cryptojacking Protection
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cryptojacking Protection → :radioactive: *Enabling may cause breakage (unlikely)*
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cryptojacking Protection
 ### DNS Rebinding Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg)  Enable DNS Rebinding Protection → :radioactive: *Enabling may cause breakage (unlikely)*
 ### IDN Homograph Attacks Protection
@@ -37,11 +37,7 @@ This is marked as disabled because it will cause false positives (see [guideline
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 
 ### Block Top-Level Domains (TLDs)
-References:
-- https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions
-- https://www.spamhaus.org/statistics/tlds/
-- .info - https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/
-- .online - https://www.reddit.com/r/gaybros/comments/vqb2q9/warning_stop_upvoting_these_be_gay_do_crime_posts/ieoyygw/
+:radioactive: *Enabling may cause breakage*
 
 ```
 .work
@@ -60,6 +56,12 @@ References:
 .top
 ```
 
+References:
+- https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions
+- https://www.spamhaus.org/statistics/tlds/
+- .info - https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/
+- .online - https://www.reddit.com/r/gaybros/comments/vqb2q9/warning_stop_upvoting_these_be_gay_do_crime_posts/ieoyygw/
+
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
 
@@ -74,7 +76,7 @@ References:
 ### Native Tracking Protection
 :radioactive: *Enabling may cause breakage (unlikely)*
 
-Add these brands according to what devices you use. There's no advantage in adding brands you don't own; however, there’s not a strong reason to omit unused brands either.
+Add these brands according to what devices you use. There's no advantage in adding brands you don't own; however, there’s no disadvantage in adding unused brands either.
 
 	Xiaomi
 	Huawei
