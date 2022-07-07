@@ -165,6 +165,6 @@ Add these brands according to what devices you use. There's no advantage in addi
 ***
 
 # Credit
-Forked from the [crssi](https://github.com/crssi/NextDNS-Config#readme) config. Some inputs came from the [scafroglia93](https://github.com/scafroglia93/nextdns-setting]) config while other changes are my own.
+Forked from the [crssi](https://github.com/crssi/NextDNS-Config#readme) config. Some inspiration came from the [scafroglia93](https://github.com/scafroglia93/nextdns-setting/blob/master/nextdns-setting.txt) config while other ideas are my own.
 
 ***
