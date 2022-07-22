@@ -103,7 +103,7 @@ Add these brands according to what devices you use. There's no advantage in addi
 ***
 
 # Denylist
-(optional) As of [June 2022](https://twitter.com/NextDNS/status/1541740963760144386), most of these are blocked under [Block Dynamic DNS Hostnames](https://github.com/yokoffing/NextDNS-Config/edit/main/README.md#block-dynamic-dns-hostnames) (see [here](https://github.com/nextdns/metadata/blob/master/security/ddns/suffixes)).
+(optional) As of [June 2022](https://twitter.com/NextDNS/status/1541740963760144386), most of these are blocked under [Block Dynamic DNS Hostnames](https://github.com/yokoffing/NextDNS-Config#block-dynamic-dns-hostnames) (see [here](https://github.com/nextdns/metadata/blob/master/security/ddns/suffixes)).
 
 	pubnub.com
 	ddns.net
@@ -130,7 +130,7 @@ Add these brands according to what devices you use. There's no advantage in addi
 	graph.facebook.com
 	graph.instagram.com
 
-**Apple device updates and iMessage giphs** | [1](https://oisd.nl/excludes.php?w=smoot.apple.com) [2](https://github.com/badmojr/1Hosts/issues/560) [3](https://github.com/badmojr/1Hosts/issues/562) [4](https://github.com/badmojr/1Hosts/issues/536)
+**Apple device updates and iMessage GIFs** | [1](https://oisd.nl/excludes.php?w=smoot.apple.com) [2](https://github.com/badmojr/1Hosts/issues/560) [3](https://github.com/badmojr/1Hosts/issues/562) [4](https://github.com/badmojr/1Hosts/issues/536)
 
 	smoot.apple.com
 	xp.apple.com
