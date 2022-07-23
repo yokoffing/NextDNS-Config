@@ -1,7 +1,7 @@
 ***
 # Guidelines
-1) Must pass the "[girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test)"
-2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., [Energized Ultimate](https://github.com/EnergizedProtection/block/issues?q=is%3Aopen+is%3Aissue), [1Hosts Pro](https://github.com/badmojr/1Hosts/issues/585), blocking too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds), etc.)
+1) Must pass the "[girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test)".
+2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., [Energized Ultimate](https://github.com/EnergizedProtection/block/issues?q=is%3Aopen+is%3Aissue), [1Hosts Pro](https://github.com/badmojr/1Hosts/issues/585), blocking too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds), etc.).
 
 ***
 
@@ -23,13 +23,13 @@
 ### Domain Generation Algorithms (DGAs) Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable DGA Protection
 ### Block Newly Registered Domains (NRDs)
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Block Newly Registered Domains (NRDs) → :radioactive: *Enabling may cause breakage*
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs) → :radioactive: *Enabling may cause breakage*
 <br>
-<br> Many NRDs are nefarious while a few are legitimate.
+<br> Criminals register thousands of fake domains every day. Many NRDs are nefarious while a few are legitimate.
 
-Here's a recent (June 2022) incident of a scam using a NRD ([example](https://old.reddit.com/r/GaySoundsShitposts/comments/vr4fjf/be_gay_do_crime/) | commentary [1](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/iepjd69/) [2](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/ieoyygw/)). Another example is social media [account hacks](https://www.boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks/) where users click on links in their private messages.
+[Here](https://old.reddit.com/r/GaySoundsShitposts/comments/vr4fjf/be_gay_do_crime/) is a recent incident of a scam using a NRD (commentary [1](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/iepjd69/) [2](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/ieoyygw/)). Another example is social media [account hacks](https://www.boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks/) where users click on links in their private messages.
 
-This is marked as disabled because it will cause false positives (see [guideline #1](https://github.com/yokoffing/NextDNS-Config#guidelines)). However, if you are comfortable allowlisting occasionally, **it is strongly encouraged that you enable this**. Selectively add NRDs to your allowlist; and if you add certain ones to your allowlist, **NEVER give sensitive information** to a NRD.
+Blocking NRDs will cause false positives occasionally ([example](https://www.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3)); however, if you are comfortable allowlisting occasionally, **it is strongly encouraged that you enable this**. Selectively add NRDs to your allowlist; and if you do, **NEVER give sensitive information** to a NRD.
 
 ### Block Dynamic DNS Hostnames
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
@@ -56,11 +56,7 @@ This is marked as disabled because it will cause false positives (see [guideline
 .top
 ```
 
-References:
-- https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions
-- https://www.spamhaus.org/statistics/tlds/
-- .info - https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/
-- .online - https://www.reddit.com/r/gaybros/comments/vqb2q9/warning_stop_upvoting_these_be_gay_do_crime_posts/ieoyygw/
+References: [1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://www.reddit.com/r/gaybros/comments/vqb2q9/warning_stop_upvoting_these_be_gay_do_crime_posts/ieoyygw/)
 
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
@@ -72,7 +68,9 @@ References:
 	NextDNS Ads & Trackers Blocklist
 	AdGuard DNS filter
 	oisd
+	notracking
 	1Hosts (Lite)
+	1Hosts (Pro) [if you're comfortable with allowlisting occasionally]
 ### Native Tracking Protection
 :radioactive: *Enabling may cause breakage (unlikely)*
 
@@ -86,6 +84,7 @@ Add these brands according to what devices you use. There's no advantage in addi
 	Apple
 	Roku
 	Sonos
+	
 ### Block Disguised Third-Party Trackers
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
 ### Allow Affiliate & Tracking Links
@@ -168,3 +167,7 @@ Add these brands according to what devices you use. There's no advantage in addi
 Forked from the [crssi](https://github.com/crssi/NextDNS-Config#readme) config. Some inspiration came from the [scafroglia93](https://github.com/scafroglia93/nextdns-setting/blob/master/nextdns-setting.txt) config while other ideas are my own.
 
 ***
+
+<div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=19651&s=1' border='0' alt='Free Website Counter'></a><br / ></div>
+
+
