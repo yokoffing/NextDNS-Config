@@ -1,7 +1,7 @@
 ***
 # Guidelines
 1) Must pass the "[girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test)".
-2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., [Energized Ultimate](https://github.com/EnergizedProtection/block/issues?q=is%3Aopen+is%3Aissue), [1Hosts Pro](https://github.com/badmojr/1Hosts/issues/585), blocking too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds), etc.).
+2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., [Energized Ultimate](https://github.com/EnergizedProtection/block/issues?q=is%3Aopen+is%3Aissue), 1Hosts Xtra, blocking too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds), etc.).
 
 ***
 
@@ -25,11 +25,11 @@
 ### Block Newly Registered Domains (NRDs)
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs) → :radioactive: *Enabling may cause breakage*
 <br>
-<br> Criminals register thousands of fake domains every day. Many NRDs are nefarious while a few are legitimate.
+<br> Criminals register [thousands](https://www.reddit.com/r/uBlockOrigin/comments/w64sqt/nearly_a_thousand_of_fake_urls_have_been_created/) of fake domains every day. Many NRDs are nefarious while a few are legitimate.
 
 [Here](https://old.reddit.com/r/GaySoundsShitposts/comments/vr4fjf/be_gay_do_crime/) is a recent incident of a scam using a NRD (commentary [1](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/iepjd69/) [2](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/ieoyygw/)). Another example is social media [account hacks](https://www.boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks/) where users click on links in their private messages.
 
-Blocking NRDs will cause false positives occasionally ([example](https://www.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3)); however, if you are comfortable allowlisting occasionally, **it is strongly encouraged that you enable this**. Selectively add NRDs to your allowlist; and if you do, **NEVER give sensitive information** to a NRD.
+Blocking NRDs will cause false positives [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3); however, if you are comfortable allowlisting, it is **strongly encouraged** that you enable this. Selectively add NRDs to your allowlist; and if you do, **NEVER** give sensitive information to a NRD.
 
 ### Block Dynamic DNS Hostnames
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
@@ -56,7 +56,7 @@ Blocking NRDs will cause false positives occasionally ([example](https://www.red
 .top
 ```
 
-References: [1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://www.reddit.com/r/gaybros/comments/vqb2q9/warning_stop_upvoting_these_be_gay_do_crime_posts/ieoyygw/)
+References: [1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://old.reddit.com/r/gaybros/comments/vqb2q9/warning_stop_upvoting_these_be_gay_do_crime_posts/ieoyygw/)
 
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
@@ -142,6 +142,10 @@ Add these brands according to what devices you use. There's no advantage in addi
 
 	self.events.data.microsoft.com
 	mobile.pipe.aria.microsoft.com
+
+**Disney+ emails** | [1](https://github.com/badmojr/1Hosts/issues/585)
+
+	image.mail.disneyplus.com
 
 **[CBS News](https://www.cbsnews.com/live/#x) streaming**
 
