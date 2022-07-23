@@ -169,5 +169,6 @@ Forked from the [crssi](https://github.com/crssi/NextDNS-Config#readme) config. 
 ***
 
 <div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=19651&s=1' border='0' alt='Free Website Counter'></a><br / ></div>
+<div align='center'>23 July 2022</div>
 
 
