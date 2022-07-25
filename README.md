@@ -6,40 +6,32 @@
 ***
 
 # Security
-### Threat Intelligence Feeds
+### Threat Intelligence Feeds <sup>[1](https://github.com/nextdns/metadata/blob/master/security/threat-intelligence-feeds.json)</sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
 ### AI-Driven Threat Detection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable AI-Driven Threat Detection
 ### Google Safe Browsing
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Google Safe Browsing
-### Cryptojacking Protection
+### Cryptojacking Protection <sup>[1](https://github.com/nextdns/metadata/blob/master/security/cryptojacking.json)</sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cryptojacking Protection
 ### DNS Rebinding Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg)  Enable DNS Rebinding Protection → :radioactive: *Enabling may cause breakage (unlikely)*
 ### IDN Homograph Attacks Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Homograph Attacks Protection
-### Typosquatting Protection
+### Typosquatting Protection <sup>[1](https://github.com/nextdns/metadata/blob/master/security/typosquatting/protected-domains)</sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Typosquatting Protection
 ### Domain Generation Algorithms (DGAs) Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable DGA Protection
-### Block Newly Registered Domains (NRDs)
+### Block Newly Registered Domains (NRDs) <sup>[1](https://www.malwarebytes.com/glossary/phishing) [2](https://old.reddit.com/r/uBlockOrigin/comments/w64sqt/comment/ihboutk/?context=3) [3](https://www.boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks/) </sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs) → :radioactive: *Enabling may cause breakage*
 <br>
-<br> Criminals register [thousands](https://www.reddit.com/r/uBlockOrigin/comments/w64sqt/nearly_a_thousand_of_fake_urls_have_been_created) of fake domains every day. Many NRDs are nefarious while a few are legitimate.
+<br>Blocking NRDs will cause false positives [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3); however, if you are comfortable allowlisting, it is **strongly encouraged** that you enable this. Add NRDs to your allowlist selectively; and if you do, **NEVER** give sensitive information to a NRD.
 
-[Here](https://old.reddit.com/r/GaySoundsShitposts/comments/vr4fjf/be_gay_do_crime/) is a recent [phishing](https://www.malwarebytes.com/glossary/phishing) scam using a NRD (commentary [1](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/iepjd69/) [2](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/ieoyygw/)). Another example is social media [account hacks](https://www.boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks/) where users click on links in their private messages.
-
-Blocking NRDs will cause false positives [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3); however, if you are comfortable allowlisting, it is **strongly encouraged** that you enable this. Selectively add NRDs to your allowlist; and if you do, **NEVER** give sensitive information to a NRD.
-
-### Block Dynamic DNS Hostnames
+### Block Dynamic DNS Hostnames <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/ddns/suffixes) [2](https://twitter.com/NextDNS/status/1541740963760144386?cxt=HHwWhIC8iZ7PruUqAAAA) [3](https://www.phishing.org/what-is-phishing) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
-<br>
-<br> Widely used in [phishing campaigns](https://www.phishing.org/what-is-phishing), DDNS lets malicious actors quickly set up hostnames for free and without any validation or identity verification (see the list [here](https://github.com/nextdns/metadata/blob/master/security/ddns/suffixes)).
-
-### Block Parked Domains
+### Block Parked Domains <sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
-
-### Block Top-Level Domains (TLDs)
+### Block Top-Level Domains (TLDs) <sup>[1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://thrivemyway.com/info-websites/) [4](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/)</sup>
 :radioactive: *Enabling may cause breakage*
 
 ```
@@ -59,22 +51,20 @@ Blocking NRDs will cause false positives [occasionally](https://old.reddit.com/r
 .top
 ```
 
-References: [1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://thrivemyway.com/info-websites/) [4](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/)
-
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
 
 ***
 
 # Privacy
-### Blocklists
+### Blocklists <sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup>
 	NextDNS Ads & Trackers Blocklist
 	oisd
 	1Hosts (Lite)
 	
-Use **1Hosts (Pro)** instead of **(Lite)** if you don't mind allowlisting occasionally and [reporting]() false positives.
+Use **1Hosts (Pro)** instead of **(Lite)** if you don't mind allowlisting occasionally and [reporting](https://github.com/badmojr/1Hosts/issues) false positives.
 	
-### Native Tracking Protection
+### Native Tracking Protection <sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup>
 :radioactive: *Enabling may cause breakage (unlikely)*
 
 Add these brands according to what devices you use. There's no advantage in adding brands you don't own; however, there’s no disadvantage in adding unused brands either.
@@ -88,9 +78,10 @@ Add these brands according to what devices you use. There's no advantage in addi
 	Roku
 	Sonos
 	
-### Block Disguised Third-Party Trackers
+### Block Disguised Third-Party Trackers <sup>[1](https://github.com/nextdns/cname-cloaking-blocklist/blob/master/domains) [2](https://medium.com/nextdns/cname-cloaking-the-dangerous-disguise-of-third-party-trackers-195205dc522a)</sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
-### Allow Affiliate & Tracking Links
+
+### Allow Affiliate & Tracking Links <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/privacy/affiliate-tracking-domains) [2](https://twitter.com/NextDNS/status/1539229377560461312) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Allow Affiliate & Tracking Links
 
 ***
@@ -98,8 +89,7 @@ Add these brands according to what devices you use. There's no advantage in addi
 # Parental Control
 ### YouTube Restricted Mode
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enforce YouTube Restricted Mode → :radioactive: *Enabling may cause breakage*
-
-### Block Bypass Methods
+### Block Bypass Methods <sup>[1](https://github.com/nextdns/metadata/tree/master/parentalcontrol)</sup>
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Block Bypass Methods → :radioactive: *Enabling may cause breakage*
 
 ***
@@ -115,33 +105,36 @@ Add these brands according to what devices you use. There's no advantage in addi
 
 	graph.facebook.com
 
-### Apple device updates / Spotlight Search / Apple Music | [1](https://github.com/badmojr/1Hosts/issues/562) [2](https://github.com/badmojr/1Hosts/issues/536) [3](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)
+### Apple device updates <sup>[1](https://github.com/badmojr/1Hosts/issues/536)</sup> | Apple Music <sup>[2](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)</sup>
 
 	xp.apple.com
 	
-### Apple iMessage GIFs | [1](https://oisd.nl/excludes.php?w=smoot.apple.com) [2](https://github.com/badmojr/1Hosts/issues/560)
+### Apple iMessage GIFs <sup>[1](https://github.com/badmojr/1Hosts/issues/560)</sup> | Spotlight Search <sup>[2](https://github.com/badmojr/1Hosts/issues/562)</sup>
 
 	smoot.apple.com
-
-### Microsoft Edge updates | [1](https://oisd.nl/excludes.php?w=browser.events.data.msn.com)
 	
-	browser.events.data.msn.com
+### Zoom <sup>[1](https://oisd.nl/excludes.php?w=log.zoom.us) [2](https://oisd.nl/excludes.php?w=us04logfiles.zoom.us)
+Zoom untrusted certificate error messages when [Block Page](https://github.com/yokoffing/NextDNS-Config#block-page) is enabled.
 
-### Microsoft Office 365 | [1](https://github.com/badmojr/1Hosts/issues/565) [2](https://oisd.nl/excludes.php?w=mobile.pipe.aria.microsoft.com)
+	logfiles.zoom.us
+	us04logfiles.zoom.us
+	us04zpns.zoom.us
+
+### CBS News [livestream](https://www.cbsnews.com/live/#x) <sup>[1](https://github.com/nextdns/metadata/issues/1030)</sup>
+
+	production-cmp.isgprivacy.cbsi.com
+
+### Microsoft Office 365 <sup>[1](https://github.com/badmojr/1Hosts/issues/565) [2](https://oisd.nl/excludes.php?w=mobile.pipe.aria.microsoft.com)</sup>
 Disclaimer: You may only want to allowlist these requests if you're using the file collaboration features.
 
 	self.events.data.microsoft.com
 	mobile.pipe.aria.microsoft.com
 
-### Xbox Live achievements / Microsoft "Your Phone" app | [1](https://github.com/lightswitch05/hosts/issues/161#issuecomment-614973289) [2](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212#xbox-live-18)
-Disclaimer: I don't use Xbox, so I can't confirm these entries.
+### Xbox Live achievements <sup>[1](https://github.com/lightswitch05/hosts/issues/161#issuecomment-614973289) [2](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212#xbox-live-18)</sup> | Microsoft "Your Phone" <sup>[3](https://github.com/lightswitch05/hosts/issues/161#issuecomment-838590100)</sup>
+Disclaimer: I don't use these, so I can't confirm these entries.
 
 	v10.events.data.microsoft.com
 	v20.events.data.microsoft.com
-
-### [CBS News](https://www.cbsnews.com/live/#x) streaming
-
-	production-cmp.isgprivacy.cbsi.com
 
 ***
 
@@ -154,7 +147,7 @@ Disclaimer: I don't use Xbox, so I can't confirm these entries.
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cache Boost
 ### CNAME Flattening
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable CNAME Flattening
-### Web3
+### Web3 <sup><sup> [1](https://twitter.com/NextDNS/status/1491034351391305731) </sup> </sup>
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Web3
 <br>
 <br> (optional)
