@@ -59,7 +59,7 @@ Blocking NRDs will cause false positives [occasionally](https://old.reddit.com/r
 .top
 ```
 
-References: [1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://old.reddit.com/r/gaybros/comments/vqb2q9/warning_stop_upvoting_these_be_gay_do_crime_posts/ieoyygw/)
+References: [1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://thrivemyway.com/info-websites/) [4](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/)
 
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
@@ -72,7 +72,7 @@ References: [1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-ext
 	oisd
 	1Hosts (Lite)
 	
-You can use **1Hosts (Pro)** instead of **Lite** if you don't mind allowlisting occasionally and [reporting](https://github.com/badmojr/1Hosts/issues) false positives.
+Use **1Hosts (Pro)** instead of **(Lite)** if you don't mind allowlisting occasionally and [reporting]() false positives.
 	
 ### Native Tracking Protection
 :radioactive: *Enabling may cause breakage (unlikely)*
@@ -111,10 +111,9 @@ Add these brands according to what devices you use. There's no advantage in addi
 ***
 
 # Allowlist
-### Facebook and Instagram 
+### Facebook
 
 	graph.facebook.com
-	graph.instagram.com
 
 ### Apple device updates / Spotlight Search / Apple Music | [1](https://github.com/badmojr/1Hosts/issues/562) [2](https://github.com/badmojr/1Hosts/issues/536) [3](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)
 
@@ -134,19 +133,15 @@ Disclaimer: You may only want to allowlist these requests if you're using the fi
 	self.events.data.microsoft.com
 	mobile.pipe.aria.microsoft.com
 
-### Disney+ emails | [1](https://github.com/badmojr/1Hosts/issues/585)
-
-	image.mail.disneyplus.com
-
-### [CBS News](https://www.cbsnews.com/live/#x) streaming
-
-	production-cmp.isgprivacy.cbsi.com
-
 ### Xbox Live achievements / Microsoft "Your Phone" app | [1](https://github.com/lightswitch05/hosts/issues/161#issuecomment-614973289) [2](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212#xbox-live-18)
 Disclaimer: I don't use Xbox, so I can't confirm these entries.
 
 	v10.events.data.microsoft.com
 	v20.events.data.microsoft.com
+
+### [CBS News](https://www.cbsnews.com/live/#x) streaming
+
+	production-cmp.isgprivacy.cbsi.com
 
 ***
 
