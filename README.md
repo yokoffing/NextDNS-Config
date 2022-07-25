@@ -1,7 +1,7 @@
 ***
 # Guidelines
 1) Must pass the "[girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test)".
-2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., [Energized Ultimate](https://github.com/EnergizedProtection/block/issues?q=is%3Aopen+is%3Aissue), 1Hosts Xtra, blocking too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds), etc.).
+2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., using [Energized Ultimate](https://old.reddit.com/r/nextdns/comments/v0wwjf/does_energized_ultimate_blocklist_contain/iak0a79/) or [1Hosts Xtra](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig7fkia/?context=3), blocking too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds), etc.).
 
 ***
 
@@ -25,14 +25,17 @@
 ### Block Newly Registered Domains (NRDs)
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs) → :radioactive: *Enabling may cause breakage*
 <br>
-<br> Criminals register [thousands](https://www.reddit.com/r/uBlockOrigin/comments/w64sqt/nearly_a_thousand_of_fake_urls_have_been_created/) of fake domains every day. Many NRDs are nefarious while a few are legitimate.
+<br> Criminals register [thousands](https://www.reddit.com/r/uBlockOrigin/comments/w64sqt/nearly_a_thousand_of_fake_urls_have_been_created) of fake domains every day. Many NRDs are nefarious while a few are legitimate.
 
-[Here](https://old.reddit.com/r/GaySoundsShitposts/comments/vr4fjf/be_gay_do_crime/) is a recent incident of a scam using a NRD (commentary [1](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/iepjd69/) [2](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/ieoyygw/)). Another example is social media [account hacks](https://www.boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks/) where users click on links in their private messages.
+[Here](https://old.reddit.com/r/GaySoundsShitposts/comments/vr4fjf/be_gay_do_crime/) is a recent [phishing](https://www.malwarebytes.com/glossary/phishing) scam using a NRD (commentary [1](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/iepjd69/) [2](https://old.reddit.com/r/gaybros/comments/vqb2q9/comment/ieoyygw/)). Another example is social media [account hacks](https://www.boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks/) where users click on links in their private messages.
 
 Blocking NRDs will cause false positives [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3); however, if you are comfortable allowlisting, it is **strongly encouraged** that you enable this. Selectively add NRDs to your allowlist; and if you do, **NEVER** give sensitive information to a NRD.
 
 ### Block Dynamic DNS Hostnames
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
+<br>
+<br> Widely used in [phishing campaigns](https://www.phishing.org/what-is-phishing), DDNS lets malicious actors quickly set up hostnames for free and without any validation or identity verification (see the list [here](https://github.com/nextdns/metadata/blob/master/security/ddns/suffixes)).
+
 ### Block Parked Domains
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 
@@ -66,11 +69,11 @@ References: [1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-ext
 # Privacy
 ### Blocklists
 	NextDNS Ads & Trackers Blocklist
-	AdGuard DNS filter
 	oisd
-	notracking
 	1Hosts (Lite)
-	1Hosts (Pro) [if you're comfortable with allowlisting occasionally]
+	
+You can use **1Hosts (Pro)** instead of **Lite** if you don't mind allowlisting occasionally and [reporting](https://github.com/badmojr/1Hosts/issues) false positives.
+	
 ### Native Tracking Protection
 :radioactive: *Enabling may cause breakage (unlikely)*
 
@@ -102,54 +105,48 @@ Add these brands according to what devices you use. There's no advantage in addi
 ***
 
 # Denylist
-(optional) As of [June 2022](https://twitter.com/NextDNS/status/1541740963760144386), most of these are blocked under [Block Dynamic DNS Hostnames](https://github.com/yokoffing/NextDNS-Config#block-dynamic-dns-hostnames) (see [here](https://github.com/nextdns/metadata/blob/master/security/ddns/suffixes)).
 
-	pubnub.com
-	ddns.net
-	duckdns.org
-	hopto.org
-	linkpc.net
-	myddns.me
-	myftp.biz
-	myftp.org
-	ngrok.io
-	no-ip.biz
-	no-ip.org
-	portmap.host
-	portmap.io
-	publicvm.com
-	sytes.net
-	zapto.org
+	N/A
 
 ***
 
 # Allowlist
-**Facebook and Instagram**
+### Facebook and Instagram 
 
 	graph.facebook.com
 	graph.instagram.com
 
-**Apple device updates and iMessage GIFs** | [1](https://oisd.nl/excludes.php?w=smoot.apple.com) [2](https://github.com/badmojr/1Hosts/issues/560) [3](https://github.com/badmojr/1Hosts/issues/562) [4](https://github.com/badmojr/1Hosts/issues/536)
+### Apple device updates / Spotlight Search / Apple Music | [1](https://github.com/badmojr/1Hosts/issues/562) [2](https://github.com/badmojr/1Hosts/issues/536) [3](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)
+
+	xp.apple.com
+	
+### Apple iMessage GIFs | [1](https://oisd.nl/excludes.php?w=smoot.apple.com) [2](https://github.com/badmojr/1Hosts/issues/560)
 
 	smoot.apple.com
-	xp.apple.com
 
-**Microsoft Edge update** | [1](https://oisd.nl/excludes.php?w=browser.events.data.msn.com)
+### Microsoft Edge updates | [1](https://oisd.nl/excludes.php?w=browser.events.data.msn.com)
 	
 	browser.events.data.msn.com
 
-**Microsoft Office 365** | [1](https://github.com/badmojr/1Hosts/issues/565) [2](https://oisd.nl/excludes.php?w=self.events.data.microsoft.com) [3](https://oisd.nl/excludes.php?w=mobile.pipe.aria.microsoft.com)
+### Microsoft Office 365 | [1](https://github.com/badmojr/1Hosts/issues/565) [2](https://oisd.nl/excludes.php?w=mobile.pipe.aria.microsoft.com)
+Disclaimer: You may only want to allowlist these requests if you're using the file collaboration features.
 
 	self.events.data.microsoft.com
 	mobile.pipe.aria.microsoft.com
 
-**Disney+ emails** | [1](https://github.com/badmojr/1Hosts/issues/585)
+### Disney+ emails | [1](https://github.com/badmojr/1Hosts/issues/585)
 
 	image.mail.disneyplus.com
 
-**[CBS News](https://www.cbsnews.com/live/#x) streaming**
+### [CBS News](https://www.cbsnews.com/live/#x) streaming
 
 	production-cmp.isgprivacy.cbsi.com
+
+### Xbox Live achievements / Microsoft "Your Phone" app | [1](https://github.com/lightswitch05/hosts/issues/161#issuecomment-614973289) [2](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212#xbox-live-18)
+Disclaimer: I don't use Xbox, so I can't confirm these entries.
+
+	v10.events.data.microsoft.com
+	v20.events.data.microsoft.com
 
 ***
 
@@ -162,8 +159,10 @@ Add these brands according to what devices you use. There's no advantage in addi
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cache Boost
 ### CNAME Flattening
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable CNAME Flattening
-### Web3 (optional)
+### Web3
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Web3
+<br>
+<br> (optional)
 
 ***
 
