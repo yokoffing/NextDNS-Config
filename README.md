@@ -1,7 +1,7 @@
 ***
 # Guidelines
-1) Must pass the "[girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test)".
-2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., using [Energized Ultimate](https://old.reddit.com/r/nextdns/comments/v0wwjf/does_energized_ultimate_blocklist_contain/iak0a79/) or [1Hosts Xtra](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig7fkia/?context=3), blocking too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds), etc.).
+1) Must pass the [girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test), but with a few exceptions. These deviations are documented throughout the guide.
+2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., using [Energized Ultimate](https://old.reddit.com/r/nextdns/comments/v0wwjf/does_energized_ultimate_blocklist_contain/iak0a79/) or [1Hosts Xtra](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig7fkia/?context=3), restricting too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4), etc.).
 
 ***
 
@@ -10,7 +10,7 @@
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
 ### AI-Driven Threat Detection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable AI-Driven Threat Detection
-### Google Safe Browsing <sup><sup> [1](https://safebrowsing.google.com/safebrowsing/report_general/) [2](https://user-images.githubusercontent.com/11689349/107696360-d8dde800-6c7f-11eb-9882-cccc8d2065c5.jpg) [3](https://the8-bit.com/apple-proxies-google-safe-browsing-privacy/) [4](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#services-we-proxy-through-brave-servers) </sup>
+### Google Safe Browsing <sup><sup> [1](https://safebrowsing.google.com/safebrowsing/report_general/) [2](https://user-images.githubusercontent.com/11689349/107696360-d8dde800-6c7f-11eb-9882-cccc8d2065c5.jpg) [3](https://the8-bit.com/apple-proxies-google-safe-browsing-privacy/) [4](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#services-we-proxy-through-brave-servers) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Google Safe Browsing
 ### Cryptojacking Protection <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/cryptojacking.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cryptojacking Protection
@@ -25,12 +25,12 @@
 ### Block Newly Registered Domains (NRDs) <sup><sup>[1](https://www.malwarebytes.com/glossary/phishing) [2](https://old.reddit.com/r/uBlockOrigin/comments/w64sqt/comment/ihboutk/?context=3) [3](https://www.boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks/) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs) → :radioactive: *Enabling may cause breakage*
 <br>
-<br>Blocking NRDs will cause false positives [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3); however, if you are comfortable allowlisting, it is **strongly encouraged** that you enable this. Add NRDs to your allowlist selectively; and if you do, **NEVER** give sensitive information to a NRD.
+<br>**Disclaimer:** Blocking NRDs will cause false positives [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3). Be selective when adding NRDs to your allowlist; and, when you do this, **NEVER** give [sensitive information](https://www.egnyte.com/guides/governance/sensitive-information) to a NRD. If you would rather [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration instead, disable this setting.
 ### Block Dynamic DNS Hostnames <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/ddns/suffixes) [2](https://twitter.com/NextDNS/status/1541740963760144386?cxt=HHwWhIC8iZ7PruUqAAAA) [3](https://www.phishing.org/what-is-phishing) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
-### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup>
+### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
-### Block Top-Level Domains (TLDs) <sup><sup>[1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://thrivemyway.com/info-websites/) [4](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/)</sup>
+### Block Top-Level Domains (TLDs) <sup><sup>[1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://thrivemyway.com/info-websites/) [4](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/)</sup></sup>
 :radioactive: *Enabling may cause breakage*
 
 ```
@@ -56,16 +56,15 @@
 ***
 
 # Privacy
-### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup>
+### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup></sup>
 
-Use **1Hosts (Lite)** instead of **1Hosts (Pro)** if you do not [report](https://github.com/badmojr/1Hosts/issues) false positives and add to the allowlist.
+Use **1Hosts (Lite)** instead of **1Hosts (Pro)** if you want to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration.
 
 	NextDNS Ads & Trackers Blocklist
 	oisd
 	1Hosts (Pro)
-
 	
-### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup>
+### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup></sup>
 :radioactive: *Enabling may cause breakage (unlikely)*
 
 Add these brands according to what devices you use. There's no advantage in adding brands you don't own; however, there’s no disadvantage in adding unused brands either.
@@ -90,7 +89,7 @@ Add these brands according to what devices you use. There's no advantage in addi
 # Parental Control
 ### YouTube Restricted Mode
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enforce YouTube Restricted Mode → :radioactive: *Enabling may cause breakage*
-### Block Bypass Methods <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/parentalcontrol)</sup>
+### Block Bypass Methods <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/parentalcontrol)</sup></sup>
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Block Bypass Methods → :radioactive: *Enabling may cause breakage*
 
 ***
@@ -106,7 +105,7 @@ Add these brands according to what devices you use. There's no advantage in addi
 
 	graph.facebook.com
 
-### Apple device updates <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/536)</sup> </sup> / Apple Music <sup><sup>[2](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)</sup></sup> 
+### Apple device updates <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/536)</sup></sup> / Apple Music <sup><sup>[2](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)</sup></sup> 
 
 	xp.apple.com
 	
@@ -115,7 +114,6 @@ Add these brands according to what devices you use. There's no advantage in addi
 	smoot.apple.com
 	
 ### Zoom <sup><sup>[1](https://oisd.nl/excludes.php?w=log.zoom.us) [2](https://oisd.nl/excludes.php?w=us04logfiles.zoom.us)</sup></sup> 
-Zoom untrusted certificate error messages when [Block Page](https://github.com/yokoffing/NextDNS-Config#block-page) is enabled.
 
 	logfiles.zoom.us
 	us04logfiles.zoom.us
@@ -126,13 +124,13 @@ Zoom untrusted certificate error messages when [Block Page](https://github.com/y
 	production-cmp.isgprivacy.cbsi.com
 
 ### Microsoft Office 365 <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/565) [2](https://oisd.nl/excludes.php?w=mobile.pipe.aria.microsoft.com)</sup></sup> 
-Disclaimer: You may only want to allowlist these requests if you're using the file collaboration features.
+**Note:** Blocking these request may only break the file collaboration features. Allowlist them only if you experience breakage.
 
 	self.events.data.microsoft.com
 	mobile.pipe.aria.microsoft.com
 
 ### Xbox Live achievements <sup><sup>[1](https://github.com/lightswitch05/hosts/issues/161#issuecomment-614973289) [2](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212#xbox-live-18)</sup></sup>  / Microsoft "Your Phone" <sup><sup>[3](https://github.com/lightswitch05/hosts/issues/161#issuecomment-838590100)</sup></sup> 
-Disclaimer: I don't use these, so I can't confirm these entries.
+**Disclaimer:** I don't use these, so I can't confirm the requests. Allowlist them only if you experience breakage.
 
 	v10.events.data.microsoft.com
 	v20.events.data.microsoft.com
@@ -148,7 +146,7 @@ Disclaimer: I don't use these, so I can't confirm these entries.
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cache Boost
 ### CNAME Flattening <sup><sup>[1](https://medium.com/nextdns/nextdns-added-cname-uncloaking-support-becomes-the-first-cross-platform-solution-to-the-problem-e3f437f84342) [2](https://developers.cloudflare.com/dns/additional-options/cname-flattening) [3](https://advancedweb.hu/what-is-cname-flattening-and-how-it-helps-redirecting-the-apex-domain/) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable CNAME Flattening
-### Web3 <sup><sup> [1](https://twitter.com/NextDNS/status/1491034351391305731) </sup> </sup>
+### Web3 <sup><sup> [1](https://twitter.com/NextDNS/status/1491034351391305731) [2](https://gabygoldberg.notion.site/f7050e62461143d49345e7b46eb5576b)</sup></sup>
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Web3
 <br>
 <br> (optional)
