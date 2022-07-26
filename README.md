@@ -1,11 +1,11 @@
 ***
-# Guidelines
+# Guidelines:bookmark:
 1) Must pass the [girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test) with few exceptions. These deviations are documented throughout the guide.
-2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., using overly aggressive [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1), restricting too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4), etc.).
+2) Prevent overblocking by utilizing the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (e.g., using overly aggressive [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1), restricting too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4), etc.).
 
 ***
 
-# Security
+# Security:cop:
 ### Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/threat-intelligence-feeds.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
 ### AI-Driven Threat Detection
@@ -15,7 +15,7 @@
 ### Cryptojacking Protection <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/cryptojacking.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cryptojacking Protection
 ### DNS Rebinding Protection <sup><sup>[1](https://help.nextdns.io/t/35hmval/what-is-dns-rebinding-protection)</sup></sup>
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg)  Enable DNS Rebinding Protection → :radioactive: *Enabling may cause breakage (unlikely)*
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg)  Enable DNS Rebinding Protection
 ### IDN Homograph Attacks Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Homograph Attacks Protection
 ### Typosquatting Protection <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/typosquatting/protected-domains)</sup></sup>
@@ -25,7 +25,7 @@
 ### Block Newly Registered Domains (NRDs) <sup><sup>[1](https://www.malwarebytes.com/glossary/phishing) [2](https://old.reddit.com/r/uBlockOrigin/comments/w64sqt/comment/ihboutk/?context=3) [3](https://www.boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks/) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs) → :radioactive: *Enabling may cause breakage*
 <br>
-<br>**Disclaimer:** Blocking NRDs will cause false positives [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3). Be selective when adding NRDs to your allowlist; and, when you do this, **NEVER** give [sensitive information](https://www.egnyte.com/guides/governance/sensitive-information) to a NRD. If you would rather [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration instead, disable this setting.
+<br>:warning: Blocking NRDs will cause false positives [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3). Be selective when adding NRDs to your allowlist; and, when you do this, **NEVER** give [sensitive information](https://www.egnyte.com/guides/governance/sensitive-information) to a NRD. If you would rather [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, disable this setting.
 ### Block Dynamic DNS Hostnames <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/ddns/suffixes) [2](https://twitter.com/NextDNS/status/1541740963760144386?cxt=HHwWhIC8iZ7PruUqAAAA) [3](https://www.phishing.org/what-is-phishing) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
@@ -55,7 +55,7 @@
 
 ***
 
-# Privacy
+# Privacy:lock:
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup></sup>
 
 	NextDNS Ads & Trackers Blocklist
@@ -63,17 +63,17 @@
 	1Hosts (Pro)
 
 Here's a compliation of popular blocklists available in NextDNS:
-- **Balanced:** [set-and-forget](https://glosbe.com/en/en/set-and-forget); doesn't interfere with user experience
+- **Balanced:** no breakage; [set-and-forget](https://glosbe.com/en/en/set-and-forget); doesn't interfere with user experience
 - **Strict:** minimal breakage; prioritizes privacy over user experience; you may allowlist occasionally
-- **Aggressive:** not recommended for daily browsing; may be used on a [separate profile for isolated devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
+- **Aggressive:** excessive breakage; may be used on a separate profile to [lockdown isolated devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
 |            Balanced	              	|            Strict		      	|            Aggressive    	        	|
 |:---------------------------------:	|:------------------------------:	|:----------------------------------------:	|
-|           1Hosts (Lite)           	|          1Hosts (Pro)          	|               1Hosts (Xtra)              	|
-|             oisd			|	Lightswitch05 - Ads & Tracking 	|    Lightswitch05 - Tracking Aggressive   	|
-|            notracking               	|					|	Energized Ultimate			|
-|	NoTrack Tracker Blocklist	|					| Anudeep's Blacklist for ads and trackers	|
-|         AdGuard DNS filter        	|                                	| Goodbye Ads					|
+|           1Hosts (Lite)           	|	1Hosts (Pro) 	         	|               1Hosts (Xtra)              	|
+|             oisd			|	Lightswitch05 - Ads & Tracking 	|		Energized Ultimate	  	|
+|            notracking               	| Lightswitch05 - Tracking Aggressive	|		Goodbye Ads			|
+|	NoTrack Tracker Blocklist	|					|						|
+|         AdGuard DNS filter        	|                                	| 						|
 
 	
 ### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup></sup>
@@ -94,11 +94,13 @@ Add these brands according to what devices you use. There's no advantage in addi
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
 
 ### Allow Affiliate & Tracking Links <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/privacy/affiliate-tracking-domains) [2](https://twitter.com/NextDNS/status/1539229377560461312) </sup></sup>
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Allow Affiliate & Tracking Links
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Allow Affiliate & Tracking Links → :radioactive: *Disabling may cause breakage*
+<br>
+<br> :warning: If you would rather [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, enable this setting.
 
 ***
 
-# Parental Control
+# Parental Control:older_man:
 ### YouTube Restricted Mode
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enforce YouTube Restricted Mode → :radioactive: *Enabling may cause breakage*
 ### Block Bypass Methods <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/parentalcontrol)</sup></sup>
@@ -106,16 +108,18 @@ Add these brands according to what devices you use. There's no advantage in addi
 
 ***
 
-# Denylist
+# Denylist :no_entry:
 
 	N/A
 
 ***
 
-# Allowlist
-### Facebook
+# Allowlist:white_check_mark: 
+### Facebook / Instagram
 
 	graph.facebook.com
+	graph.instagram.com
+	i.instagram.com
 
 ### Apple device updates <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/536)</sup></sup> / Apple Music <sup><sup>[2](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)</sup></sup> 
 
@@ -136,20 +140,20 @@ Add these brands according to what devices you use. There's no advantage in addi
 	production-cmp.isgprivacy.cbsi.com
 
 ### Microsoft Office 365 <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/565) [2](https://oisd.nl/excludes.php?w=mobile.pipe.aria.microsoft.com)</sup></sup> 
-**Note:** Blocking these requests may only break Office collaboration features. Only allowlist them if you experience breakage.
+:spiral_notepad: Blocking these requests may only break Office collaboration features. Only allowlist them if you experience breakage.
 
 	self.events.data.microsoft.com
 	mobile.pipe.aria.microsoft.com
 
 ### Xbox Live achievements <sup><sup>[1](https://github.com/lightswitch05/hosts/issues/161#issuecomment-614973289) [2](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212#xbox-live-18)</sup></sup>  / Microsoft "Your Phone" <sup><sup>[3](https://github.com/lightswitch05/hosts/issues/161#issuecomment-838590100)</sup></sup> 
-**Disclaimer:** I don't use these, so I can't confirm the requests. Only allowlist them if you experience breakage.
+:warning: I don't use these, so I can't confirm the requests. Only allowlist them if you experience breakage.
 
 	v10.events.data.microsoft.com
 	v20.events.data.microsoft.com
 
 ***
 
-# Settings
+# Settings:gear:
 ### Block Page
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Page → :radioactive: *Enabling may cause breakage if the [NextDNS Root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca) is not on your devices*
 ### Anonymized EDNS Client Subnet <sup><sup>[1](https://help.nextdns.io/t/m1hmv04/what-is-edns-client-subnet-ecs) </sup></sup>
@@ -165,7 +169,7 @@ Add these brands according to what devices you use. There's no advantage in addi
 
 ***
 
-# Credit
+# Credit:books:
 Forked from the [crssi](https://github.com/crssi/NextDNS-Config#readme) config. Some inspiration came from the [scafroglia93](https://github.com/scafroglia93/nextdns-setting/blob/master/nextdns-setting.txt) config while other ideas are my own.
 
 ***
