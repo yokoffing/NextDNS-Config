@@ -1,6 +1,6 @@
 ***
 # Guidelines
-1) Must pass the [girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test), but with a few exceptions. These deviations are documented throughout the guide.
+1) Must pass the [girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test) with few exceptions. These deviations are documented throughout the guide.
 2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., using [Energized Ultimate](https://old.reddit.com/r/nextdns/comments/v0wwjf/does_energized_ultimate_blocklist_contain/iak0a79/) or [1Hosts Xtra](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig7fkia/?context=3), restricting too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4), etc.).
 
 ***
@@ -58,11 +58,23 @@
 # Privacy
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup></sup>
 
-Use **1Hosts (Lite)** instead of **1Hosts (Pro)** if you want to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration.
-
 	NextDNS Ads & Trackers Blocklist
 	oisd
 	1Hosts (Pro)
+
+Here's a compliation of popular blocklists available in NextDNS:
+- **Balanced:** [set-and-forget](https://glosbe.com/en/en/set-and-forget); doesn't interfere with user experience
+- **Strict:** minimal breakage; prioritizes privacy over user experience; you may allowlist occasionally
+- **Aggressive:** not recommended for daily browsing; may be used on a [separate profile for isolated devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
+
+|            Balanced	              	|            Strict		      	|            Aggressive    	        	|
+|:---------------------------------:	|:------------------------------:	|:----------------------------------------:	|
+|           1Hosts (Lite)           	|          1Hosts (Pro)          	|               1Hosts (Xtra)              	|
+|             oisd			|	Lightswitch05 - Ads & Tracking 	|    Lightswitch05 - Tracking Aggressive   	|
+|            notracking               	|					|	Energized Ultimate			|
+|	NoTrack Tracker Blocklist	|					| Anudeep's Blacklist for ads and trackers	|
+|         AdGuard DNS filter        	|                                	| Goodbye Ads					|
+
 	
 ### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup></sup>
 :radioactive: *Enabling may cause breakage (unlikely)*
@@ -124,13 +136,13 @@ Add these brands according to what devices you use. There's no advantage in addi
 	production-cmp.isgprivacy.cbsi.com
 
 ### Microsoft Office 365 <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/565) [2](https://oisd.nl/excludes.php?w=mobile.pipe.aria.microsoft.com)</sup></sup> 
-**Note:** Blocking these request may only break the file collaboration features. Allowlist them only if you experience breakage.
+**Note:** Blocking these request may only break the file collaboration features. Only allowlist them if you experience breakage.
 
 	self.events.data.microsoft.com
 	mobile.pipe.aria.microsoft.com
 
 ### Xbox Live achievements <sup><sup>[1](https://github.com/lightswitch05/hosts/issues/161#issuecomment-614973289) [2](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212#xbox-live-18)</sup></sup>  / Microsoft "Your Phone" <sup><sup>[3](https://github.com/lightswitch05/hosts/issues/161#issuecomment-838590100)</sup></sup> 
-**Disclaimer:** I don't use these, so I can't confirm the requests. Allowlist them only if you experience breakage.
+**Disclaimer:** I don't use these, so I can't confirm the requests. Only allowlist them if you experience breakage.
 
 	v10.events.data.microsoft.com
 	v20.events.data.microsoft.com
