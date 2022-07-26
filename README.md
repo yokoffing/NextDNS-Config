@@ -1,7 +1,7 @@
 ***
 # Guidelines
 1) Must pass the [girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test) with few exceptions. These deviations are documented throughout the guide.
-2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., using [Energized Ultimate](https://old.reddit.com/r/nextdns/comments/v0wwjf/does_energized_ultimate_blocklist_contain/iak0a79/) or [1Hosts Xtra](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig7fkia/?context=3), restricting too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4), etc.).
+2) Follow the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) by not overblocking (e.g., using overly aggressive [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1), restricting too many [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4), etc.).
 
 ***
 
@@ -136,7 +136,7 @@ Add these brands according to what devices you use. There's no advantage in addi
 	production-cmp.isgprivacy.cbsi.com
 
 ### Microsoft Office 365 <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/565) [2](https://oisd.nl/excludes.php?w=mobile.pipe.aria.microsoft.com)</sup></sup> 
-**Note:** Blocking these request may only break the file collaboration features. Only allowlist them if you experience breakage.
+**Note:** Blocking these requests may only break Office collaboration features. Only allowlist them if you experience breakage.
 
 	self.events.data.microsoft.com
 	mobile.pipe.aria.microsoft.com
