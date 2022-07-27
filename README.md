@@ -1,7 +1,7 @@
 ***
 # Guidelines :bookmark:
-1) Be slightly stricter than only passing the [girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test). These deviations are documented throughout the guide.
-2) Prevent overblocking by utilizing the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (e.g., using quality but [sane](https://www.privacyguides.org/basics/threat-modeling/) [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1), allowing most [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4), etc.).
+1) Prevent overblocking by utilizing the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (e.g., using [sane](https://www.privacyguides.org/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4); etc.).
+2) Pass the [girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test) with few exceptions. These deviations are documented throughout the guide.
 
 ***
 
@@ -23,7 +23,7 @@
 ### Domain Generation Algorithms (DGAs) Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable DGA Protection
 ### Block Newly Registered Domains (NRDs) <sup><sup>[1](https://www.malwarebytes.com/glossary/phishing) [2](https://old.reddit.com/r/uBlockOrigin/comments/w64sqt/comment/ihboutk/?context=3) [3](https://www.boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks/) </sup></sup>
-:warning: Blocking NRDs will cause false positives [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3). Be selective when adding NRDs to your allowlist; and, when you do this, **NEVER** give [sensitive information](https://www.egnyte.com/guides/governance/sensitive-information) to a NRD. *If you would rather [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, disable this setting.*
+:warning: Blocking NRDs will cause false positives [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3). Be selective when adding NRDs to your allowlist; and, when you do this, **NEVER** give [sensitive information](https://www.egnyte.com/guides/governance/sensitive-information) to a NRD. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, disable this setting.*
 <br><br>![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs)
 ### Block Dynamic DNS Hostnames <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/ddns/suffixes) [2](https://twitter.com/NextDNS/status/1541740963760144386?cxt=HHwWhIC8iZ7PruUqAAAA) [3](https://www.phishing.org/what-is-phishing) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
@@ -139,7 +139,7 @@ Add these brands according to what devices you use. There's no advantage in addi
 	production-cmp.isgprivacy.cbsi.com
 
 ### Microsoft Office 365 <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/565) [2](https://oisd.nl/excludes.php?w=mobile.pipe.aria.microsoft.com)</sup></sup> 
-:spiral_notepad: Blocking these requests may only break Office collaboration features. Only allowlist them if you experience breakage.
+:warning: Blocking these requests may only break Office collaboration features. Only allowlist them if you experience breakage.
 
 	self.events.data.microsoft.com
 	mobile.pipe.aria.microsoft.com
