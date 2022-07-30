@@ -1,6 +1,6 @@
 ***
 # Guidelines :bookmark:
-1) Prevent overblocking by utilizing the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (e.g., using [sane](https://www.privacyguides.org/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4); etc.).
+1) Prevent overblocking by utilizing the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (e.g., using [sane](https://www.privacyguides.org/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-5); etc.).
 2) Pass the [girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test) with few exceptions. These deviations are documented throughout the guide.
 
 ***
@@ -29,7 +29,7 @@
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
-### Block Top-Level Domains (TLDs) <sup><sup>[1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://thrivemyway.com/info-websites/) [4](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/)</sup></sup>
+### Block Top-Level Domains (TLDs) <sup><sup>[1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://thrivemyway.com/info-websites/) [4](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [5](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) </sup></sup>
 
 :warning: *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
 
@@ -37,17 +37,25 @@
 .work
 .fit
 .surf
-.info
-.cam
-.ci
-.cf
 .cn
+.info
+-
+.agency
+.bid
+.cam
+.cf
+.ci
+.cricket
+.fun
 .ga
 .gq
+.loan
 .ml
 .online
+.ooo
 .tk
 .top
+.win
 ```
 
 ### Block Child Sexual Abuse Material
@@ -61,7 +69,7 @@
 Here's a compliation of popular blocklists available in NextDNS:
 - **Balanced:** no breakage; [set-and-forget](https://glosbe.com/en/en/set-and-forget); doesn't interfere with user experience
 - **Strict:** minimal breakage; prioritizes privacy over user experience; allowlist occasionally
-- **Aggressive:** excessive breakage; use on a separate profile to [lockdown isolated devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
+- **Aggressive:** excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
 |            Balanced	              	|            Strict		      	|            Aggressive    	        	|
 |:---------------------------------:	|:------------------------------:	|:----------------------------------------:	|
