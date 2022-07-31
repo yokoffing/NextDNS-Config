@@ -85,10 +85,9 @@ Here's a compliation of popular blocklists available in NextDNS:
 |:---------------------------------:	|:------------------------------:	|:----------------------------------------:	|
 |           1Hosts (Lite)           	|	1Hosts (Pro) 	         	|               1Hosts (Xtra)              	|
 |             oisd			|	Lightswitch05 - Ads & Tracking 	|		Energized Ultimate	  	|
-|  NextDNS Ads & Trackers Blocklist    	| Lightswitch05 - Tracking Aggressive	|		Goodbye Ads			|
-|	notracking			| 					|						|
+| AdGuard DNS filter		   	| Lightswitch05 - Tracking Aggressive	|		Goodbye Ads			|
+|	notracking			|  NextDNS Ads & Trackers Blocklist	|						|
 |      NoTrack Tracker Blocklist 	|       	                       	| 						|
-|     	AdGuard DNS filter	 	|       	                       	| 						|
 
 #### Highly Recommended:
 1) [NextDNS Ads & Trackers Blocklist](https://github.com/nextdns/metadata/blob/master/privacy/blocklists/nextdns-recommended.json)
@@ -155,6 +154,10 @@ Add these brands according to what devices you use. There's no advantage in addi
 ### [CBS](https://www.cbsnews.com/live/#x) News livestream <sup><sup>[1](https://github.com/nextdns/metadata/issues/1030)</sup></sup> 
 
 	production-cmp.isgprivacy.cbsi.com
+
+### FiveThirtyEight
+
+	dcf.espn.com
 
 ### Microsoft Office 365 <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/565) [2](https://oisd.nl/excludes.php?w=mobile.pipe.aria.microsoft.com)</sup></sup> 
 :warning: Blocking these requests may only break Office collaboration features. Only allowlist them if you experience breakage.
