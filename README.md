@@ -41,6 +41,7 @@
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 ### Block Top-Level Domains (TLDs) <sup><sup>[1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://thrivemyway.com/info-websites/) [4](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [5](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) </sup></sup>
 :warning: Blocking TLDs will cause false positives. This list may be unusable if you often visit domains that use these blocked TLDs. Add sites affected to your allowlist if they are not malicious. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
+<DETAILS>
 
 ```
 .work
@@ -68,6 +69,8 @@
 .win
 ```
 
+</DETAILS>
+ 
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
 
@@ -84,19 +87,15 @@ Here's a compliation of popular blocklists available in NextDNS:
 |            Balanced	              	|            Strict		      	|            Aggressive    	        	|
 |:---------------------------------:	|:------------------------------:	|:----------------------------------------:	|
 |           1Hosts (Lite)           	|	1Hosts (Pro) 	         	|               1Hosts (Xtra)              	|
-|             oisd			|	Lightswitch05 - Ads & Tracking 	|		Energized Ultimate	  	|
-| AdGuard DNS filter		   	| Lightswitch05 - Tracking Aggressive	|		Goodbye Ads			|
-|	notracking			|  NextDNS Ads & Trackers Blocklist	|						|
-|      NoTrack Tracker Blocklist 	|       	                       	| 						|
+|             oisd			|	Lightswitch05 - Ads & Tracking 	|		Goodbye Ads		  	|
+| 	notracking		   	| NextDNS Ads & Trackers Blocklist	|		Energized Ultimate		|
+|	 NoTrack Tracker Blocklist 	|  					|						|
 
-#### Highly Recommended:
-1) [NextDNS Ads & Trackers Blocklist](https://github.com/nextdns/metadata/blob/master/privacy/blocklists/nextdns-recommended.json)
-2) [oisd](https://raw.githubusercontent.com/sjhgvr/oisd/main/dblw_full.txt) <sup>[1](https://oisd.nl/includedlists/full) [2](https://oisd.nl/excludes.php?excludedfrom=allincluded) </sup>
-3) [1Hosts (Pro)](https://o0.pages.dev/Xtra/wildcards.txt) <sup>[1](https://github.com/badmojr/1Hosts/blob/master/-data/lists/assets.txt)</sup>
-	
 ### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup></sup>
 
-Add these brands according to what devices you use. There's no advantage in adding brands you don't own; however, there’s no disadvantage in adding unused brands either.
+Add all the device brands that you use. There's no advantage in adding brands you don't have; however, there’s no disadvantage in adding unused brands, either.
+
+<details>
 
 	Xiaomi
 	Huawei
@@ -106,7 +105,9 @@ Add these brands according to what devices you use. There's no advantage in addi
 	Apple
 	Roku
 	Sonos
-	
+
+</details>
+
 ### Block Disguised Third-Party Trackers <sup><sup>[1](https://github.com/nextdns/cname-cloaking-blocklist/blob/master/domains) [2](https://medium.com/nextdns/cname-cloaking-the-dangerous-disguise-of-third-party-trackers-195205dc522a) [3](https://arxiv.org/pdf/2102.09301.pdf) [4](https://tma.ifip.org/2020/wp-content/uploads/sites/9/2020/06/tma2020-camera-paper66.pdf) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
 
@@ -155,21 +156,9 @@ Add these brands according to what devices you use. There's no advantage in addi
 
 	production-cmp.isgprivacy.cbsi.com
 
-### FiveThirtyEight
+### [FiveThirtyEight](https://fivethirtyeight.com/) videos
 
 	dcf.espn.com
-
-### Microsoft Office 365 <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/565) [2](https://oisd.nl/excludes.php?w=mobile.pipe.aria.microsoft.com)</sup></sup> 
-:warning: Blocking these requests may only break Office collaboration features. Only allowlist them if you experience breakage.
-
-	self.events.data.microsoft.com
-	mobile.pipe.aria.microsoft.com
-
-### Xbox Live achievements <sup><sup>[1](https://github.com/lightswitch05/hosts/issues/161#issuecomment-614973289) [2](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212#xbox-live-18)</sup></sup>  / Microsoft "Your Phone" <sup><sup>[3](https://github.com/lightswitch05/hosts/issues/161#issuecomment-838590100)</sup></sup> 
-:warning: I don't use these, so I can't confirm the requests. Only allowlist them if you experience breakage.
-
-	v10.events.data.microsoft.com
-	v20.events.data.microsoft.com
 
 ***
 
@@ -190,7 +179,7 @@ Add these brands according to what devices you use. There's no advantage in addi
 ***
 
 # Credit :books:
-Forked from the [crssi](https://github.com/crssi/NextDNS-Config#readme) config. Some inspiration came from the [scafroglia93](https://github.com/scafroglia93/nextdns-setting/blob/master/nextdns-setting.txt) config while other ideas are my own.
+Forked from the [crssi](https://github.com/crssi/NextDNS-Config#readme) config. Where there is similiarity to other authors, credit goes to them.
 
 ***
 
