@@ -112,8 +112,7 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
 
 ### Allow Affiliate & Tracking Links <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/privacy/affiliate-tracking-domains) [2](https://twitter.com/NextDNS/status/1539229377560461312) </sup></sup>
-:warning: *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, enable this setting.*
-<br><br>![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Allow Affiliate & Tracking Links
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Allow Affiliate & Tracking Links
 
 ***
 
