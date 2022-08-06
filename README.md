@@ -131,6 +131,9 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 ***
 
 # Allowlist :white_check_mark: 
+
+<details>
+
 ### Facebook / Instagram
 
 	graph.facebook.com
@@ -151,11 +154,11 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 	us04logfiles.zoom.us
 	us04zpns.zoom.us
 
-### imgur
+### [imgur](https://imgur.com/)
 
 	js.media-lab.ai
 
-### Spectrum login
+### [Spectrum](https://www.spectrum.net) login
 
 	pov.spectrum.net
 
@@ -166,6 +169,8 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 ### [FiveThirtyEight](https://fivethirtyeight.com/) videos
 
 	dcf.espn.com
+
+</details>	
 
 ***
 
