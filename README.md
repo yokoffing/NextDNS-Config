@@ -155,6 +155,10 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 
 	js.media-lab.ai
 
+### Spectrum login
+
+	pov.spectrum.net
+
 ### [CBS](https://www.cbsnews.com/live/#x) News livestream <sup><sup>[1](https://github.com/nextdns/metadata/issues/1030)</sup></sup> 
 
 	production-cmp.isgprivacy.cbsi.com
