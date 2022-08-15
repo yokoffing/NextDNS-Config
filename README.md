@@ -154,6 +154,14 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 	us04logfiles.zoom.us
 	us04zpns.zoom.us
 
+### Epic Games Launcher <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/643)</sup></sup>
+
+	eulatracking-public-service-prod06.ol.epicgames.com
+
+### NVIDIA Gefore Experience <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/650)</sup></sup>
+	
+	gfe.nvidia.com
+
 ### [imgur](https://imgur.com/) <sup><sup>[1](https://github.com/lightswitch05/hosts/issues/358)</sup></sup>
 
 	js.media-lab.ai
@@ -166,17 +174,13 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 
 	production-cmp.isgprivacy.cbsi.com
 
-### [FiveThirtyEight](https://fivethirtyeight.com/) videos
+### [FiveThirtyEight](https://fivethirtyeight.com/) videos / National Geographic website
 
 	dcf.espn.com
 
-### Epic Games Launcher <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/643)</sup></sup>
+### [Men's Health](https://www.menshealth.com/nutrition/a40868905/chris-hemsworth-chicken-pasta-bake-recipe-centr/) videos <sup><sup>[1](https://www.menshealth.com/nutrition/a40868905/chris-hemsworth-chicken-pasta-bake-recipe-centr/)</sup></sup>
 
-	eulatracking-public-service-prod06.ol.epicgames.com
-
-### NVIDIA Gefore Experience <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/650)</sup></sup>
-	
-	gfe.nvidia.com
+	glimmer.hearstapps.com
 
 </details>	
 
