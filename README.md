@@ -161,6 +161,7 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 ### NVIDIA Gefore Experience <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/650)</sup></sup>
 	
 	gfe.nvidia.com
+	nvgs.nvidia.cn
 
 ### [imgur](https://imgur.com/) <sup><sup>[1](https://github.com/lightswitch05/hosts/issues/358)</sup></sup>
 
