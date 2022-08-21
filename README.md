@@ -14,6 +14,14 @@
 2) Pass the [girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test) with few exceptions. These deviations are documented throughout the guide.
 
 ***
+# FAQ :question:
+### 1) How do I signup for NextDNS?
+Click [here](https://nextdns.io/?from=xujj63g5)!
+
+### 2) Do I still need uBlock Origin with NextDNS?
+Yes. <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads) [2](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22) [3](https://old.reddit.com/r/nextdns/comments/t8qn8c/comment/hzqrrfa/?context=3)</sup>
+
+***
 
 # Security :cop:
 ### Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/threat-intelligence-feeds.json)</sup></sup>
@@ -80,16 +88,15 @@
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup></sup>
 
 Here's a compliation of popular blocklists available in NextDNS:
-- **Balanced:** no breakage; [set-and-forget](https://glosbe.com/en/en/set-and-forget); doesn't interfere with user experience
-- **Strict:** minimal breakage; prioritizes privacy over user experience; allowlist occasionally
+- **Balanced:** minimal breakage; [set-and-forget](https://glosbe.com/en/en/set-and-forget); doesn't interfere with user experience
+- **Strict:** moderate breakage; prioritizes privacy over user experience; allowlist occasionally
 - **Aggressive:** excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
 |            Balanced	              	|            Strict		      	|            Aggressive    	        	|
 |:---------------------------------:	|:------------------------------:	|:----------------------------------------:	|
 |           1Hosts (Lite)           	|	1Hosts (Pro) 	         	|               1Hosts (Xtra)              	|
-|             oisd			|	Lightswitch05 - Ads & Tracking 	|		Goodbye Ads		  	|
-| 	notracking		   	| NextDNS Ads & Trackers Blocklist	|		Energized Ultimate		|
-|	 NoTrack Tracker Blocklist 	|  					|						|
+|             oisd			| NextDNS Ads & Trackers Blocklist	|		Goodbye Ads		  	|
+| 	NoTrack Tracker Blocklist    	| Lightswitch05 - Ads & Tracking	|		Energized Ultimate		|
 
 ### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup></sup>
 
