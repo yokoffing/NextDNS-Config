@@ -15,10 +15,10 @@
 
 ***
 # FAQ :question:
-### 1) How do I signup for NextDNS?
+### How do I signup for NextDNS?
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
-### 2) Do I still need uBlock Origin with NextDNS?
+### Do I still need uBlock Origin with NextDNS?
 Yes. <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads) [2](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22) [3](https://old.reddit.com/r/nextdns/comments/t8qn8c/comment/hzqrrfa/?context=3)</sup>
 
 ***
@@ -174,7 +174,7 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 
 	js.media-lab.ai
 
-### [Spectrum](https://www.spectrum.net) login
+### [Spectrum](https://www.spectrum.net) login <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/640)</sup></sup>
 
 	pov.spectrum.net
 
