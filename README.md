@@ -56,22 +56,26 @@ Yes. <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-orig
 .fit
 .surf
 .cn
-.info
+.info [legitimate domains use this; may need to allowlist more than other TLDs]
 -
 .agency
 .bid
 .cam
+.casa
 .cf
 .ci
 .cricket
 .fun
 .ga
 .gq
+.icu
+.live
 .loan
 .ml
 .monster
 .online
 .ooo
+.rest
 .tk
 .top
 .win
