@@ -44,7 +44,6 @@ Security settings protects your data from harm, theft, and unauthorized use.
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 ### Block Top-Level Domains (TLDs) <sup><sup>[1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) </sup></sup>
 :warning: Blocking TLDs will cause false positives. This list may be unusable if you often visit domains that use these blocked TLDs. Add sites affected to your allowlist if they are not malicious. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
-<DETAILS>
 
 ```
 .work
@@ -75,8 +74,6 @@ Security settings protects your data from harm, theft, and unauthorized use.
 .top
 .win
 ```
-
-</DETAILS>
  
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
@@ -139,8 +136,6 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 # Denylist :no_entry:
 
 Denylist entries block any requests from that source.
-
-	N/A
 
 ***
 
