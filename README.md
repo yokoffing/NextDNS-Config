@@ -232,8 +232,9 @@ Yes. <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-orig
 
 ***
 
-# Credit :books:
-Forked from the [crssi](https://github.com/crssi/NextDNS-Config#readme) config. Where there is similiarity to other authors, credit goes to them.
+# Mentions :books:
+https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2
+https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/?context=3
 
 ***
 
