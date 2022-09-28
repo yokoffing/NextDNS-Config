@@ -14,16 +14,11 @@
 2) Pass the [girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test) with few exceptions. These deviations are documented throughout the guide.
 
 ***
-# FAQ :question:
-### How do I signup for NextDNS?
-Click [here](https://nextdns.io/?from=xujj63g5)!
-
-### Do I still need uBlock Origin with NextDNS?
-Yes. <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads) [2](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22) [3](https://old.reddit.com/r/nextdns/comments/t8qn8c/comment/hzqrrfa/?context=3)</sup>
-
-***
 
 # Security :cop:
+
+Security settings protects your data from harm, theft, and unauthorized use.
+
 ### Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/threat-intelligence-feeds.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
 ### AI-Driven Threat Detection
@@ -56,7 +51,7 @@ Yes. <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-orig
 .fit
 .surf
 .cn
-.info [users may exclude due to overblocking; see Allowlist]
+.info [users may exclude due to overblocking; see https://github.com/yokoffing/NextDNS-Config#info-tld]
 -
 .agency
 .bid
@@ -89,18 +84,26 @@ Yes. <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-orig
 ***
 
 # Privacy :lock:
+Privacy features block certain requests so that companies cannot track your information and browsing history.
+
+[Privacy is a spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum): Similar to security protection, what you need varies on your [threat model](https://thenewoil.org/threatmodel.html), interest, and skillset. (You can watch [this](https://youtu.be/Wpkh-hfULgE) short video to understand the difference between security and privacy.)
+
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup></sup>
 
-Here's a compliation of popular blocklists available in NextDNS:
-- **Balanced:** minimal breakage; [set-and-forget](https://glosbe.com/en/en/set-and-forget); doesn't interfere with user experience
-- **Strict:** moderate breakage; prioritizes privacy over user experience; allowlist occasionally
-- **Aggressive:** excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
+Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). They can be categorized into various levels of coverage:
+1) **None**: no breakage; true [set-and-forget](https://glosbe.com/en/en/set-and-forget); NextDNS still protects against known malicious threats (see [Security](https://github.com/yokoffing/NextDNS-Config#security-cop)) but will allow ads and trackers; use for routers
+2) **Basic**: unlikely breakage; lenient protection; allows for many ads and tracker when compared to other lists
+3) **Balanced:** minimal breakage; usually doesn't interfere with user experience; allowlist occasionally
+4) **Strict:** moderate breakage; prioritizes privacy over user experience; will need to build a personal allowlist
+5) **Aggressive:** excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
-|            Balanced	              	|            Strict		      	|            Aggressive    	        	|
-|:---------------------------------:	|:------------------------------:	|:----------------------------------------:	|
-|           1Hosts (Lite)           	|	1Hosts (Pro) 	         	|               1Hosts (Xtra)              	|
-|             oisd			| NextDNS Ads & Trackers Blocklist	|		Goodbye Ads		  	|
-| 	NoTrack Tracker Blocklist    	| Lightswitch05 - Ads & Tracking	|		Energized Ultimate		|
+Here's a compliation of popular blocklists available in NextDNS:
+
+|	Basic				|            Balanced	              	|            Strict		      	|            Aggressive    	        	|
+|:---------------------------------: 	|:---------------------------------:	|:------------------------------:	|:----------------------------------------:	|
+|	1Hosts (mini)			|           1Hosts (Lite)           	|	1Hosts (Pro) 	         	|               1Hosts (Xtra)              	|
+|	oisd (?)			|             oisd			| NextDNS Ads & Trackers Blocklist	|		Goodbye Ads		  	|
+|					| 	NoTrack Tracker Blocklist    	| Lightswitch05 - Ads & Tracking	|		Energized Ultimate		|
 
 ### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup></sup>
 
@@ -137,15 +140,19 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 
 # Denylist :no_entry:
 
+Denylist entries block any requests from that source.
+
 	N/A
 
 ***
 
 # Allowlist :white_check_mark: 
 
+Allowlist entries overrides any blocks.
+
 <details>
 
-### .info
+### info ([TLD](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-))
 
 	dnscrypt.info
 	keepass.info
@@ -221,6 +228,14 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Web3
 <br>
 <br> (optional)
+
+***
+# FAQ :question:
+### How do I signup for NextDNS?
+Click [here](https://nextdns.io/?from=xujj63g5)!
+
+### Do I still need adblocker with NextDNS?
+Yes. <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads) [2](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22) [3](https://old.reddit.com/r/nextdns/comments/t8qn8c/comment/hzqrrfa/?context=3)</sup>
 
 ***
 
