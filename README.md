@@ -23,7 +23,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
 ### AI-Driven Threat Detection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable AI-Driven Threat Detection
-### Google Safe Browsing <sup><sup> [1](https://safebrowsing.google.com/safebrowsing/report_general/) [2](https://user-images.githubusercontent.com/11689349/107696360-d8dde800-6c7f-11eb-9882-cccc8d2065c5.jpg) [3](https://the8-bit.com/apple-proxies-google-safe-browsing-privacy/) [4](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#services-we-proxy-through-brave-servers) </sup></sup>
+### Google Safe Browsing <sup><sup> [1](https://user-images.githubusercontent.com/11689349/107696360-d8dde800-6c7f-11eb-9882-cccc8d2065c5.jpg) [2](https://the8-bit.com/apple-proxies-google-safe-browsing-privacy/) [3](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#services-we-proxy-through-brave-servers) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Google Safe Browsing
 ### Cryptojacking Protection <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/cryptojacking.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cryptojacking Protection
@@ -43,7 +43,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 ### Block Top-Level Domains (TLDs) <sup><sup>[1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) </sup></sup>
-:warning: Blocking TLDs will cause false positives. This list may be unusable if you often visit domains that use these blocked TLDs. Add sites affected to your allowlist if they are not malicious. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
+:warning: Blocking TLDs will cause false positives. Some entries may be unusable if you often visit domains that use these blocked TLDs. Add sites affected to your allowlist if they are not malicious. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
 
 ```
 .work
@@ -87,10 +87,10 @@ Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-sp
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup></sup>
 
 Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Filters can be categorized into five tiers of coverage:
-1) **None**: no breakage; true [set-and-forget](https://glosbe.com/en/en/set-and-forget); NextDNS still protects against known malicious threats (à la [Security settings](https://github.com/yokoffing/NextDNS-Config#security-cop)) but will allow ads and trackers; ideal for router profiles
-2) **Basic**: rare breakage; prioritizes functionality over blocking; very forgiving to allow features such as in-app rewards
-3) **Balanced:** minimal breakage; should not interfere with everyday browsing, but may need to allowlist occasionally
-4) **Strict:** moderate breakage; prioritizes privacy over user experience; will need to build a personal allowlist
+1) **None**: no breakage; NextDNS still protects against known malicious threats (à la [security settings](https://github.com/yokoffing/NextDNS-Config#security-cop)) but will allow ads and trackers
+2) **Basic**: rare breakage; prioritizes functionality over blocking; *very* forgiving; ideal for router profiles
+3) **Balanced:** minimal breakage; should not interfere with everyday browsing; may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) occasionally
+4) **Strict:** moderate breakage; prioritizes privacy over user experience; must manage your allowlist regularly
 5) **Aggressive:** excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
 Here's a compliation of popular blocklists available in NextDNS:
@@ -101,7 +101,8 @@ Here's a compliation of popular blocklists available in NextDNS:
 |	oisd				|             oisd			| NextDNS Ads & Trackers Blocklist	|		Goodbye Ads		  	|
 |					| 	NoTrack Tracker Blocklist    	| Lightswitch05 - Ads & Tracking	|		Energized Ultimate		|
 
-From my testing and user feedback, **Balanced** is a great tier to use if you're trying DNS-level blocking for the first time.
+:bulb: **Balanced** is the best tier to use if you're trying DNS-level blocking for the first time, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/one_profile_for_lan_devices_another_profile_for/iffegc5/?context=2) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2)  </sup>
+
 
 ### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup></sup>
 
