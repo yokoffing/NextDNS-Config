@@ -50,7 +50,6 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .fit
 .surf
 .cn
-.info [users may exclude due to overblocking; see https://github.com/yokoffing/NextDNS-Config#info-tld]
 -
 .agency
 .bid
@@ -144,16 +143,6 @@ Denylist entries block any requests from that source.
 Allowlist entries override any blocks.
 
 <details>
-
-### info ([TLD](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-))
-
-	dnscrypt.info
-	keepass.info
-	scammer.info
-	apowersoft.info
-	pop-planet.info
-	privatebin.info
-	avascan.info
 
 ### Facebook / Instagram
 
