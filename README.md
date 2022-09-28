@@ -90,9 +90,9 @@ Privacy features block certain requests so that companies cannot track your info
 
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup></sup>
 
-Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). They can be categorized into various levels of coverage:
-1) **None**: no breakage; true [set-and-forget](https://glosbe.com/en/en/set-and-forget); NextDNS still protects against known malicious threats (see [Security](https://github.com/yokoffing/NextDNS-Config#security-cop)) but will allow ads and trackers; use for routers
-2) **Basic**: unlikely breakage; lenient protection; allows for many ads and tracker when compared to other lists
+Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). They can be categorized into five tiers of coverage:
+1) **None**: no breakage; true [set-and-forget](https://glosbe.com/en/en/set-and-forget); NextDNS still protects against known malicious threats (see [Security](https://github.com/yokoffing/NextDNS-Config#security-cop)) but will allow ads and trackers; ideal for router profiles
+2) **Basic**: rare breakage; lenient protection; very forgiving towards trackers in comparison to other lists
 3) **Balanced:** minimal breakage; usually doesn't interfere with user experience; allowlist occasionally
 4) **Strict:** moderate breakage; prioritizes privacy over user experience; will need to build a personal allowlist
 5) **Aggressive:** excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
@@ -102,14 +102,14 @@ Here's a compliation of popular blocklists available in NextDNS:
 |	Basic				|            Balanced	              	|            Strict		      	|            Aggressive    	        	|
 |:---------------------------------: 	|:---------------------------------:	|:------------------------------:	|:----------------------------------------:	|
 |	1Hosts (mini)			|           1Hosts (Lite)           	|	1Hosts (Pro) 	         	|               1Hosts (Xtra)              	|
-|	oisd (?)			|             oisd			| NextDNS Ads & Trackers Blocklist	|		Goodbye Ads		  	|
+|	oisd				|             oisd			| NextDNS Ads & Trackers Blocklist	|		Goodbye Ads		  	|
 |					| 	NoTrack Tracker Blocklist    	| Lightswitch05 - Ads & Tracking	|		Energized Ultimate		|
+
+From my testing and user feedback, **Balanced** is a great tier to use if you're trying DNS-level blocking for the first time.
 
 ### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup></sup>
 
 Add all the device brands that you use. There's no advantage in adding brands you don't have; however, there’s no disadvantage in adding unused brands, either.
-
-<details>
 
 	Xiaomi
 	Huawei
@@ -119,8 +119,6 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 	Apple
 	Roku
 	Sonos
-
-</details>
 
 ### Block Disguised Third-Party Trackers <sup><sup>[1](https://github.com/nextdns/cname-cloaking-blocklist/blob/master/domains) [2](https://medium.com/nextdns/cname-cloaking-the-dangerous-disguise-of-third-party-trackers-195205dc522a) [3](https://arxiv.org/pdf/2102.09301.pdf) [4](https://tma.ifip.org/2020/wp-content/uploads/sites/9/2020/06/tma2020-camera-paper66.pdf) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
@@ -148,7 +146,7 @@ Denylist entries block any requests from that source.
 
 # Allowlist :white_check_mark: 
 
-Allowlist entries overrides any blocks.
+Allowlist entries override any blocks.
 
 <details>
 
