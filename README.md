@@ -17,7 +17,7 @@
 
 # Security :cop:
 
-Security settings protects your data from harm, theft, and unauthorized use.
+Security settings protect your data from harm, theft, and unauthorized use.
 
 ### Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/threat-intelligence-feeds.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
@@ -83,14 +83,14 @@ Security settings protects your data from harm, theft, and unauthorized use.
 # Privacy :lock:
 Privacy features block certain requests so that companies cannot track your information and browsing history.
 
-[Privacy is a spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum): Similar to security protection, what you need varies on your [threat model](https://thenewoil.org/threatmodel.html), interest, and skillset. (You can watch [this](https://youtu.be/Wpkh-hfULgE) short video to understand the difference between security and privacy.)
+Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum). Similar to security protection, what you need varies on your [threat model](https://thenewoil.org/threatmodel.html), interest, and skillset. (You can watch [this](https://youtu.be/Wpkh-hfULgE) short video to understand the difference between security and privacy.)
 
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup></sup>
 
-Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). They can be categorized into five tiers of coverage:
-1) **None**: no breakage; true [set-and-forget](https://glosbe.com/en/en/set-and-forget); NextDNS still protects against known malicious threats (see [Security](https://github.com/yokoffing/NextDNS-Config#security-cop)) but will allow ads and trackers; ideal for router profiles
-2) **Basic**: rare breakage; lenient protection; very forgiving towards trackers in comparison to other lists
-3) **Balanced:** minimal breakage; usually doesn't interfere with user experience; allowlist occasionally
+Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Filters can be categorized into five tiers of coverage:
+1) **None**: no breakage; true [set-and-forget](https://glosbe.com/en/en/set-and-forget); NextDNS still protects against known malicious threats (à la [Security settings](https://github.com/yokoffing/NextDNS-Config#security-cop)) but will allow ads and trackers; ideal for router profiles
+2) **Basic**: rare breakage; prioritizes functionality over blocking; very forgiving to allow features such as in-app rewards
+3) **Balanced:** minimal breakage; should not interfere with everyday browsing, but may need to allowlist occasionally
 4) **Strict:** moderate breakage; prioritizes privacy over user experience; will need to build a personal allowlist
 5) **Aggressive:** excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
