@@ -79,6 +79,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .tk
 .top
 .wang
+.webcam
 .win
 ```
 
@@ -93,7 +94,6 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .au
 .biz
 .ca
-.cloud
 .co
 .com
 .de
@@ -113,16 +113,16 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .me
 .mil
 .mobi
-.name
 .ne
 .net
 .nl
 .org
 .page
 .ru
-.space
 .site
+.to
 .tv
+.website
 .xyz
 ```
 
