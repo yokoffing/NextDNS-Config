@@ -43,7 +43,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 ### Block Top-Level Domains (TLDs) <sup><sup>[1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) </sup></sup>
-:warning: Blocking TLDs will cause false positives. Some entries may be unusable if you often visit domains that use these blocked TLDs. Add sites affected to your allowlist if they are not malicious. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
+:warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) will cause false positives. Some TLDs may be unusable if you often visit websites that use them. Add websites that are affected to your [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) if they are not malicious. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
 
 ```
 .work
@@ -82,16 +82,16 @@ Security settings protect your data from harm, theft, and unauthorized use.
 # Privacy :lock:
 Privacy features block certain requests so that companies cannot track your information and browsing history.
 
-Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum). Similar to security protection, what you need varies on your [threat model](https://thenewoil.org/threatmodel.html), interest, and skillset. (You can watch [this](https://youtu.be/Wpkh-hfULgE) short video to understand the difference between security and privacy.)
+Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum). What you need varies on your [threat model](https://thenewoil.org/threatmodel.html), interest, and skillset. (You can watch [this short video](https://youtu.be/Wpkh-hfULgE) to understand the difference between security and privacy.)
 
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup></sup>
 
 Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Filters can be categorized into five tiers of coverage:
 1) **None**: no breakage; NextDNS still protects against malicious threats (à la [security settings](https://github.com/yokoffing/NextDNS-Config#security-cop)) but will allow ads and trackers
 2) **Basic**: rare breakage; prioritizes functionality over blocking; *very* forgiving; ideal for router profiles
-3) **Balanced:** minimal breakage; should not interfere with everyday browsing; may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) occasionally
-4) **Strict:** moderate breakage; prioritizes privacy over user experience; must manage your allowlist regularly
-5) **Aggressive:** excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
+3) **Balanced**: minimal breakage; should not interfere with everyday browsing; may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) occasionally
+4) **Strict**: moderate breakage; prioritizes privacy over user experience; must manage your allowlist regularly
+5) **Aggressive**: excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
 Here's a compliation of popular blocklists available in NextDNS:
 
@@ -120,8 +120,7 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
 
 ### Allow Affiliate & Tracking Links <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/privacy/affiliate-tracking-domains) [2](https://twitter.com/NextDNS/status/1539229377560461312) </sup></sup>
-Your IP address will automatically be hidden (via [TCP](https://www.educba.com/what-is-tcp-ip/) [proxying](https://en.wikipedia.org/wiki/Proxy_server#/media/File:Proxy_concept_en.svg)) to preserve your privacy.
-
+:bulb: Your IP address will automatically be hidden (via [TCP](https://www.educba.com/what-is-tcp-ip/) [proxying](https://en.wikipedia.org/wiki/Proxy_server#/media/File:Proxy_concept_en.svg)) to preserve your privacy.<p>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Allow Affiliate & Tracking Links
 
 ***
