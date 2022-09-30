@@ -90,14 +90,16 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .com
 .de
 .dev
+.download
+.edu
 .email
 .goog
 .gov
 .info
 .io
+.it
 .mil
 .mobi
-.mobile
 .net
 .nl
 .org
