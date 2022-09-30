@@ -52,12 +52,16 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .cn
 -
 .agency
+.associates
 .bid
+.buzz
 .cam
 .casa
 .cf
 .ci
 .cricket
+.discount
+.financial
 .fun
 .ga
 .gq
@@ -71,6 +75,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .rest
 .tk
 .top
+.wang
 .win
 ```
  
