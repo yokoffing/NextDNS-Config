@@ -15,7 +15,7 @@
 
 ***
 
-# Security :cop:
+# Security :policeman:
 
 Security settings protect your data from harm, theft, and unauthorized use.
 
@@ -163,7 +163,7 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 
 ***
 
-# Parental Control :family:
+# Parental Control :family_man_woman_boy:
 ### YouTube Restricted Mode
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enforce YouTube Restricted Mode
 ### Block Bypass Methods <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/parentalcontrol)</sup></sup>
