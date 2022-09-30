@@ -49,6 +49,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .work
 .fit
 .surf
+.tokyo
 .cn
 -
 .agency
@@ -62,6 +63,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .cricket
 .discount
 .financial
+.fit
 .fun
 .ga
 .gq
@@ -73,6 +75,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .online
 .ooo
 .rest
+.shop
 .tk
 .top
 .wang
@@ -84,7 +87,12 @@ Security settings protect your data from harm, theft, and unauthorized use.
 <details>
 	
 ```
+.review
+.info
+-
+.au
 .biz
+.ca
 .cloud
 .co
 .com
@@ -93,20 +101,28 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .download
 .edu
 .email
+.eu
+.fr
+.gg
 .goog
 .gov
-.info
 .io
+.ir
 .it
+.jp
+.me
 .mil
 .mobi
+.name
+.ne
 .net
 .nl
 .org
 .page
-.review
 .ru
+.space
 .site
+.tv
 .xyz
 ```
 
