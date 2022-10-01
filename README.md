@@ -42,8 +42,10 @@ Security settings protect your data from harm, theft, and unauthorized use.
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
-### Block Top-Level Domains (TLDs) <sup><sup>[1](https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) </sup></sup>
-:warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) will cause [false positives](https://csrc.nist.gov/glossary/term/false_positive). Some TLDs may be unusable if you often visit websites that use them. Add websites that are affected to your [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) if they are not malicious. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
+### Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) </sup></sup>
+:warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) will cause [false positives](https://csrc.nist.gov/glossary/term/false_positive). Some TLDs may be unusable if you visit websites that use them. Add websites that are affected to your [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) if they are not malicious. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
+
+<details>
 
 ```
 .work
@@ -83,7 +85,9 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .win
 ```
 
-:radioactive: **Advanced Users:** If you use [NX Enhanced](https://github.com/hjk789/NXEnhanced#nx-enhanced) and want to [add all TLDs](https://github.com/hjk789/NXEnhanced#security-page) to your profile, then here is a list of common TLDs you need to allow:
+</details>
+
+:radioactive: If you use [NX Enhanced](https://github.com/hjk789/NXEnhanced#nx-enhanced) and want to [add all TLDs](https://github.com/hjk789/NXEnhanced#security-page) to your profile, then here is a list of common TLDs you need to allow:
 
 <details>
 	
@@ -110,6 +114,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .ir
 .it
 .jp
+.ly
 .me
 .mil
 .mobi
@@ -122,6 +127,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .site
 .to
 .tv
+.us
 .website
 .xyz
 ```
