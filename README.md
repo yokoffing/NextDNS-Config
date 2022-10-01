@@ -92,10 +92,11 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .info
 -
 .au
-.biz
+.biz (optional)
 .ca
 .co
 .com
+.cz (optional)
 .de
 .dev
 .download
@@ -122,9 +123,12 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .ru
 .site
 .to
+.tube (optional)
 .tv
 .us
+.video (optional)
 .website
+.xxx (optional)
 .xyz
 ```
 
