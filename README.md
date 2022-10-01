@@ -125,6 +125,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .to
 .tube (optional)
 .tv
+.ua
 .us
 .video (optional)
 .website
