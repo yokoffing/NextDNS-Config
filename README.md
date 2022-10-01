@@ -117,6 +117,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .mobi
 .ne
 .net
+.news
 .nl
 .org
 .page
