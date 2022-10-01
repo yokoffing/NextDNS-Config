@@ -43,7 +43,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 ### Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) </sup></sup>
-:warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) can cause [false positives](https://csrc.nist.gov/glossary/term/false_positive). Some TLDs may be unusable if you visit many websites that use them. Add websites affected to your [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) if they are not malicious. Blocking the following TLDs should allow for everyday browsing while providing a boost to security; however, you may need to allowlist a website on occasion. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
+:warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) will cause [false positives](https://csrc.nist.gov/glossary/term/false_positive). However, blocking the entries below should allow for everyday browsing while offering protection against commonly abused TLDs. You may still need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
 	
 ```
 .work
@@ -82,59 +82,6 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .webcam
 .win
 ```
-
-:radioactive: If you use [NX Enhanced](https://github.com/hjk789/NXEnhanced#nx-enhanced) and want to [block most TLDs](https://github.com/hjk789/NXEnhanced#security-page), then be sure to allow for these common ones:
-
-<details>
-	
-```
-.review
-.info
--
-.au
-.biz (optional)
-.ca
-.co
-.com
-.cz (optional)
-.de
-.dev
-.download
-.edu
-.email
-.eu
-.fr
-.gg
-.goog
-.gov
-.io
-.ir
-.it
-.jp
-.ly
-.me
-.mil
-.mobi
-.ne
-.net
-.news
-.nl
-.org
-.page
-.ru
-.site
-.to
-.tube (optional)
-.tv
-.ua
-.us
-.video (optional)
-.website
-.xxx (optional)
-.xyz
-```
-
-</details>
  
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
