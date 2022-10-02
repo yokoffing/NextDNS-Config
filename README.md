@@ -43,7 +43,9 @@ Security settings protect your data from harm, theft, and unauthorized use.
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 ### Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) </sup></sup>
-:warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) will cause [false positives](https://csrc.nist.gov/glossary/term/false_positive). However, blocking the entries below should allow for everyday browsing while offering protection against commonly abused TLDs. You may still need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
+:warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) will cause [false positives](https://csrc.nist.gov/glossary/term/false_positive). However, the entries below should allow for everyday browsing while offering protection against **commonly abused** TLDs. You may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on a rare occasion. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
+
+<details>
 	
 ```
 .work
@@ -82,6 +84,8 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .webcam
 .win
 ```
+
+</details>
  
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
@@ -230,10 +234,20 @@ Click [here](https://nextdns.io/?from=xujj63g5)!
 Yes. <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads) [2](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22) [3](https://old.reddit.com/r/nextdns/comments/t8qn8c/comment/hzqrrfa/?context=3)</sup>
 
 ***
-
 # Mentions :books:
+
+User Comments: 
+[1](https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2)
+[2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/?context=3)
+
+#### Guides
 * [FMHY DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking)
-* User comments [1](https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/?context=3)
+
+#### Contributor
+* [1Hosts](https://github.com/badmojr/1Hosts/issues?q=is%3Aissue+author%3Ayokoffing+)
+* [Easylist](https://github.com/easylist/easylist/issues?q=is%3Aissue+author%3Ayokoffing+)
+* [AdGuard](https://github.com/AdguardTeam/AdguardFilters/issues?q=is%3Aissue+author%3Ayokoffing+)
+* [uBlock Origin](https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue+author%3Ayokoffing+)
 
 ***
 
