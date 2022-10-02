@@ -150,6 +150,34 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 
 Denylist entries block any requests from that source.
 
+<details>
+
+### Xiaomi
+       
+        tracking.intl.miui.com
+        data.mistat.intl.xiaomi.com
+        api.ad.intl.xiaomi.com
+
+### Whatsapp
+
+        dit.whatsapp.net
+
+
+### Tapjoy 
+
+        tapjoy.com
+        tapjoyads.com
+
+### Others
+
+        spappmonitoring.com
+        amon.android-monitor.ru
+        a-spy.com
+        alltracker.org
+        aispyer.com
+
+</details>
+
 ***
 
 # Allowlist :white_check_mark: 
@@ -158,11 +186,16 @@ Allowlist entries override any blocks.
 
 <details>
 
+
 ### Facebook / Instagram
 
 	graph.facebook.com
 	graph.instagram.com
 	i.instagram.com
+
+### YouTube
+
+        s.youtube.com
 
 ### Apple device updates <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/536)</sup></sup> / Apple Music <sup><sup>[2](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)</sup></sup> 
 
@@ -171,7 +204,11 @@ Allowlist entries override any blocks.
 ### Apple iMessage GIFs <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/560)</sup></sup> / Spotlight Search <sup><sup>[2](https://github.com/badmojr/1Hosts/issues/562)</sup></sup> 
 
 	smoot.apple.com
-	
+
+### Xiaomi device updates 
+     
+        update.intl.miui.com
+	 
 ### Zoom <sup><sup>[1](https://oisd.nl/excludes.php?w=log.zoom.us) [2](https://oisd.nl/excludes.php?w=us04logfiles.zoom.us)</sup></sup> 
 
 	logfiles.zoom.us
@@ -207,7 +244,7 @@ Allowlist entries override any blocks.
 
 	glimmer.hearstapps.com
 
-</details>	
+</details>
 
 ***
 
