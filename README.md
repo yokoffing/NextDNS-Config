@@ -48,6 +48,8 @@ Security settings protect your data from harm, theft, and unauthorized use.
 <details>
 	
 ```
+more prone to breakage on legitimate sites = optional
+
 .work
 .fit
 .surf
@@ -60,26 +62,29 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .buzz
 .cam
 .casa
-.cf
+.cf (optional)
 .ci
 .cricket
 .discount
 .financial
 .fit
 .fun
-.ga
+.ga (optional)
+.gdn
 .gq
 .icu
 .live
 .loan
-.ml
-.monster
+.ml (optional)
+.monster (optional)
 .online
 .ooo
+.pw  (optional)
 .rest
+.sbs
 .shop
 .tk (optional)
-.top
+.top (optional)
 .wang
 .webcam
 .win
