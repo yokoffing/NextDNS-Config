@@ -120,6 +120,8 @@ Here's a compliation of popular blocklists available in NextDNS:
 
 Add all the device brands that you use. There's no advantage in adding brands you don't have; however, there’s no disadvantage in adding unused brands, either.
 
+<details>
+
 	Xiaomi
 	Huawei
 	Samsung
@@ -128,6 +130,8 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 	Apple
 	Roku
 	Sonos
+
+</details>
 
 ### Block Disguised Third-Party Trackers <sup><sup>[1](https://github.com/nextdns/cname-cloaking-blocklist/blob/master/domains) [2](https://medium.com/nextdns/cname-cloaking-the-dangerous-disguise-of-third-party-trackers-195205dc522a) [3](https://arxiv.org/pdf/2102.09301.pdf) [4](https://tma.ifip.org/2020/wp-content/uploads/sites/9/2020/06/tma2020-camera-paper66.pdf) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
@@ -152,29 +156,12 @@ Denylist entries block any requests from that source.
 
 <details>
 
-### Xiaomi
-       
-        tracking.intl.miui.com
-        data.mistat.intl.xiaomi.com
-        api.ad.intl.xiaomi.com
+### Junk surveillance software
 
-### Whatsapp
-
-        dit.whatsapp.net
-
-
-### Tapjoy 
-
-        tapjoy.com
-        tapjoyads.com
-
-### Others
-
-        spappmonitoring.com
-        amon.android-monitor.ru
-        a-spy.com
-        alltracker.org
-        aispyer.com
+    spappmonitoring.com
+    a-spy.com
+    alltracker.org
+    aispyer.com
 
 </details>
 
@@ -182,20 +169,20 @@ Denylist entries block any requests from that source.
 
 # Allowlist :white_check_mark: 
 
-Allowlist entries override any blocks.
+Allowlist entries override any blocks. Entries below may be needed for `Pro` and `Aggressive` lists.
 
 <details>
 
 
-### Facebook / Instagram
+### Facebook / Instagram <sup><sup>[1](https://github.com/jerryn70/GoodbyeAds/issues/309)</sup></sup> 
 
 	graph.facebook.com
 	graph.instagram.com
 	i.instagram.com
 
-### YouTube
+### YouTube history <sup><sup>[1](https://blocklist-tools.developerdan.com/entries/search?q=s.youtube.com)</sup></sup> 
 
-        s.youtube.com
+	s.youtube.com
 
 ### Apple device updates <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/536)</sup></sup> / Apple Music <sup><sup>[2](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)</sup></sup> 
 
@@ -205,9 +192,9 @@ Allowlist entries override any blocks.
 
 	smoot.apple.com
 
-### Xiaomi device updates 
-     
-        update.intl.miui.com
+### Xiaomi device updates <sup><sup>[1](https://blocklist-tools.developerdan.com/entries/search?q=update.intl.miui.com)</sup></sup> 
+
+	update.intl.miui.com
 	 
 ### Zoom <sup><sup>[1](https://oisd.nl/excludes.php?w=log.zoom.us) [2](https://oisd.nl/excludes.php?w=us04logfiles.zoom.us)</sup></sup> 
 
@@ -236,7 +223,7 @@ Allowlist entries override any blocks.
 
 	production-cmp.isgprivacy.cbsi.com
 
-### [FiveThirtyEight](https://fivethirtyeight.com/) videos / National Geographic website
+### [FiveThirtyEight](https://fivethirtyeight.com/) videos / [National Geographic](https://www.nationalgeographic.com/) website
 
 	dcf.espn.com
 
