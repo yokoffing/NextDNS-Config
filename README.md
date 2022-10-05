@@ -48,7 +48,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 <details>
 	
 ```
-more prone to breakage on legitimate sites = optional
+optional = greater likelihood of breaking legitimate sites
 
 .work
 .fit
@@ -79,7 +79,7 @@ more prone to breakage on legitimate sites = optional
 .monster (optional)
 .online
 .ooo
-.pw  (optional)
+.pw (optional)
 .rest
 .sbs
 .shop
@@ -174,7 +174,7 @@ Denylist entries block any requests from that source.
 
 # Allowlist :white_check_mark: 
 
-Allowlist entries override any blocks. Entries below may be needed for `Pro` and `Aggressive` lists.
+Allowlist entries override any blocks. Entries below may be needed for `Strict` and `Aggressive` [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1).
 
 <details>
 
