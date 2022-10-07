@@ -43,50 +43,55 @@ Security settings protect your data from harm, theft, and unauthorized use.
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 ### Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) [5](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) </sup></sup>
-:warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) will cause [false positives](https://csrc.nist.gov/glossary/term/false_positive), as this feature blocks **both site nagviations and subrequests**. However, the entries below should allow for everyday browsing while offering protection against **commonly abused** TLDs. You may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on a rare occasion. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
+:warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) will cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) since this feature blocks both site nagviations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
 
 <details>
 	
 ```
-optional = greater likelihood of breaking legitimate sites
-
-.work
-.fit
-.surf
-.tokyo
-.cn
--
-.agency
 .associates
 .bid
 .buzz
-.cam
-.casa
-.cf (optional)
-.ci
 .cricket
 .discount
+.gdn
+.live
+.loan
+.loans
+.ooo
+.rest
+.sbs
+.wang
+.webcam
+
+```
+
+</details>
+
+:stop_sign: Here are additional TLDs you may block, but you may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion:
+
+<details>
+
+```
+.work
+.fit
+.surf
+.asia
+.tokyo
+---
+.agency
+.cam
+.casa
+.cf
+.ci
 .financial
 .fit
 .fun
-.ga (optional)
-.gdn
+.ga
 .gq
+.monster
+.ml
 .icu
-.live
-.loan
-.ml (optional)
-.monster (optional)
-.online
-.ooo
-.pw (optional)
-.rest
-.sbs
 .shop
-.tk (optional)
-.top (optional)
-.wang
-.webcam
 .win
 ```
 
@@ -106,7 +111,7 @@ Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-sp
 
 Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Filters can be categorized into five tiers of coverage:
 1) **None**: no breakage; NextDNS still protects against malicious threats (à la [security settings](https://github.com/yokoffing/NextDNS-Config#security-cop)) but will allow ads and trackers
-2) **Basic**: rare breakage; prioritizes functionality over blocking; *very* forgiving; ideal for router profiles
+2) **Basic**: rare breakage; prioritizes functionality over blocking; very forgiving; ideal for router profiles
 3) **Balanced**: minimal breakage; should not interfere with everyday browsing; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally
 4) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
 5) **Aggressive**: excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
@@ -174,7 +179,7 @@ Denylist entries block any requests from that source.
 
 # Allowlist :white_check_mark: 
 
-Allowlist entries override any blocks. Entries below may be needed for `Strict` and `Aggressive` [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1).
+Allowlist entries override any blocks. These entries may be needed for `Strict` and `Aggressive` [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1).
 
 <details>
 
