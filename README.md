@@ -43,7 +43,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 ### Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) [5](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) </sup></sup>
-:warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) will cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) since this feature blocks both site nagviations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
+:warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) since this feature blocks both site nagviations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
 
 <details>
 	
@@ -103,9 +103,9 @@ Security settings protect your data from harm, theft, and unauthorized use.
 ***
 
 # Privacy :lock:
-Privacy features block certain requests so that companies cannot track your information and browsing history.
+Privacy features block certain requests so that companies cannot track your information and browsing history.<sup>[1](https://aeon.co/essays/privacy-matters-because-it-empowers-us-all)</sup>
 
-Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum). What you need varies on your [threat model](https://thenewoil.org/threatmodel.html), interest, and skillset. (You can watch [this short video](https://youtu.be/Wpkh-hfULgE) to understand the difference between security and privacy.)
+Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum). What you need varies on your [threat model](https://thenewoil.org/threatmodel.html), interest, and skillset. (You can watch [this short video](https://youtu.be/Wpkh-hfULgE) to understand the difference between security and privacy, and read [this](https://thenewoil.org/why.html) as to why it matters.)
 
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup></sup>
 
@@ -278,8 +278,6 @@ Yes. On desktops, [Firefox](https://www.mozilla.org/en-US/firefox/new/) with [uB
 * [Block DNS requests](https://old.reddit.com/r/firefox/comments/l7xetb/network_priority_for_firefoxs_enhanced_tracking/gle2mqn/?web2x=&context=3) from being sent in the first place ([Firefox only](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#disable-prefetching)) <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads)
 * Read the full list of advantages [here](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22)
 
-
-
 ***
 # Mentions :books:
 
@@ -291,7 +289,7 @@ User Comments:
 #### Guides
 * [FMHY DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking)
 
-#### Contributor
+#### Contributions
 * [1Hosts](https://github.com/badmojr/1Hosts/issues?q=is%3Aissue+author%3Ayokoffing+)
 * [Easylist](https://github.com/easylist/easylist/issues?q=is%3Aissue+author%3Ayokoffing+)
 * [AdGuard](https://github.com/AdguardTeam/AdguardFilters/issues?q=is%3Aissue+author%3Ayokoffing+)
@@ -301,5 +299,3 @@ User Comments:
 
 <div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=19651&s=1' border='0' alt='Free Website Counter'></a><br / ></div>
 <div align='center'>23 July 2022</div>
-
-
