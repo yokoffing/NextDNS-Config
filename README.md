@@ -202,6 +202,11 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 
 	smoot.apple.com
 
+### Apple Store <sup><sup>[1](https://www.reddit.com/r/nextdns/comments/xx4cwn/solutionapple_store_connection_issues/)</sup></sup> 
+
+	amp-api-edge.apps.apple.com
+	amp-api-search-edge.apps.apple.com
+
 ### Xiaomi device updates <sup><sup>[1](https://blocklist-tools.developerdan.com/entries/search?q=update.intl.miui.com)</sup></sup> 
 
 	update.intl.miui.com
@@ -281,6 +286,7 @@ Yes. On desktops, [Firefox](https://www.mozilla.org/en-US/firefox/new/) with [uB
 User Comments: 
 [1](https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2)
 [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/?context=3)
+[3](https://www.reddit.com/r/nextdns/comments/vxh4pt/comment/ifykqyh/?context=1)
 
 #### Guides
 * [FMHY DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking)
