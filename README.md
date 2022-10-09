@@ -287,7 +287,7 @@ User Comments:
 [3](https://www.reddit.com/r/nextdns/comments/vxh4pt/comment/ifykqyh/?context=1)
 
 #### Guides
-* [FMHY DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking)
+* [FMHY: DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking) → NextDNS → Guide
 
 #### Contributions
 * [1Hosts](https://github.com/badmojr/1Hosts/issues?q=is%3Aissue+author%3Ayokoffing+)
