@@ -83,7 +83,6 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .casa
 .cf
 .ci
-.financial
 .fit
 .fun
 .ga
