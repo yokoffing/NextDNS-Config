@@ -189,14 +189,10 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 	graph.instagram.com
 	i.instagram.com
 
-### YouTube history <sup><sup>[1](https://blocklist-tools.developerdan.com/entries/search?q=s.youtube.com)</sup></sup> 
-
-	s.youtube.com
-
 ### Apple device updates <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/536)</sup></sup> / Apple Music <sup><sup>[2](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)</sup></sup> 
 
 	xp.apple.com
-	
+
 ### Apple iMessage GIFs <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/560)</sup></sup> / Spotlight Search <sup><sup>[2](https://github.com/badmojr/1Hosts/issues/562)</sup></sup> 
 
 	smoot.apple.com
@@ -215,6 +211,14 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 	logfiles.zoom.us
 	us04logfiles.zoom.us
 	us04zpns.zoom.us
+
+### YouTube history <sup><sup>[1](https://blocklist-tools.developerdan.com/entries/search?q=s.youtube.com)</sup></sup> 
+
+	s.youtube.com
+
+### Hulu <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/762)</sup></sup>
+
+	ads-fa-darwin.hulustream.com
 
 ### Epic Games Launcher <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/643)</sup></sup>
 
