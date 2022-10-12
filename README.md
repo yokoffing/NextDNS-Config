@@ -125,6 +125,13 @@ Here's a compliation of popular blocklists available in NextDNS:
 
 :bulb: The **Balanced** tier is recommended for the average user, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/one_profile_for_lan_devices_another_profile_for/iffegc5/?context=2) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2)  </sup>
 
+:radioactive: You will see many [blocklists in NextDNS](https://github.com/nextdns/metadata/tree/master/privacy/blocklists) and around the web.
+- Some block too much
+- Some block too little
+- Some block everything, including what's needed for functionality
+-  A small few are actively maintained and remove false positives
+   - Filtering out false positives is paramount for a good blocklist
+
 ### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup></sup>
 
 Add all the device brands that you use. There's no advantage in adding brands you don't have; however, there’s no disadvantage in adding unused brands, either.
