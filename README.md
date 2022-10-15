@@ -45,8 +45,6 @@ Security settings protect your data from harm, theft, and unauthorized use.
 ### Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) [5](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) </sup></sup>
 :warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) since this feature blocks both site nagviations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
 
-<details>
-	
 ```
 .associates
 .bid
@@ -64,8 +62,6 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .webcam
 
 ```
-
-</details>
 
 :stop_sign: Here are additional TLDs you may block, but you may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion:
 
@@ -108,29 +104,21 @@ Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-sp
 
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup></sup>
 
-Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Filters can be categorized into five tiers of coverage:
+Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Filters can be categorized into four tiers of coverage:
 1) **None**: no breakage; NextDNS still protects against malicious threats (à la [security settings](https://github.com/yokoffing/NextDNS-Config#security-cop)) but will allow ads and trackers
-2) **Basic**: rare breakage; prioritizes functionality over blocking; very forgiving; ideal for router profiles
-3) **Balanced**: minimal breakage; should not interfere with everyday browsing; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally
-4) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
-5) **Aggressive**: excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
+2) **Balanced**: minimal breakage; prioritizes functionality over blocking; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally
+3) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
+4) **Aggressive**: excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
 Here's a compliation of popular blocklists available in NextDNS:
 
-|	Basic				|	Balanced		|	Strict							|	Aggressive			|
-|:-------------------: 	|:---------------:	|:-----------------------------:	|:--------------------:	|
-|	1Hosts (mini)		|	1Hosts (Lite)	|	1Hosts (Pro)					|	1Hosts (Xtra)		|
-|	oisd				|	oisd			| NextDNS Ads & Trackers Blocklist	|	Goodbye Ads			|
-| 						| 					| Lightswitch05 - Ads & Tracking	|	Energized Ultimate	|
+|	Balanced		|	Strict							|	Aggressive			|
+|:---------------:	|:-----------------------------:	|:--------------------:	|
+|	1Hosts (Lite)	|	1Hosts (Pro)					|	1Hosts (Xtra)		|
+|	oisd			| NextDNS Ads & Trackers Blocklist	|	Goodbye Ads			|
+| 					| Lightswitch05 - Ads & Tracking	|	Energized Ultimate	|
 
 :bulb: The **Balanced** tier is recommended for the average user, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/one_profile_for_lan_devices_another_profile_for/iffegc5/?context=2) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2)  </sup>
-
-:radioactive: You will see many [blocklists in NextDNS](https://github.com/nextdns/metadata/tree/master/privacy/blocklists) and around the web.
-- Some block too much
-- Some block too little
-- Some block everything, including what's needed for functionality
--  A small few are actively maintained and remove false positives
-   - Filtering out false positives is paramount for a good blocklist
 
 ### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup></sup>
 
@@ -168,9 +156,13 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 
 # Denylist :no_entry:
 
-Denylist entries block any requests from that source.
+Denylist entries block any requests from that source. Entries below should not interfere with everyday browsing.
 
 <details>
+
+### Twitter tracker
+
+	syndication.twitter.com
 
 ### Junk surveillance software
 
