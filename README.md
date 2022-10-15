@@ -104,19 +104,20 @@ Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-sp
 
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/blocklists)</sup></sup>
 
-Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Filters can be categorized into four tiers of coverage:
+Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Filters can be categorized into five tiers of coverage:
 1) **None**: no breakage; NextDNS still protects against malicious threats (à la [security settings](https://github.com/yokoffing/NextDNS-Config#security-cop)) but will allow ads and trackers
-2) **Balanced**: minimal breakage; prioritizes functionality over blocking; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally
-3) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
-4) **Aggressive**: excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
+2) **Basic**: rare breakage; prioritizes functionality over blocking; *very* forgiving
+3) **Balanced**: minimal breakage; should not interfere with everyday browsing; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally
+4) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
+5) **Aggressive**: excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
 Here's a compliation of popular blocklists available in NextDNS:
 
-|	Balanced		|	Strict							|	Aggressive			|
-|:---------------:	|:-----------------------------:	|:--------------------:	|
-|	1Hosts (Lite)	|	1Hosts (Pro)					|	1Hosts (Xtra)		|
-|	oisd			| NextDNS Ads & Trackers Blocklist	|	Goodbye Ads			|
-| 					| Lightswitch05 - Ads & Tracking	|	Energized Ultimate	|
+|	Basic				|	Balanced		|	Strict							|	Aggressive			|
+|:-------------------: 	|:---------------:	|:-----------------------------:	|:--------------------:	|
+|	1Hosts (mini)		|	1Hosts (Lite)	|	1Hosts (Pro)					|	1Hosts (Xtra)		|
+|						|	oisd			| NextDNS Ads & Trackers Blocklist	|	Goodbye Ads			|
+| 						| 					| Lightswitch05 - Ads & Tracking	|	Energized Ultimate	|
 
 :bulb: The **Balanced** tier is recommended for the average user, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/one_profile_for_lan_devices_another_profile_for/iffegc5/?context=2) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2)  </sup>
 
@@ -286,7 +287,8 @@ Yes. On desktops, [Firefox](https://www.mozilla.org/en-US/firefox/new/) with [uB
 User Comments: 
 [1](https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2)
 [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/?context=3)
-[3](https://www.reddit.com/r/nextdns/comments/vxh4pt/comment/ifykqyh/?context=1)
+[3](https://old.reddit.com/r/nextdns/comments/vxh4pt/comment/ifykqyh/?context=1)
+[4](https://old.reddit.com/r/nextdns/comments/y3zmhb/comment/isc2o4q/?context=3)
 
 #### Guides
 * [FMHY: DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking) → NextDNS → Guide
