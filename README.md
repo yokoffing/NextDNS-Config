@@ -254,6 +254,10 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 ***
 
 # Settings :gear:
+
+### Logs
+**Storage location** → Switzerland
+
 ### Block Page
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Block Page → :warning: *Enabling may cause breakage if the [NextDNS Root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca) is not on your devices*
 ### Anonymized EDNS Client Subnet <sup><sup>[1](https://help.nextdns.io/t/m1hmv04/what-is-edns-client-subnet-ecs) </sup></sup>
