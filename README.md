@@ -107,7 +107,7 @@ Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-sp
 Blocklists are community generated lists that block ads and [trackers](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Filters can be categorized into five tiers of coverage:
 1) **None**: no breakage; NextDNS still protects against malicious threats (à la [security settings](https://github.com/yokoffing/NextDNS-Config#security-cop)) but will allow ads and trackers
 2) **Basic**: rare breakage; prioritizes functionality over blocking; *very* forgiving
-3) **Balanced**: minimal breakage; should not interfere with everyday browsing; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally
+3) **Balanced**: minimal breakage; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally to [unsubscribe from junk email](https://old.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1)
 4) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
 5) **Aggressive**: excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
@@ -119,7 +119,7 @@ Here's a compliation of popular blocklists available in NextDNS:
 |						|	oisd			| NextDNS Ads & Trackers Blocklist	|	Goodbye Ads			|
 | 						| 					| Lightswitch05 - Ads & Tracking	|	Energized Ultimate	|
 
-:bulb: The **Balanced** tier is recommended for the average user, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/one_profile_for_lan_devices_another_profile_for/iffegc5/?context=2) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2)  </sup>
+:bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/one_profile_for_lan_devices_another_profile_for/iffegc5/?context=2) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2) [5](https://old.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1)  </sup>
 
 ### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup></sup>
 
