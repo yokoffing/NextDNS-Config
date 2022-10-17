@@ -111,13 +111,15 @@ Blocklists are community generated lists that block ads and [trackers](https://w
 4) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
 5) **Aggressive**: excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
-Here's a compliation of popular blocklists available in NextDNS:
+Here's the suggested blocklists for each category:
 
 |	Basic			|	Balanced		|	Strict			|	Aggressive			|
 |:------------: 	|:---------------:	|:----------------:	|:--------------------:	|
 |	1Hosts (mini)	|	1Hosts (Lite)	|	1Hosts (Pro)	|	1Hosts (Xtra)		|
 |					|	oisd			| oisd 				|	Goodbye Ads			|
 | 					| 					|					|	Energized Ultimate	|
+
+:question: You may wonder why other lists are not utilized. This is because many list maintainers do not remove false positives or are no longer active.<sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916)</sup> What's more, many maintainers aggregate common blocklists into their own list.<sup>[1](https://github.com/badmojr/1Hosts/blob/master/-data/lists/assets.txt) [2](https://oisd.nl/includedlists/full/0)</sup>
 
 :bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/one_profile_for_lan_devices_another_profile_for/iffegc5/?context=2) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2)  </sup>
 
@@ -252,7 +254,7 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 
 	production-cmp.isgprivacy.cbsi.com
 
-### [FiveThirtyEight](https://fivethirtyeight.com/) videos / [National Geographic](https://www.nationalgeographic.com/) website
+### [FiveThirtyEight](https://fivethirtyeight.com/) videos / [National Geographic](https://www.nationalgeographic.com/) website <sup><sup>[1](https://github.com/notracking/hosts-blocklists/issues/788)</sup></sup>
 
 	dcf.espn.com
 
