@@ -318,5 +318,12 @@ User Comments:
 
 ***
 
+## Support
+I’m a one-person operation, working in mental health by day and running this repo as a passion project in my time off.
+
+If you enjoy my work, consider leaving a tip and supporting the repo. Your support is incredibly appreciated and goes a long way in allowing me to dedicate time to these projects.
+
+***
+
 <div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=19651&s=1' border='0' alt='Free Website Counter'></a><br / ></div>
 <div align='center'>23 July 2022</div>
