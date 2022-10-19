@@ -324,9 +324,9 @@ User Comments:
 ***
 
 # Support :heart:
-I’m a one-person operation, working in mental health by day and running this repo as a passion project in my time off.
+I’m a one-person operation, working in mental health by day and running this page as a passion project in my time off.
 
-If you enjoy my work, consider leaving a tip and supporting the repo. Your support is incredibly appreciated and goes a long way in allowing me to dedicate time to these projects.
+If you enjoy my work, please leave a tip to support the page! Your support is incredibly appreciated and allows me to dedicate time to this project.
 
 ***
 
