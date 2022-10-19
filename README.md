@@ -8,15 +8,15 @@
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FNextDNS-Config&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-## Create your account
-
-Sign up for NextDNS [here](https://nextdns.io/?from=xujj63g5)!
-
-***
-
 # Guidelines :bookmark:
 1) Prevent overblocking by utilizing the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (e.g., using [sane](https://www.privacyguides.org/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-5); etc.).
 2) Pass the [girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test) with few exceptions. These deviations are documented throughout the guide.
+
+***
+
+## Create your account
+
+Sign up for NextDNS [here](https://nextdns.io/?from=xujj63g5)!
 
 ***
 
@@ -323,7 +323,7 @@ User Comments:
 
 ***
 
-## Support
+# Support :heart:
 I’m a one-person operation, working in mental health by day and running this repo as a passion project in my time off.
 
 If you enjoy my work, consider leaving a tip and supporting the repo. Your support is incredibly appreciated and goes a long way in allowing me to dedicate time to these projects.
