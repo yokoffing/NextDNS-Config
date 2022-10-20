@@ -326,7 +326,7 @@ User Comments:
 # Support :heart:
 I’m a one-person operation, working in mental health by day and running this page as a passion project in my time off.
 
-If you enjoy my work, please leave a tip to support the page! Your support is incredibly appreciated and allows me to dedicate time to this project.
+If you enjoy my work, please leave a tip to support the page! Your support is incredibly appreciated and allows me to dedicate time to this project :blush:
 
 ***
 
