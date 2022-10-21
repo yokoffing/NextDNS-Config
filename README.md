@@ -17,7 +17,7 @@
 
 # Security :policeman:
 
-Security settings protect your data from harm, theft, and unauthorized use.
+Security settings protect your data from harm, theft, and unauthorized use.<sup>*^[why does this matter?](https://thenewoil.org/why.html)*</sup>
 
 ### Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/threat-intelligence-feeds.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
@@ -42,11 +42,10 @@ Security settings protect your data from harm, theft, and unauthorized use.
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
-### Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) [5](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) </sup></sup>
+### Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) [5](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) [6](https://github.com/DandelionSprout/adfilt/issues/659#issuecomment-1284845803) </sup></sup>
 :warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) since this feature blocks both site nagviations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
 
 ```
-.associates
 .buzz
 .cricket
 .discount
@@ -55,14 +54,11 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .loan
 .loans
 .ooo
-.rest
 .sbs
 .wang
-.webcam
-
 ```
 
-:stop_sign: Here are additional TLDs you may block, but you may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion:
+:stop_sign: Below are additional TLDs you may block, but you may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion.
 
 <details>
 
@@ -74,6 +70,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .tokyo
 ---
 .agency
+.associates
 .bid
 .cam
 .casa
@@ -83,10 +80,13 @@ Security settings protect your data from harm, theft, and unauthorized use.
 .fun
 .ga
 .gq
+.link
 .monster
 .ml
 .icu
+.rest
 .shop
+.webcam
 .win
 ```
 
@@ -98,7 +98,7 @@ Security settings protect your data from harm, theft, and unauthorized use.
 ***
 
 # Privacy :lock:
-Privacy features block certain requests so that companies cannot track your information and browsing history.<sup>[1](https://aeon.co/essays/privacy-matters-because-it-empowers-us-all)</sup>
+Privacy features block certain requests so that companies cannot track your information and browsing history.<sup>[1](https://aeon.co/essays/privacy-matters-because-it-empowers-us-all)</sup> ["Why should I care? I have nothing to hide."](https://thenewoil.org/why.html)
 
 Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum). What you need varies on your [threat model](https://thenewoil.org/threatmodel.html), interest, and skillset. (You can watch [this short video](https://youtu.be/Wpkh-hfULgE) to understand the difference between security and privacy, and read [this](https://thenewoil.org/why.html) as to why it matters.)
 
