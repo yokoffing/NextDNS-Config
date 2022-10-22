@@ -61,6 +61,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 :stop_sign: Below are additional TLDs you may block, but you may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion.
 
 <details>
+
 ```
 .work
 .fit
@@ -88,9 +89,10 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .webcam
 .win
 ```
+
 </details>
 
-:memo: If you would rather block TLDs with an adblocker only (e.g., easier to troubleshoot breakage), add the first two filterlists [here](https://github.com/yokoffing/filterlists#security).
+:memo: If you would rather block TLDs with an adblocker (e.g., easier to troubleshoot breakage), add the first two filterlists [here](https://github.com/yokoffing/filterlists#security).
 
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
