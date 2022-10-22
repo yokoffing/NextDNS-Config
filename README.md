@@ -61,7 +61,6 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 :stop_sign: Below are additional TLDs you may block, but you may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion.
 
 <details>
-
 ```
 .work
 .fit
@@ -89,9 +88,10 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .webcam
 .win
 ```
-
 </details>
- 
+
+:memo: If you would rather block TLDs with an adblocker only (e.g., easier to troubleshoot breakage), add the first two filterlists [here](https://github.com/yokoffing/filterlists#security).
+
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
 
@@ -218,7 +218,11 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 ### Xiaomi device updates <sup><sup>[1](https://blocklist-tools.developerdan.com/entries/search?q=update.intl.miui.com)</sup></sup> 
 
 	update.intl.miui.com
-	 
+
+### [Spectrum](https://www.spectrum.net) login <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/640)</sup></sup>
+
+	pov.spectrum.net
+
 ### Zoom <sup><sup>[1](https://oisd.nl/excludes.php?w=log.zoom.us) [2](https://oisd.nl/excludes.php?w=us04logfiles.zoom.us)</sup></sup> 
 
 	logfiles.zoom.us
@@ -242,13 +246,9 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 	gfe.nvidia.com
 	nvgs.nvidia.cn
 
-### [imgur](https://imgur.com/) <sup><sup>[1](https://github.com/lightswitch05/hosts/issues/358)</sup></sup>
+### [imgur](https://imgur.com/) <sup><sup>[1](https://github.com/lightswitch05/hosts/issues/358) [2](https://old.reddit.com/r/nextdns/comments/t3jmvk/imgur_loads_then_goes_blank_no_matter_which/)</sup></sup>
 
 	js.media-lab.ai
-
-### [Spectrum](https://www.spectrum.net) login <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/640)</sup></sup>
-
-	pov.spectrum.net
 
 ### [CBS](https://www.cbsnews.com/live/#x) News livestream <sup><sup>[1](https://github.com/nextdns/metadata/issues/1030)</sup></sup> 
 
