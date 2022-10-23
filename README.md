@@ -168,7 +168,7 @@ Denylist entries block any requests from that source. The entries below may furt
 ### Google crap
 
 	device-provisioning.googleapis.com
-	firebaseinstallations.googleapis.com
+	firebaseinstallations.googleapis.com* (may cause breakage)
 	firebaselogging-pa.googleapis.com
 	googletagmanager.com
 
