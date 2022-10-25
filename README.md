@@ -119,14 +119,14 @@ Here's the suggested blocklists for each category:
 |:------------: 	|:---------------:	|:----------------:	|:--------------------:	|
 |	1Hosts (mini)	|	1Hosts (Lite)	|	1Hosts (Pro)	|	1Hosts (Xtra)		|
 |					|	oisd			| oisd 				|	Goodbye Ads			|
-| 					| 					|					|	Energized Ultimate	|
+| 					| 	notracking		|					|	Energized Ultimate	|
 
 :bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/one_profile_for_lan_devices_another_profile_for/iffegc5/?context=2) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2)</sup>
 
 :question: You may wonder why other lists are not utilized. This is because many list maintainers:
 * do not remove [false positives](https://csrc.nist.gov/glossary/term/false_positive) and/or are no longer active <sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916)</sup>
-* already aggregate common blocklists (Easylist/Fanboy, uBlock, AdGuard, Steven Black) into their own list <sup>[1](https://github.com/badmojr/1Hosts/blob/master/-data/lists/assets.txt) [2](https://oisd.nl/includedlists/full/0) [3](https://github.com/notracking/hosts-blocklists/blob/master/SOURCES.md) [4](https://github.com/StevenBlack/hosts#sources-of-hosts-data-unified-in-this-variant) [5](https://github.com/EnergizedProtection/block#packs-2)</sup>
-* offer nothing unique when compared with the combinations above
+* already aggregate common blocklists into their own list (Easylist/Fanboy, uBlock, AdGuard, Steven Black, etc.) <sup>[1](https://github.com/badmojr/1Hosts/blob/master/-data/lists/assets.txt) [2](https://oisd.nl/includedlists/full/0) [3](https://github.com/notracking/hosts-blocklists/blob/master/SOURCES.md) [4](https://github.com/StevenBlack/hosts#sources-of-hosts-data-unified-in-this-variant) [5](https://github.com/EnergizedProtection/block#packs-2)</sup>
+* offer no meaningful additional coverage when compared with the chart combinations above
 
 ### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/privacy/native)</sup></sup>
 
