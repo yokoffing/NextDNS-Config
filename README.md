@@ -289,23 +289,34 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 
 ***
 # FAQ :question:
+
 ### How do I signup for NextDNS?
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
+### If I have a profile for my router and another for my device running at the same time, which one will my device use?
+The device will use the profile set by the NextDNS app or installed [root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca) on the device. Your device will use your wifi/router configuration if the device has not been configured to use a separate profile.<sup>[1](https://old.reddit.com/r/nextdns/comments/yf4hnv/question_about_home_router_and_app_running_in/)</sup>
+
 ### Can I block YouTube ads with NextDNS only?
-[No, you can't](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block first-party ads using only DNS-level blocking.
+[No, you can't](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block first-party ads using only DNS-level blocking. You will need an adblocker.
 
-### Do I still need an adblocker with NextDNS? <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads)</sup>
-Yes. On desktops, [Firefox](https://www.mozilla.org/en-US/firefox/new/) with [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) is highly recommended:
-* [Cosmetic filters](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#cosmetic-filters) to hide first-party ads (e.g., [YouTube ads](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253)), [ad-placeholders](https://www.dslreports.com/forum/r33005057-How-to-block-the-spaces-taken-up-by-blocked-ads), web [annoyances]((https://old.reddit.com/r/nextdns/comments/t8qn8c/comment/hzqrrfa/?context=3)), etc.
-* [Block DNS requests](https://old.reddit.com/r/firefox/comments/l7xetb/network_priority_for_firefoxs_enhanced_tracking/gle2mqn/?web2x=&context=3) from being sent in the first place ([Firefox only](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#disable-prefetching)) <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads)
-* Read the full list of advantages [here](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22)
+### What browser should I use that has adblocking?
+* [Brave](https://brave.com) is a great choice, [especially if you prefer Chrome](https://youtu.be/VHwIyR6ca4o?t=249), want uninstrusive [fingerprint protection](https://brave.com/privacy-updates/4-fingerprinting-defenses-2.0/), and don't enjoy doing a lot of tweaking.<sup>[1](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#what-chromium-features-are-removed-for-privacysecurity-reasons)</sup>
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/) with [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/)<sup>[1](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22)</sup> and configured using [Betterfox](https://github.com/yokoffing/Betterfox).
+* [Orion](https://browser.kagi.com/) is a promising, [up-and-coming](https://idioms.thefreedictionary.com/up-and-coming) browser for Apple devices.
 
-### Does NextDNS hide activity from my Internet Service Provider (ISP)?
-[No](https://www.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). NextDNS is only concerned about DNS traffic. You would need a [quality](https://www.youtube.com/watch?v=cK4MQv-OwyM) [VPN](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) to hide all activity from your ISP.
+Here are the suggested browsers for each operating system:
+
+| Browser | Windows | macOS | Linux | iOS | Android |
+|:-------:|:-------:|:-----:|:-----:|:---:|:-------:|
+|  Brave  |    x    |   x   |   x   |  x  |    x    |
+| Firefox |    x    |   x   |   x   |     |         |
+|  Orion  |         |   x   |       |  x  |         |
 
 ### What is the difference between security, privacy, and anonymity?
 See [article](https://thenewoil.org/secprivanon.html) | [video](https://youtu.be/Wpkh-hfULgE)
+
+### Does NextDNS hide activity from my Internet Service Provider (ISP)?
+[No](https://www.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). NextDNS is only concerned about DNS traffic. You would need a [quality](https://www.youtube.com/watch?v=cK4MQv-OwyM) [VPN](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) to hide all activity from your ISP.
 
 ***
 # Mentions :books:
