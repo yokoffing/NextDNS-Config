@@ -293,7 +293,10 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 ### How do I signup for NextDNS?
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
-### If I have a profile for my router and another for my device running at the same time, which one will my device use?
+### Is it redundant to set DoH at browser-level if I'm already using it at system-level?
+Unless you use a separate profile for the browser, it is not neccessary, and it should not slow down your web browsing.<sup>[1](https://old.reddit.com/r/nextdns/comments/yfjvqy/is_it_redundant_to_set_at_doh_at_browserlevel_if/iu3vjzt/?context=3)</sup> However, I recommend [setting it in your web browser](https://www.itechtics.com/dns-over-https/#how-to-enable-or-disable-dns-over-https-in-your-browsers) anyway. 
+
+### If I have a profile for my router and another profile for my device, which one will my device use?
 The device will use the profile set by the NextDNS app or installed [root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca) on the device. Your device will use your wifi/router configuration if the device has not been configured to use a separate profile.<sup>[1](https://old.reddit.com/r/nextdns/comments/yf4hnv/question_about_home_router_and_app_running_in/)</sup>
 
 ### Can I block YouTube ads with NextDNS only?
