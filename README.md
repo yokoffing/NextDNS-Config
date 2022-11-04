@@ -294,7 +294,7 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 ### How do I signup for NextDNS?
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
-### Can I block YouTube ads with NextDNS only?
+### Can I block YouTube/Twitch ads with NextDNS only?
 No, [you can't](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block them using only DNS-level blocking (see below).
 
 ### Do I still need an adblocker with NextDNS? <sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads)</sup>
