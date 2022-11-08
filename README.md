@@ -324,9 +324,13 @@ User Comments:
 ***
 
 # Support :heart:
-I’m a one-person operation, working in mental health by day and running this page as a passion project in my time off.
+I’m a one-person operation, working in mental health and running this page as a passion project in my time off. If you enjoy my work, please leave a tip! Your support is incredibly appreciated and allows me to dedicate time to this project :blush:
 
-If you enjoy my work, please leave a tip to support the page! Your support is incredibly appreciated and allows me to dedicate time to this project :blush:
+<img align="top" width="25px" src="https://coekuss.com/quietfox/bitcoin.png"> Bitcoin: 334gaiEjn6wY1VksQvYe5L668JjtPEPyiM
+
+<img align="top" width="20px" src="https://coekuss.com/quietfox/paypal.png"> PayPal: [paypal.me](about:blank) (forthcoming)
+
+<a href='https://ko-fi.com/Q5Q5G8EPH' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Support Me on Ko-fi.com' /></a> (forthcoming)
 
 ***
 
