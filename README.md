@@ -54,6 +54,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ```
 .buzz
 .cricket
+.cyou
 .discount
 .gdn
 .live
