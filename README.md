@@ -154,6 +154,7 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 
 ### Allow Affiliate & Tracking Links <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/privacy/affiliate-tracking-domains) [2](https://twitter.com/NextDNS/status/1539229377560461312) </sup></sup>
 :bulb: Your IP address will automatically be hidden (via [TCP](https://www.educba.com/what-is-tcp-ip/) [proxying](https://en.wikipedia.org/wiki/Proxy_server#/media/File:Proxy_concept_en.svg)) to preserve your privacy.<p>
+:warning: Disabling may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) when opening some emails. <p>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Allow Affiliate & Tracking Links
 
 ***
@@ -162,6 +163,7 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 ### YouTube Restricted Mode
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enforce YouTube Restricted Mode
 ### Block Bypass Methods <sup><sup>[1](https://github.com/nextdns/metadata/tree/master/parentalcontrol)</sup></sup>
+:warning: Enabling may cause unintended breakage. <p>
 ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Block Bypass Methods
 
 ***
@@ -171,13 +173,6 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 Denylist entries block any requests from that source. The entries below may further harden `Balanced` [blocklist](https://github.com/yokoffing/NextDNS-Config#blocklists-1) profiles while not interfering with everyday browsing.
 
 <details>
-
-### Google crap
-
-	device-provisioning.googleapis.com
-	firebaseinstallations.googleapis.com* (may cause breakage)
-	firebaselogging-pa.googleapis.com
-	googletagmanager.com
 
 ### Twitter tracker
 
@@ -290,9 +285,7 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 ### CNAME Flattening <sup><sup>[1](https://medium.com/nextdns/nextdns-added-cname-uncloaking-support-becomes-the-first-cross-platform-solution-to-the-problem-e3f437f84342) [2](https://developers.cloudflare.com/dns/additional-options/cname-flattening) [3](https://advancedweb.hu/what-is-cname-flattening-and-how-it-helps-redirecting-the-apex-domain/) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable CNAME Flattening
 ### Web3 <sup><sup> [1](https://twitter.com/NextDNS/status/1491034351391305731) [2](https://gabygoldberg.notion.site/f7050e62461143d49345e7b46eb5576b)</sup></sup>
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Web3
-<br>
-<br> (optional)
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Web3 → (optional)
 
 ***
 # FAQ :question:
