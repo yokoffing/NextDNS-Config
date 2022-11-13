@@ -75,6 +75,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .surf
 .asia
 .tokyo
+.monster
 ---
 .agency
 .associates
@@ -83,12 +84,10 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .casa
 .cf
 .ci
-.fit
 .fun
 .ga
 .gq
 .link
-.monster
 .ml
 .icu
 .rest
