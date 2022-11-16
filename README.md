@@ -122,7 +122,7 @@ Here's the suggested blocklists for each category:
 |	Basic			|	Balanced		|	Strict			|	Aggressive			|
 |:------------: 	|:---------------:	|:----------------:	|:--------------------:	|
 |	1Hosts (mini)	|	1Hosts (Lite)	|	1Hosts (Pro)	|	1Hosts (Xtra)		|
-|					|	oisd			| oisd 				|	Goodbye Ads			|
+|					|	oisd			|   oisd 			|	Goodbye Ads			|
 | 					| 	notracking		|					|	Energized Ultimate	|
 
 :bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://www.reddit.com/r/nextdns/comments/vuon2a/comment/iffd682/) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2) [5](https://www.reddit.com/r/nextdns/comments/yryq3c/comment/ivwr8tp/?context=3) </sup>
@@ -265,6 +265,63 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 ### [Men's Health](https://www.menshealth.com/nutrition/a40868905/chris-hemsworth-chicken-pasta-bake-recipe-centr/) videos <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/651)</sup></sup>
 
 	glimmer.hearstapps.com
+	
+### False positives. Domains needed for properly work many sites and mobile apps. Based on [Adguard Base Filter][https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/foreign.txt] and reports on GitHub.
+
+	a.klaviyo.com
+	adocean.pl
+	adv.wp.pl
+	adx.adform.net
+	appsflyer.com
+	appsflyersdk.com
+	c.msn.com
+	cainiao.com
+	cdn.optimizely.com
+	cdn.radiantmediatechs.com
+	cdn.statically.io
+	cdnjs.cloudflare.com
+	click.redditmail.com
+	cm.g.doubleclick.net
+	crashlyticsreports-pa.googleapis.com
+	d3tracking.rbc.com
+	dailycaller.com
+	deloplen.com
+	gapl.hit.gemius.pl
+	google-analytics.com
+	googleads.g.doubleclick.net
+	googleads.github.io
+	googletagmanager.com
+	googletagservices.com
+	gstatic.com
+	gvt1.com
+	gvt2.com
+	gvt3.com
+	hit.gemius.pl
+	imasdk.googleapis.com
+	insideruser.microsoft.com
+	js.media-lab.ai
+	jsc.adskeeper.com
+	lib.wtg-ads.com
+	lnks.gd
+	mobile.pipe.aria.microsoft.com
+	mybbc-analytics.files.bbci.co.uk
+	pagead2.googlesyndication.com
+	pubads.g.doubleclick.net
+	redefineadpl.hit.gemius.pl
+	s3.us-west-1.wasabisys.com
+	sdk-02.moengage.com
+	secure.adnxs.com
+	securepubads.g.doubleclick.net
+	smart.idmnet.pl
+	smartadserver.com
+	static.doubleclick.net
+	static.hotjar.com
+	stats.g.doubleclick.net
+	tvn.hit.gemius.pl
+	v.fwmrm.net
+	vortex.data.microsoft.com
+	www-google-analytics.l.google.com
+	www-googletagmanager.l.google.com
 
 </details>
 
