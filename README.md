@@ -119,16 +119,16 @@ Blocklists are community generated lists that block ads and [trackers](https://w
 
 Here's the suggested blocklists for each category:
 
-|	Basic			|	Balanced		|	Strict			|	Aggressive			|
-|:------------: 	|:---------------:	|:----------------:	|:--------------------:	|
-|	1Hosts (mini)	|	1Hosts (Lite)	|	1Hosts (Pro)	|	1Hosts (Xtra)		|
-|					|	oisd			| oisd 				|	Goodbye Ads			|
-| 					| 					|					|	Energized Ultimate	|
+|     Basic     |    Balanced   |    Strict    |     Aggressive     |
+|:-------------:|:-------------:|:------------:|:------------------:|
+| 1Hosts (mini) | 1Hosts (Lite) | 1Hosts (Pro) |    1Hosts (Xtra)   |
+|               |      oisd     |     oisd     |     Goodbye Ads    |
+|               |               |              | Energized Ultimate |
 
 :bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://www.reddit.com/r/nextdns/comments/vuon2a/comment/iffd682/) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2) [5](https://www.reddit.com/r/nextdns/comments/yryq3c/comment/ivwr8tp/?context=3) </sup>
 
 :question: You may wonder why other lists are not utilized. This is because many list maintainers:
-* do not remove [false positives](https://csrc.nist.gov/glossary/term/false_positive) and/or are no longer active <sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916)</sup>
+* do not remove [false positives](https://csrc.nist.gov/glossary/term/false_positive) and/or are no longer active <sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916) [3](https://github.com/notracking/hosts-blocklists/issues/815#issuecomment-1317556798)</sup>
 * already aggregate common blocklists into their own list (Easylist/Fanboy, uBlock, AdGuard, etc.) <sup>[1](https://github.com/badmojr/1Hosts/blob/master/-data/lists/assets.txt) [2](https://oisd.nl/includedlists/full/0) [3](https://github.com/notracking/hosts-blocklists/blob/master/SOURCES.md) [4](https://github.com/StevenBlack/hosts#sources-of-hosts-data-unified-in-this-variant) [5](https://github.com/EnergizedProtection/block#packs-2)</sup>
 * offer no meaningful additional coverage when compared with the chart combinations above <sup>[1](https://www.reddit.com/r/nextdns/comments/ys3s1s/comment/ivxdcd2/?context=3)</sup>
 
