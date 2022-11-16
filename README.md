@@ -266,7 +266,7 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 
 	glimmer.hearstapps.com
 	
-### False positives. Domains needed for properly work many sites and mobile apps. Based on [Adguard Base Filter][https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/foreign.txt] and reports on GitHub.
+### False positives. Domains needed for properly work many sites and mobile apps. Based on [Adguard Base Filter - foreign section](https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/foreign.txt) and reports on GitHub.
 
 	a.klaviyo.com
 	adocean.pl
