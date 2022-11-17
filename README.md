@@ -173,7 +173,21 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 Denylist entries block any requests from that source. The entries below may further harden `Balanced` [blocklist](https://github.com/yokoffing/NextDNS-Config#blocklists-1) profiles while not interfering with everyday browsing.
 
 <details>
+	
+### Apple tracking domains <sup><sup>[1](https://twitter.com/mysk_co/status/1588308341780262912) [2](https://github.com/badmojr/1Hosts/issues/536) [3](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)</sup></sup>
+Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokoffing/NextDNS-Config#native-tracking-protection-1) [list](https://github.com/nextdns/metadata/blob/master/privacy/native/apple):
 
+	xp.apple.com
+	acfeedbackws.icloud.com
+	api-adservices.apple.com
+	ca.iadsdk.apple.com
+	cf.iadsdk.apple.com
+	feedbackws.icloud.com
+	iadsdk.apple.com
+	notes-analytics-events.apple.com
+	tr.iadsdk.apple.com
+	weather-analytics-events.apple.com
+	
 ### Twitter tracker
 
 	syndication.twitter.com
@@ -205,10 +219,6 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 	graph.facebook.com
 	graph.instagram.com
 	i.instagram.com
-
-### Apple device updates <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/536)</sup></sup> / Apple Music <sup><sup>[2](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)</sup></sup> 
-
-	xp.apple.com
 
 ### Apple iMessage GIFs <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/560)</sup></sup> / Spotlight Search <sup><sup>[2](https://github.com/badmojr/1Hosts/issues/562)</sup></sup> 
 
