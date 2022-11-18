@@ -175,15 +175,22 @@ Denylist entries block any requests from that source. The entries below may furt
 <details>
 	
 ### Apple tracking domains <sup><sup>[1](https://twitter.com/mysk_co/status/1588308341780262912) [2](https://github.com/nextdns/metadata/pull/1132) [3](https://github.com/badmojr/1Hosts/issues/536) [4](https://old.reddit.com/r/nextdns/comments/vz9kla/at_last_nextdns_added_the_1host_xtra/ig8zsnn/)</sup></sup>
-Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokoffing/NextDNS-Config#native-tracking-protection-1) [list](https://github.com/nextdns/metadata/blob/master/privacy/native/apple):
+Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokoffing/NextDNS-Config#native-tracking-protection-1) [list](https://github.com/nextdns/metadata/blob/master/privacy/native/apple): <sup>[1](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.apple.txt)</sup>
 
 	xp.apple.com
 	acfeedbackws.icloud.com
 	api-adservices.apple.com
+	ca.iadsdk.apple.com
+	cf.iadsdk.apple.com
+	feedbackws.fe.apple-dns.net
 	feedbackws.icloud.com
 	iadsdk.apple.com
 	notes-analytics-events.apple.com
+	notes-analytics-events.news.apple-dns.net
+	stocks-analytics-events.news.apple-dns.net
+	tr.iadsdk.apple.com
 	weather-analytics-events.apple.com
+	weather-analytics-events.news.apple-dns.net
 	
 ### Twitter tracker
 
