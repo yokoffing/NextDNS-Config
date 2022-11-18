@@ -180,12 +180,9 @@ Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokof
 	xp.apple.com
 	acfeedbackws.icloud.com
 	api-adservices.apple.com
-	ca.iadsdk.apple.com
-	cf.iadsdk.apple.com
 	feedbackws.icloud.com
 	iadsdk.apple.com
 	notes-analytics-events.apple.com
-	tr.iadsdk.apple.com
 	weather-analytics-events.apple.com
 	
 ### Twitter tracker
