@@ -54,7 +54,6 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ```
 .buzz
 .cricket
-.cyou
 .discount
 .gdn
 .live
@@ -84,6 +83,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .casa
 .cf
 .ci
+.cyou
 .fun
 .ga
 .gq
