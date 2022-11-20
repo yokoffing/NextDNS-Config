@@ -287,8 +287,8 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 **Storage location** → Switzerland
 
 ### Block Page
-![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Block Page
-<br><br> :warning: Enabling may cause breakage if the [NextDNS Root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca) is not on your devices. This setting also breaks [iCloud Private Relay](https://support.apple.com/en-us/HT212614).<sup>[1](https://help.nextdns.io/t/g9hdska)</sup>
+:warning: Enabling may cause breakage if the [NextDNS Root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca) is not on your devices. This setting also breaks [iCloud Private Relay](https://support.apple.com/en-us/HT212614).<sup>[1](https://help.nextdns.io/t/g9hdska)</sup>
+<br><br> ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Block Page
 ### Anonymized EDNS Client Subnet <sup><sup>[1](https://help.nextdns.io/t/m1hmv04/what-is-edns-client-subnet-ecs) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Anonymized EDNS Client Subnet
 ### Cache Boost <sup><sup>[1](https://old.reddit.com/r/nextdns/comments/girmcf/new_setting_cache_boost/)</sup></sup>
@@ -341,7 +341,8 @@ User Comments:
 [3](https://old.reddit.com/r/nextdns/comments/vxh4pt/comment/ifykqyh/?context=1)
 [4](https://old.reddit.com/r/nextdns/comments/y3zmhb/comment/isc2o4q/?context=3)
 [5](https://old.reddit.com/r/nextdns/comments/yp6o09/comment/ivhwook/?context=3)
-[6](https://www.reddit.com/r/nextdns/comments/ys3s1s/comment/ivxdcd2/?context=3)
+[6](https://old.reddit.com/r/nextdns/comments/ys3s1s/comment/ivxdcd2/?context=3)
+[7](https://old.reddit.com/r/nextdns/comments/yzvnuw/nest_usage_metrics_being_blocked/)
 
 #### Guides
 * [FMHY: DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking) → NextDNS → Guide
