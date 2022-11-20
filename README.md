@@ -234,6 +234,10 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 
 	update.intl.miui.com
 
+### Google Nest usage metrics <sup><sup>[1](https://old.reddit.com/r/nextdns/comments/yzvnuw/nest_usage_metrics_being_blocked/)</sup></sup> 
+
+    logsink.devices.nest.com
+
 ### [Spectrum](https://www.spectrum.net) login <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/640)</sup></sup>
 
 	pov.spectrum.net
