@@ -340,16 +340,17 @@ See [article](https://thenewoil.org/secprivanon.html) | [video](https://youtu.be
 # Mentions :books:
 
 User Comments: 
-[1](https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2)
-[2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/?context=3)
-[3](https://old.reddit.com/r/nextdns/comments/vxh4pt/comment/ifykqyh/?context=1)
-[4](https://old.reddit.com/r/nextdns/comments/y3zmhb/comment/isc2o4q/?context=3)
-[5](https://old.reddit.com/r/nextdns/comments/yp6o09/comment/ivhwook/?context=3)
-[6](https://old.reddit.com/r/nextdns/comments/ys3s1s/comment/ivxdcd2/?context=3)
-[7](https://old.reddit.com/r/nextdns/comments/yzvnuw/nest_usage_metrics_being_blocked/)
+[1](https://reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2)
+[2](https://reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/?context=3)
+[3](https://reddit.com/r/nextdns/comments/vxh4pt/comment/ifykqyh/?context=1)
+[4](https://reddit.com/r/nextdns/comments/y3zmhb/comment/isc2o4q/?context=3)
+[5](https://reddit.com/r/nextdns/comments/yp6o09/comment/ivhwook/?context=3)
+[6](https://reddit.com/r/nextdns/comments/ys3s1s/comment/ivxdcd2/?context=3)
+[7](https://reddit.com/r/nextdns/comments/yzvnuw/nest_usage_metrics_being_blocked/)
 
 #### Guides
 * [FMHY: DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking) → NextDNS → Guide
+* [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists#nextdns---limited-freepaid-) → Online DNS services
 
 #### Contributions
 * [1Hosts](https://github.com/badmojr/1Hosts/issues?q=is%3Aissue+author%3Ayokoffing+)
