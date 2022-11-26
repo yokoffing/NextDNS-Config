@@ -123,7 +123,6 @@ Here's the suggested blocklists for each category:
 |:-------------:|:-------------:|:------------:|:------------------:|
 | 1Hosts (mini) | 1Hosts (Lite) | 1Hosts (Pro) |    1Hosts (Xtra)   |
 |               |      oisd     |     oisd     |     Goodbye Ads    |
-|               |               |              | Energized Ultimate |
 
 :bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://www.reddit.com/r/nextdns/comments/vuon2a/comment/iffd682/) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2) [5](https://www.reddit.com/r/nextdns/comments/yryq3c/comment/ivwr8tp/?context=3) </sup>
 
@@ -214,7 +213,6 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 
 <details>
 
-
 ### Facebook / Instagram <sup><sup>[1](https://github.com/jerryn70/GoodbyeAds/issues/309)</sup></sup> 
 
 	graph.facebook.com
@@ -280,6 +278,11 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 ### [Men's Health](https://www.menshealth.com/nutrition/a40868905/chris-hemsworth-chicken-pasta-bake-recipe-centr/) videos <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/651)</sup></sup>
 
 	glimmer.hearstapps.com
+    
+### NextDNS
+Just in case a [filterlist goes haywire](https://github.com/yokoffing/NextDNS-Config/issues/10#issuecomment-1327956655) and blocks your access
+
+    nextdns.io
 
 </details>
 
