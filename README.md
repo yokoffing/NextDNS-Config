@@ -311,8 +311,12 @@ Just in case a [filterlist goes haywire](https://github.com/yokoffing/NextDNS-Co
 ### How do I signup for NextDNS?
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
+### "I'm thinking about having as less as possible activated so that NextDNS doesn't get slow, or does it not affect the speed of NextDNS?"<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12)</sup>
+
+The amount of settings your enable/disable does not affect your DNS latency.
+
 ### Is it redundant to set DoH at browser-level if I'm already using it at system-level?
-Unless you use a separate profile for the browser, it is not neccessary, and it should not slow down your web browsing.<sup>[1](https://old.reddit.com/r/nextdns/comments/yfjvqy/is_it_redundant_to_set_at_doh_at_browserlevel_if/iu3vjzt/?context=3)</sup> However, I recommend [setting it in your web browser](https://www.itechtics.com/dns-over-https/#how-to-enable-or-disable-dns-over-https-in-your-browsers) anyway. 
+Unless you use a separate profile for the browser, it is not neccessary.<sup>[1](https://old.reddit.com/r/nextdns/comments/yfjvqy/is_it_redundant_to_set_at_doh_at_browserlevel_if/iu3vjzt/?context=3)</sup> However, I recommend [setting it in your web browser](https://www.itechtics.com/dns-over-https/#how-to-enable-or-disable-dns-over-https-in-your-browsers) anyway. 
 
 ### If I have a profile for my router and another profile for my device, which one will my device use?
 The device will use the profile set by the NextDNS app or the installed [root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca). However, if the device has not been configured to use a separate profile, then it will use the wifi/router configuration.<sup>[1](https://old.reddit.com/r/nextdns/comments/yf4hnv/question_about_home_router_and_app_running_in/)</sup>
