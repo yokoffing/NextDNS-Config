@@ -28,7 +28,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ### Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/threat-intelligence-feeds.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
 ### AI-Driven Threat Detection <sup><sup>[1](https://unofficialbird.com/nextdns/status/1440291577713233925?lang=en)</sup></sup>
-:warning: AI-Driven Threat Detection is still in beta and may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) occasionally.
+:warning: This feature is still in beta and may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) occasionally.
 <br><br>![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable AI-Driven Threat Detection
 ### Google Safe Browsing <sup><sup> [1](https://user-images.githubusercontent.com/11689349/107696360-d8dde800-6c7f-11eb-9882-cccc8d2065c5.jpg) [2](https://safebrowsing.google.com/safebrowsing/report_general/) [3](https://blog.cryptographyengineering.com/2019/10/13/dear-apple-safe-browsing-might-not-be-that-safe/) [4](https://the8-bit.com/apple-proxies-google-safe-browsing-privacy/) [5](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#services-we-proxy-through-brave-servers) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Google Safe Browsing
@@ -268,6 +268,10 @@ A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-ev
 	
 	gfe.nvidia.com
 	nvgs.nvidia.cn
+
+### Chick-Fil-A App <sup><sup>[1](https://www.reddit.com/r/nextdns/comments/zaqio0/comment/iz7v9di/?utm_source=share&utm_medium=web2x&context=3)</sup></sup>
+
+    .tmetrix.my.chick-fil-a.com
 
 ### [imgur](https://imgur.com/) <sup><sup>[1](https://github.com/lightswitch05/hosts/issues/358) [2](https://old.reddit.com/r/nextdns/comments/t3jmvk/imgur_loads_then_goes_blank_no_matter_which/)</sup></sup>
 
