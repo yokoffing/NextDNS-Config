@@ -271,7 +271,7 @@ A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-ev
 
 ### Chick-Fil-A App <sup><sup>[1](https://www.reddit.com/r/nextdns/comments/zaqio0/comment/iz7v9di/?utm_source=share&utm_medium=web2x&context=3)</sup></sup>
 
-    .tmetrix.my.chick-fil-a.com
+    tmetrix.my.chick-fil-a.com
 
 ### [imgur](https://imgur.com/) <sup><sup>[1](https://github.com/lightswitch05/hosts/issues/358) [2](https://old.reddit.com/r/nextdns/comments/t3jmvk/imgur_loads_then_goes_blank_no_matter_which/)</sup></sup>
 
