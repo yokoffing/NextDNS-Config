@@ -90,10 +90,10 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .fun
 .ga
 .gq
+.icu
 .link
 .live
 .ml
-.icu
 .rest
 .shop
 .webcam
