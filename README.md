@@ -90,11 +90,13 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .fun
 .ga
 .gq
+.kp
 .link
 .live
 .ml
 .icu
 .rest
+.ru
 .shop
 .webcam
 .win
