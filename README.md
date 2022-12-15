@@ -91,10 +91,12 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .ga
 .gq
 .icu
+.kp
 .link
 .live
 .ml
 .rest
+.ru
 .shop
 .webcam
 .win
