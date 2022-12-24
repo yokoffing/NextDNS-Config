@@ -89,6 +89,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .cyou
 .fun
 .ga
+.garden
 .gq
 .icu
 .kp
