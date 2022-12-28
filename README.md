@@ -338,12 +338,13 @@ Unless you use a separate profile for the browser, it is not neccessary.<sup>[1]
 The device will use the profile set by the NextDNS app or the installed [root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca). However, if the device has not been configured to use a separate profile, then it will use the wifi/router configuration.<sup>[1](https://old.reddit.com/r/nextdns/comments/yf4hnv/question_about_home_router_and_app_running_in/)</sup>
 
 ### Can I block YouTube ads with NextDNS only?
-[No, you can't](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block first-party ads using only DNS-level blocking. You will need an adblocker.
+[No, you cannot](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block first-party ads using only DNS-level blocking. You will need an adblocker.
 
 ### What browser should I use that has adblocking?
-* [Brave](https://brave.com) is a great choice, especially [if you prefer Chrome](https://youtu.be/VHwIyR6ca4o?t=249), want uninstrusive [fingerprint protection](https://brave.com/privacy-updates/4-fingerprinting-defenses-2.0/), and don't enjoy doing a lot of tweaking.<sup>[1](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#what-chromium-features-are-removed-for-privacysecurity-reasons)</sup>
+* [Brave](https://brave.com) is a great choice [if you prefer Chrome](https://youtu.be/VHwIyR6ca4o?t=249), want uninstrusive [fingerprint protection](https://brave.com/privacy-updates/4-fingerprinting-defenses-2.0/), and don't enjoy doing a lot of tweaking.<sup>[1](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#what-chromium-features-are-removed-for-privacysecurity-reasons)</sup>
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/) with [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/)<sup>[1](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22)</sup> and configured using [Betterfox](https://github.com/yokoffing/Betterfox).
-* [Orion](https://browser.kagi.com/) is a promising, [up-and-coming](https://idioms.thefreedictionary.com/up-and-coming) browser for Apple devices.
+* [Safari](https://www.apple.com/safari/) with [AdGuard](https://adguard.com/en/adguard-ios/overview.html) (specifically iOS).
+* [Orion](https://browser.kagi.com/) is a promising, [up-and-coming](https://idioms.thefreedictionary.com/up-and-coming) browser for Apple devices with native adblocking.
 
 Here are the suggested browsers for each operating system:
 
@@ -351,6 +352,7 @@ Here are the suggested browsers for each operating system:
 |:-------:|:-------:|:-----:|:-----:|:---:|:-------:|
 |  Brave  |    x    |   x   |   x   |  x  |    x    |
 | Firefox |    x    |   x   |   x   |     |         |
+|  Safari |         |   x   |       |  x  |         |
 |  Orion  |         |   x   |       |  x  |         |
 
 ### What is the difference between security, privacy, and anonymity?
