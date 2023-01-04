@@ -87,6 +87,8 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .cf
 .ci
 .cyou
+.degree
+.email
 .fun
 .ga
 .garden
@@ -96,9 +98,14 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .link
 .live
 .ml
+.recipes
 .rest
 .ru
+.sex
+.sexy
 .shop
+.software
+.tk
 .webcam
 .win
 ```
