@@ -30,7 +30,8 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ### AI-Driven Threat Detection <sup><sup>[1](https://unofficialbird.com/nextdns/status/1440291577713233925?lang=en)</sup></sup>
 :warning: This feature is still in beta and may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive).
 <br><br>![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable AI-Driven Threat Detection
-### Google Safe Browsing <sup><sup> [1](https://user-images.githubusercontent.com/11689349/107696360-d8dde800-6c7f-11eb-9882-cccc8d2065c5.jpg) [2](https://safebrowsing.google.com/safebrowsing/report_general/) [3](https://blog.cryptographyengineering.com/2019/10/13/dear-apple-safe-browsing-might-not-be-that-safe/) [4](https://the8-bit.com/apple-proxies-google-safe-browsing-privacy/) [5](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#services-we-proxy-through-brave-servers) </sup></sup>
+### Google Safe Browsing <sup><sup> [1](https://safebrowsing.google.com/safebrowsing/report_general/) [2](https://blog.cryptographyengineering.com/2019/10/13/dear-apple-safe-browsing-might-not-be-that-safe/) [3](https://the8-bit.com/apple-proxies-google-safe-browsing-privacy/) [4](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#services-we-proxy-through-brave-servers) </sup></sup>
+:bulb: Unlike the version embedded in some browsers, this does not associate your public IP address to threats and does not allow bypassing the block. <p>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Google Safe Browsing
 ### Cryptojacking Protection <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/cryptojacking.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cryptojacking Protection
@@ -46,6 +47,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 :warning: Blocking NRDs may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3). Be selective when adding NRDs to your allowlist; and, if you do, **NEVER** give [sensitive information](https://www.egnyte.com/guides/governance/sensitive-information) to a NRD. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, disable this setting.*
 <br><br>![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs)
 ### Block Dynamic DNS Hostnames <sup><sup>[1](https://user-images.githubusercontent.com/11689349/204171461-5bf9fb5b-a567-4692-8992-37108c8e7f1d.png) [2](https://github.com/nextdns/metadata/blob/master/security/ddns/suffixes) [3](https://twitter.com/NextDNS/status/1541740963760144386?cxt=HHwWhIC8iZ7PruUqAAAA) </sup></sup>
+:bulb: If you are using DDNS, note that this setting will not block the DDNS services' own website or their update API. <p>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
@@ -117,7 +119,7 @@ We recommend you select the minimum number of useful lists. Here are the suggest
 :bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/comment/iffd682/) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2) [5](https://old.reddit.com/r/nextdns/comments/yryq3c/comment/ivwr8tp/?context=3) </sup>
 
 :question: You may wonder why other lists are not utilized. This is because many list maintainers:
-* do not remove [false positives](https://csrc.nist.gov/glossary/term/false_positive) and/or are no longer active <sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916) [3](https://github.com/notracking/hosts-blocklists/issues/815#issuecomment-1317556798)</sup>
+* do not remove [false positives](https://csrc.nist.gov/glossary/term/false_positive) and/or are no longer active <sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916)</sup>
 * already aggregate common blocklists into their own list (Easylist/Fanboy, AdGuard, Steven Black, etc.) <sup>[1](https://github.com/badmojr/1Hosts/blob/master/-data/lists/assets.txt) [2](https://oisd.nl/includedlists/full/0) [3](https://github.com/jerryn70/GoodbyeAds/blob/master/Docs/Sources.md) </sup>
 * offer no meaningful additional coverage when compared with the chart combinations above <sup>[1](https://old.reddit.com/r/nextdns/comments/ys3s1s/comment/ivxdcd2/?context=3)</sup>
 
@@ -293,7 +295,7 @@ Just in case a [filterlist goes haywire](https://github.com/yokoffing/NextDNS-Co
 **Storage location** → Switzerland
 
 ### Block Page
-:warning: Enabling may cause breakage if the [NextDNS Root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca) is not on your devices. This setting also breaks [iCloud Private Relay](https://support.apple.com/en-us/HT212614).<sup>[1](https://help.nextdns.io/t/g9hdska)</sup>
+:warning: Enabling may cause breakage if the [NextDNS Root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca) is not on your devices. This setting also [breaks](https://help.nextdns.io/t/g9hdska) iCloud [Private Relay](https://support.apple.com/en-us/HT212614).
 <br><br> ![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Block Page
 ### Anonymized EDNS Client Subnet <sup><sup>[1](https://help.nextdns.io/t/m1hmv04/what-is-edns-client-subnet-ecs) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Anonymized EDNS Client Subnet
@@ -369,7 +371,7 @@ User Comments:
 ***
 
 # Support :heart:
-I’m a one-person operation, working in mental health and running this page as a passion project in my time off. If you enjoy my work, please leave a tip! Your support is incredibly appreciated and allows me to dedicate time to this project :blush:
+I’m a one-person operation, running this page as a passion project in my time off. If you enjoy my work, please leave a tip! Your support is incredibly appreciated and allows me to dedicate time to this project :blush:
 
 <img align="top" width="25px" src="https://coekuss.com/quietfox/bitcoin.png"> Bitcoin: 334gaiEjn6wY1VksQvYe5L668JjtPEPyiM
 
