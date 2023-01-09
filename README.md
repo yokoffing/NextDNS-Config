@@ -49,25 +49,17 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
-### Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) [5](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) [6](https://github.com/DandelionSprout/adfilt/issues/659#issuecomment-1284845803) </sup></sup>
+### Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) [5](https://github.com/DandelionSprout/adfilt/issues/659#issuecomment-1284845803) </sup></sup>
 :warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) since this feature blocks both site nagviations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs since they have no known legitimate uses.
 
 ```
-.fit
-.surf
----
-.beauty
 .bid
 .cfd
-.degree
 .discount
-.fyi
-.garden
 .gdn
 .loan
 .loans
 .ooo
-.quest
 .sbs
 ```
 
@@ -76,19 +68,21 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 <details>
 
 ```
-.work
-.review
-.asia
-.tokyo
+.fit
+.surf
 .cn
 .monster
 ---
-~ under construction! ~
-.shop
-.software
+.agency
+.buzz
+.cf
+.ga
+.gq
+.ml
+.pw
+.ru
 .tk
-.webcam
-.win
+.top
 .zone
 ```
 
