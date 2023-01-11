@@ -116,7 +116,7 @@ We recommend you select the minimum number of useful lists. Here are the suggest
 | 1Hosts (mini) | 1Hosts (Lite) | 1Hosts (Pro) |    1Hosts (Xtra)   |
 |               |      oisd     |     oisd     |     Goodbye Ads    |
 
-:bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/comment/iffd682/) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2) [5](https://old.reddit.com/r/nextdns/comments/yryq3c/comment/ivwr8tp/?context=3) </sup>
+:bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/comment/iffd682/) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2) [5](https://old.reddit.com/r/nextdns/comments/yryq3c/comment/ivwr8tp/?context=3) [6](https://old.reddit.com/r/nextdns/comments/z49c93/state_of_affairs_at_the_moment_lol/ixtazg1/?context=2) </sup>
 
 :question: You may wonder why other lists are not utilized. This is because many list maintainers:
 * do not remove [false positives](https://csrc.nist.gov/glossary/term/false_positive) and/or are no longer active <sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916)</sup>
@@ -349,7 +349,7 @@ See [article](https://thenewoil.org/secprivanon.html) | [video](https://youtu.be
 ***
 # Mentions :books:
 
-User Comments: 
+#### User Comments
 [1](https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2)
 [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/?context=3)
 [3](https://old.reddit.com/r/nextdns/comments/vxh4pt/comment/ifykqyh/?context=1)
@@ -357,6 +357,17 @@ User Comments:
 [5](https://old.reddit.com/r/nextdns/comments/yp6o09/comment/ivhwook/?context=3)
 [6](https://old.reddit.com/r/nextdns/comments/ys3s1s/comment/ivxdcd2/?context=3)
 [7](https://old.reddit.com/r/nextdns/comments/yzvnuw/nest_usage_metrics_being_blocked/)
+[8](https://old.reddit.com/r/PrivacyGuides/comments/ywcqw2/best_secured_adblock/iwk6k72/?context=2)
+[9](https://old.reddit.com/r/privacy/comments/z8qxhe/which_device_offers_the_best_privacyconvenience/iyi2deg/?context=2)
+[10](https://old.reddit.com/r/GooglePixel/comments/zgr5a7/ads_in_the_feed_should_not_happen_on_a_pixel/izkcdvb/?context=2)
+[11](https://old.reddit.com/r/nextdns/comments/zmgc3j/windows_10_config_this_device_is_currently_using/j0ay0ac/?context=2)
+[12](https://old.reddit.com/r/nextdns/comments/znmt9e/what_do_you_whitelist/j0k6bsw/?context=2)
+[13](https://old.reddit.com/r/nextdns/comments/zt9wvl/macosios_idpauth_cant_connect/j1ebt7t/?context=2)
+[14](https://old.reddit.com/r/S22Ultra/comments/zvw6av/blocking_ads_tracking_w_private_dns_part_2/j1w4s8n/?context=2)
+[15](https://old.reddit.com/r/PFSENSE/comments/zu51od/a_better_pihole_with_pfsense_setup/j1x42mx/?context=2)
+[16](https://old.reddit.com/r/nextdns/comments/zzxpgh/kroger_app_will_not_work_with_nextdns_ive_tried/j2fp8hp/?context=2)
+[17](https://old.reddit.com/r/nextdns/comments/1026j01/first_account_setup/j2ryxf2/?context=2)
+[18](https://old.reddit.com/r/privacy/comments/yyrbiw/is_nextdns_better_than_trackercontrol/iy167mh/?context=2)
 
 #### Guides
 * [FMHY: DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking) → NextDNS → Guide
