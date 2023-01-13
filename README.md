@@ -113,6 +113,7 @@ We recommend you select the minimum number of useful lists. Here are the suggest
 
 |     Basic     |    Balanced   |    Strict    |     Aggressive     |
 |:-------------:|:-------------:|:------------:|:------------------:|
+| Hagezi Light  | Hagezi Normal | Hagezi Pro Plus | Hagezi Ultimate |
 | 1Hosts (mini) | 1Hosts (Lite) | 1Hosts (Pro) |    1Hosts (Xtra)   |
 |               |      oisd     |     oisd     |     Goodbye Ads    |
 
