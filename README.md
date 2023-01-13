@@ -109,7 +109,7 @@ Blocklists are community generated lists that block ads and [trackers](https://w
 4) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
 5) **Aggressive**: excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
-We recommend you select the minimum number of useful lists. Here are the suggested blocklists for each category:
+We recommend you [select the minimum number of useful lists](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3). Here are the suggested blocklists for each category:
 
 |     Basic     |    Balanced   |    Strict    |     Aggressive     |
 |:-------------:|:-------------:|:------------:|:------------------:|
@@ -392,4 +392,4 @@ I’m a one-person operation, running this page as a passion project in my time 
 ***
 
 <div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=19651&s=1' border='0' alt='Free Website Counter'></a><br / ></div>
-<div align='center'>23 July 2022</div>
+<div align='center'>since 23 July 2022</div>
