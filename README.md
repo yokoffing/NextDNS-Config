@@ -113,12 +113,12 @@ We recommend you select the minimum number of useful lists. Here are the suggest
 
 <center>
 
-|                |   Recommended   |            Optional         |
-|:--------------:|:---------------:|:---------------------------:|
-|    **Basic**   | 1Hosts (mini)    |                            |
-|  **Balanced**  |  Hagezi Normal  |     1Hosts (Lite) + oisd    |
-|   **Strict**   | Hagezi Pro Plus |     1Hosts (Pro) + oisd     |
-| **Aggressive** | 1Hosts (Xtra) + Goodbye Ads| Hagezi Ultimate |
+|                |               Recommended               |     Alternate Setup         |
+|:--------------:|:---------------------------------------:|:---------------------------:|
+|    **Basic**   | 1Hosts (mini)                           |                             |
+|  **Balanced**  | HaGeZi - Multi NORMAL                   |     1Hosts (Lite) + oisd    |
+|   **Strict**   | HaGeZi - Multi PRO++                    |     1Hosts (Pro) + oisd     |
+| **Aggressive** | 1Hosts (Xtra) + HaGeZi - Multi ULTIMATE |                             |
 
 </center>
 
