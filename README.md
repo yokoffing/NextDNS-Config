@@ -239,6 +239,17 @@ A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-ev
 
     logsink.devices.nest.com
 
+### Yahoo Mail <sup><sup>[1](https://github.com/hagezi/dns-blocklists/issues/269)</sup></sup>
+
+    geo.yahoo.com
+    consent.yahoo.com
+    geo.yahoo.com
+    guce.oath.com
+    m.yap.yahoo.com
+    pr.comet.yahoo.com
+    udc.yahoo.com
+    udcm.yahoo.com
+
 ### [Spectrum](https://www.spectrum.net) login <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/640)</sup></sup>
 
 	pov.spectrum.net
