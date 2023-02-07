@@ -25,7 +25,7 @@ Sign up for NextDNS [here](https://nextdns.io/?from=xujj63g5)!
 
 Security settings protect your data from harm, theft, and unauthorized use.<sup>*^[why does this matter?](https://thenewoil.org/why.html)*</sup>
 
-### Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/threat-intelligence-feeds.json)</sup></sup>
+### Threat Intelligence Feeds
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
 ### AI-Driven Threat Detection <sup><sup>[1](https://unofficialbird.com/nextdns/status/1440291577713233925?lang=en)</sup></sup>
 :warning: This feature is still in beta and may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive).
@@ -49,7 +49,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ### Block Dynamic DNS Hostnames <sup><sup>[1](https://user-images.githubusercontent.com/11689349/204171461-5bf9fb5b-a567-4692-8992-37108c8e7f1d.png) [2](https://github.com/nextdns/ddns-domains/blob/main/suffixes) [3](https://twitter.com/NextDNS/status/1541740963760144386?cxt=HHwWhIC8iZ7PruUqAAAA) </sup></sup>
 :bulb: If you are using DDNS, note that this setting will not block the DDNS services' own website or their update API. <p>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
-### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/master/security/parked-domains-cname)</sup></sup>
+### Block Parked Domains <sup><sup>
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 ### Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) [5](https://github.com/DandelionSprout/adfilt/issues/659#issuecomment-1284845803) </sup></sup>
 :warning: Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url/) may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) since this feature blocks both site nagviations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs since they have no known legitimate uses.
