@@ -292,6 +292,13 @@ A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-ev
 
 	glimmer.hearstapps.com
     
+### [Ghostery](https://www.ghostery.com/ghostery-ad-blocker) Analytics (opt-in)
+User data is [removed](https://0x65.dev/blog/2019-12-04/human-web-proxy-network-hpn.html). Contributes to [the Human Web](https://0x65.dev/blog/2019-12-03/human-web-collecting-data-in-a-socially-responsible-manner.html) and [WhoTracks.me](https://whotracks.me/) data.
+
+    collector-hpn.ghostery.net
+    collector-hpn.privacy.ghostery.net
+    d.ghostery.com
+
 ### NextDNS
 Just in case a [filterlist goes haywire](https://github.com/yokoffing/NextDNS-Config/issues/10#issuecomment-1327956655) and blocks your access
 
