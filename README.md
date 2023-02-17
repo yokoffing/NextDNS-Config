@@ -280,9 +280,11 @@ A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-ev
 
 	js.media-lab.ai
 
-### [CBS](https://www.cbsnews.com/live/#x) News livestream <sup><sup>[1](https://github.com/nextdns/metadata/issues/1030)</sup></sup> 
+### [CBS](https://www.cbsnews.com/live/#x) News livestream <sup><sup>[1](https://github.com/nextdns/metadata/issues/1030) [2](https://github.com/hagezi/dns-blocklists/issues/422)</sup></sup> 
 
 	production-cmp.isgprivacy.cbsi.com
+    doppler-config.cbsivideo.com
+    tags.tiqcdn.com 
 
 ### [FiveThirtyEight](https://fivethirtyeight.com/) videos / [National Geographic](https://www.nationalgeographic.com/) website <sup><sup>[1](https://github.com/notracking/hosts-blocklists/issues/788)</sup></sup>
 
