@@ -282,7 +282,8 @@ A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-ev
 
 ### [CBS](https://www.cbsnews.com/live/#x) News livestream <sup><sup>[1](https://github.com/nextdns/metadata/issues/1030) [2](https://github.com/hagezi/dns-blocklists/issues/422)</sup></sup> 
 
-	production-cmp.isgprivacy.cbsi.com
+	pubads.g.doubleclick.net
+    production-cmp.isgprivacy.cbsi.com
     doppler-config.cbsivideo.com
     tags.tiqcdn.com 
 
