@@ -72,17 +72,14 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ```
 .fit
 .surf
-.cn
 .monster
 ---
 .agency
-.buzz
 .cf
 .ga
 .gq
 .ml
 .pw
-.ru
 .tk
 .top
 .zone
