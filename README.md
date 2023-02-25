@@ -345,15 +345,21 @@ Unless you use a separate profile for the browser, it is not neccessary.<sup>[1]
 ### If I have a profile for my router and another profile for my device, which one will my device use?
 The device will use the profile set by the NextDNS app or the installed [root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca). However, if the device has not been configured to use a separate profile, then it will use the wifi/router configuration.<sup>[1](https://old.reddit.com/r/nextdns/comments/yf4hnv/question_about_home_router_and_app_running_in/)</sup>
 
+### What is the difference between security, privacy, and anonymity?
+See [article](https://thenewoil.org/secprivanon.html) | [video](https://youtu.be/Wpkh-hfULgE)
+
+### Does NextDNS hide activity from my Internet Service Provider (ISP)?
+[No](https://old.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). NextDNS is only concerned about DNS traffic. You would need a [quality](https://www.youtube.com/watch?v=cK4MQv-OwyM) [VPN](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) to hide all activity from your ISP.
+
 ### Can I block YouTube ads with NextDNS only?
 [No, you cannot](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block first-party ads using only DNS-level blocking. You will need an adblocker.
 
 ### What browser should I use that has adblocking?
-Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY). A few caveats:
+Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY), so here's a few caveats:
 * Note that just because one browser or content blocker looks like the best on paper doesn't mean it is in real world usage (e.g., [Brave](https://brave.com/) is a buggy mess with video playback on iOS.)
 * The recommendations here are based on a mix of effectiveness, resource efficiency, features, and ease of use.
 
- That being said, here's my recommendations of browser + content blocker combinations, categorized by operating system (OS):
+Here are the suggested browsers for each operating system (OS):
 
 #### Mobile
 
@@ -371,24 +377,6 @@ Choosing a browser is about as intimate as [choosing a starter Pokémon](https:/
 | Linux | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox))  |  [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |       
 
 * [Brave](https://brave.com) is a great choice [if you prefer Chrome](https://youtu.be/VHwIyR6ca4o?t=249), want uninstrusive [fingerprint protection](https://brave.com/privacy-updates/4-fingerprinting-defenses-2.0/), and don't enjoy doing a lot of tweaking.<sup>[1](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#what-chromium-features-are-removed-for-privacysecurity-reasons)</sup>
-* [Firefox](https://www.mozilla.org/en-US/firefox/new/) with [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/)<sup>[1](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22)</sup> or [Ghostery](https://addons.mozilla.org/en-US/firefox/addon/ghostery), and configured using [Betterfox](https://github.com/yokoffing/Betterfox).
-* [Safari](https://www.apple.com/safari/) with [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari) or [AdGuard](https://adguard.com/en/adguard-ios/overview.html).
-* [Orion](https://browser.kagi.com/) is a promising, [up-and-coming](https://idioms.thefreedictionary.com/up-and-coming) browser for Apple devices with native adblocking.
-
-Here are the suggested browsers for each operating system:
-
-| Browser | Windows | macOS | Linux | iOS | Android |
-|:-------:|:-------:|:-----:|:-----:|:---:|:-------:|
-|  Brave  |    x    |   x   |   x   |  x  |    x    |
-| Firefox |    x    |   x   |   x   |     |         |
-|  Safari |         |   x   |       |  x  |         |
-|  Orion  |         |   x   |       |  x  |         |
-
-### What is the difference between security, privacy, and anonymity?
-See [article](https://thenewoil.org/secprivanon.html) | [video](https://youtu.be/Wpkh-hfULgE)
-
-### Does NextDNS hide activity from my Internet Service Provider (ISP)?
-[No](https://old.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). NextDNS is only concerned about DNS traffic. You would need a [quality](https://www.youtube.com/watch?v=cK4MQv-OwyM) [VPN](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) to hide all activity from your ISP.
 
 ***
 # Mentions :books:
