@@ -349,28 +349,30 @@ The device will use the profile set by the NextDNS app or the installed [root CA
 [No, you cannot](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block first-party ads using only DNS-level blocking. You will need an adblocker.
 
 ### What browser should I use that has adblocking?
-Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY). That being said, here's my recommendations of browser + content blocker combinations, categorized by OS. Note that just because one browser or content blocker looks like the best on paper doesn't mean it is in real world usage. The recommendations here are based on a mix of effectiveness, resource efficiency, features, and ease of use.
+Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY). A few caveats:
+* Note that just because one browser or content blocker looks like the best on paper doesn't mean it is in real world usage (e.g., [Brave](https://brave.com/) is a buggy mess with video playback on iOS.)
+* The recommendations here are based on a mix of effectiveness, resource efficiency, features, and ease of use.
+
+ That being said, here's my recommendations of browser + content blocker combinations, categorized by operating system (OS):
 
 #### Mobile
 
-| Mobile OS | Browser | Adblocker / Content Blocker | Alternative |
+| OS | Browser | Adblocker / Content Blocker | Alternative/Notes |
 |---|---|---|---|
-| iOS | [Safari](https://www.apple.com/safari) | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari) | [Orion](https://browser.kagi.com/)  |
+| iOS | [Safari](https://www.apple.com/safari) | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari) | [Orion](https://browser.kagi.com/). [AdGuard](https://adguard.com/en/adguard-ios/overview.html) allows you to add custom filterlists but it's resource intensive.  |
 | Android | Firefox | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-firefox) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
 
 #### Desktop
 
-| Desktop OS | Browser | Adblocker / Content Blocker | Alternative |
+| OS | Browser | Adblocker / Content Blocker | Alternative |
 |---|---|---|---|
-| Windows | Firefox, Edge | Ghostery or uBlock Origin |  |
-| macOS | Firefox, Edge | Ghostery or uBlock Origin | [Orion](https://browser.kagi.com/) |
-| Linux | N/A |  |  |       
-
- * iOS: [Safari](https://www.apple.com/safari) with with [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari). Alternative: [Orion](https://browser.kagi.com/).
+| Windows | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
+| macOS | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) | [Orion](https://browser.kagi.com/) |
+| Linux | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox))  |  [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |       
 
 * [Brave](https://brave.com) is a great choice [if you prefer Chrome](https://youtu.be/VHwIyR6ca4o?t=249), want uninstrusive [fingerprint protection](https://brave.com/privacy-updates/4-fingerprinting-defenses-2.0/), and don't enjoy doing a lot of tweaking.<sup>[1](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#what-chromium-features-are-removed-for-privacysecurity-reasons)</sup>
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/) with [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/)<sup>[1](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22)</sup> or [Ghostery](https://addons.mozilla.org/en-US/firefox/addon/ghostery), and configured using [Betterfox](https://github.com/yokoffing/Betterfox).
-* [Safari](https://www.apple.com/safari/) with [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari).or [AdGuard](https://adguard.com/en/adguard-ios/overview.html).
+* [Safari](https://www.apple.com/safari/) with [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari) or [AdGuard](https://adguard.com/en/adguard-ios/overview.html).
 * [Orion](https://browser.kagi.com/) is a promising, [up-and-coming](https://idioms.thefreedictionary.com/up-and-coming) browser for Apple devices with native adblocking.
 
 Here are the suggested browsers for each operating system:
