@@ -349,15 +349,28 @@ The device will use the profile set by the NextDNS app or the installed [root CA
 [No, you cannot](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block first-party ads using only DNS-level blocking. You will need an adblocker.
 
 ### What browser should I use that has adblocking?
-Choosing a browser is about as intimate as choosing a starter Pokémon. Recommendations are based on a mix of effectiveness, resource intensive, features, and ease of use. Note that just because one thing looks like the best on paper (Brave) doesn't mean it is in real world usage.
+Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY). That being said, here's my recommendations of browser + content blocker combinations, categorized by OS. Note that just because one browser or content blocker looks like the best on paper doesn't mean it is in real world usage. The recommendations here are based on a mix of effectiveness, resource efficiency, features, and ease of use.
 
-That being said, here's my recommendations of browser + content blocker combinations, categorized by OS:
+#### Mobile
 
-iOS: Safari with Ghostery.
+| Mobile OS | Browser | Adblocker / Content Blocker | Alternative |
+|---|---|---|---|
+| iOS | [Safari](https://www.apple.com/safari) | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari) | [Orion](https://browser.kagi.com/)  |
+| Android | Firefox | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-firefox) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
+
+#### Desktop
+
+| Desktop OS | Browser | Adblocker / Content Blocker | Alternative |
+|---|---|---|---|
+| Windows | Firefox, Edge | Ghostery or uBlock Origin |  |
+| macOS | Firefox, Edge | Ghostery or uBlock Origin | [Orion](https://browser.kagi.com/) |
+| Linux | N/A |  |  |       
+
+ * iOS: [Safari](https://www.apple.com/safari) with with [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari). Alternative: [Orion](https://browser.kagi.com/).
 
 * [Brave](https://brave.com) is a great choice [if you prefer Chrome](https://youtu.be/VHwIyR6ca4o?t=249), want uninstrusive [fingerprint protection](https://brave.com/privacy-updates/4-fingerprinting-defenses-2.0/), and don't enjoy doing a lot of tweaking.<sup>[1](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#what-chromium-features-are-removed-for-privacysecurity-reasons)</sup>
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/) with [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/)<sup>[1](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22)</sup> or [Ghostery](https://addons.mozilla.org/en-US/firefox/addon/ghostery), and configured using [Betterfox](https://github.com/yokoffing/Betterfox).
-* [Safari](https://www.apple.com/safari/) with [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari) or [AdGuard](https://adguard.com/en/adguard-ios/overview.html).
+* [Safari](https://www.apple.com/safari/) with [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari).or [AdGuard](https://adguard.com/en/adguard-ios/overview.html).
 * [Orion](https://browser.kagi.com/) is a promising, [up-and-coming](https://idioms.thefreedictionary.com/up-and-coming) browser for Apple devices with native adblocking.
 
 Here are the suggested browsers for each operating system:
