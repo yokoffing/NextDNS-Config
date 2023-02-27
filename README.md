@@ -23,7 +23,7 @@ Sign up for NextDNS [here](https://nextdns.io/?from=xujj63g5)!
 
 # Security 👮‍♂️
 
-Security settings protect your data from harm, theft, and unauthorized use.<sup>*^[why does this matter?](https://thenewoil.org/why.html)*</sup>
+Security settings protect your data from harm, theft, and unauthorized use.<sup>*^[why does this matter?](https://thenewoil.org/en/guides/prologue/why)*</sup>
 
 ### Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/threat-intelligence-feeds.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
@@ -98,7 +98,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ***
 
 # Privacy 🔒
-Privacy features limit the amount of data that companies can collect about you. Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum). What you need varies on your [threat model](https://thenewoil.org/threatmodel.html), interest, and skillset.<sup>^[*why should I care? I have nothing to hide*](https://aeon.co/essays/privacy-matters-because-it-empowers-us-all)</sup>
+Privacy features limit the amount of data that companies can collect about you. Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum). What you need varies on your [threat model](https://thenewoil.org/en/guides/prologue/threatmodel), interest, and skillset.<sup>^[*why should I care? I have nothing to hide*](https://aeon.co/essays/privacy-matters-because-it-empowers-us-all)</sup>
 
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/blocklists/tree/main/blocklists)</sup></sup>
 
@@ -364,7 +364,7 @@ Here are the suggested browsers for each operating system:
 |  Orion  |         |   x   |       |  x  |         |
 
 ### What is the difference between security, privacy, and anonymity?
-See [article](https://thenewoil.org/secprivanon.html) | [video](https://youtu.be/Wpkh-hfULgE)
+See [article](https://thenewoil.org/en/guides/prologue/secprivanon) | [video](https://youtu.be/Wpkh-hfULgE)
 
 ### Does NextDNS hide activity from my Internet Service Provider (ISP)?
 [No](https://old.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). NextDNS is only concerned about DNS traffic. You would need a [quality](https://youtu.be/cK4MQv-OwyM) [VPN](https://ivpn.net/blog/why-you-dont-need-a-vpn) to hide all activity from your ISP.
