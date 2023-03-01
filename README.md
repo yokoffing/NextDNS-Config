@@ -356,8 +356,10 @@ See [article](https://thenewoil.org/secprivanon.html) | [video](https://youtu.be
 
 ### What browser should I use that has adblocking?
 Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY), so here's a few caveats:
-* Note that just because one browser or content blocker looks like the best on paper doesn't mean it is in real world usage (e.g., [Brave](https://brave.com/) is a buggy mess with video playback on iOS.)
-* The recommendations here are based on a mix of effectiveness, resource efficiency, features, and ease of use.
+* Note that just because one browser or content blocker looks like the best on paper doesn't mean it is in real world usage (e.g. [Brave](https://brave.com/) is a buggy mess with video playback on iOS.)
+* Privacy best practices dictates that you use different browsers (or different browser profiles) for different areas of life: e.g. work, school, personal.
+* Browsers are tools. I use a variety of browsers depending on what I need to do, but everyone will have a personal preference towards what their favorite is.
+* The recommendations here are based on a combination of effectiveness, resource efficiency, features, and ease of use.
 
 Here are the suggested browsers for each operating system (OS):
 
