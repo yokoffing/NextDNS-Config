@@ -104,21 +104,21 @@ Privacy features limit the amount of data that companies can collect about you. 
 
 Blocklists are community generated lists that block ads and [trackers](https://freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Filters can be categorized into five tiers of coverage:
 1) **None**: no breakage; NextDNS still protects against malicious threats (à la [security settings](https://github.com/yokoffing/NextDNS-Config#security-policeman)) but will allow ads and trackers
-2) **Basic**: rare breakage; prioritizes functionality over blocking; *very* forgiving
+2) **Basic**: rare breakage; prioritizes functionality over blocking; very forgiving
 3) **Balanced**: minimal breakage; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally to [unsubscribe from junk email](https://old.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1)
 4) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
-5) **Aggressive**: excessive breakage; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
+5) **Aggressive**: excessive breakage; many false positives; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
-We recommend you [select the minimum number of useful lists](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3). Here are the suggested blocklists for each category:
+We recommend you remove the NextDNS Ads & Trackers Blocklist and [select the minimum number of useful lists](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3). Here are the suggested blocklists for each category:
 
 <center>
 
-|              |Recommended                            | Alternate Setup        |
+|              |Recommended                            | Alternate              |
 |:------------:|:-------------------------------------:|:----------------------:|
 |   **Basic**  |HaGeZi - Multi LIGHT                   |1Hosts (mini)           |
 | **Balanced** |HaGeZi - Multi NORMAL                  |1Hosts (Lite) + oisd    |
 |  **Strict**  |HaGeZi - Multi PRO++                   |1Hosts (Pro) + oisd     |
-|**Aggressive**|1Hosts (Xtra) + HaGeZi - Multi ULTIMATE|
+|**Aggressive**|HaGeZi - Multi ULTIMATE                |1Hosts (Xtra)           |
 
 </center>
 
