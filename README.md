@@ -355,7 +355,6 @@ See [article](https://thenewoil.org/secprivanon.html) | [video](https://youtu.be
 [No, you cannot](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block first-party ads using only DNS-level blocking. You will need an adblocker.
 
 ### What browser should I use that has adblocking?
-
 Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY), so here's a few caveats:
 * Note that just because one browser or content blocker looks like the best on paper doesn't mean it is in real world usage (e.g. [Brave](https://brave.com/) is a buggy mess with video playback on iOS.)
 * Privacy best practices dictates that you use different browsers (or different browser profiles) for different areas of life: e.g. work, school, personal.
@@ -378,8 +377,6 @@ Here are the suggested browsers for each operating system (OS):
 | Windows | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
 | macOS | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) | [Orion](https://browser.kagi.com/) |
 | Linux | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox))  |  [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |       
-
-* [Brave](https://brave.com) is a great choice [if you prefer Chrome](https://youtu.be/VHwIyR6ca4o?t=249), want uninstrusive [fingerprint protection](https://brave.com/privacy-updates/4-fingerprinting-defenses-2.0/), and don't enjoy doing a lot of tweaking.<sup>[1](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#what-chromium-features-are-removed-for-privacysecurity-reasons)</sup>
 
 ### What is the difference between security, privacy, and anonymity?
 See [article](https://thenewoil.org/en/guides/prologue/secprivanon) | [video](https://youtu.be/Wpkh-hfULgE)
