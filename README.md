@@ -314,7 +314,7 @@ Just in case a [filterlist goes haywire](https://github.com/yokoffing/NextDNS-Co
 # Settings :gear:
 
 ### Logs
-**Storage location** → 🇨🇭 Switzerland
+**Storage location** → :ch: Switzerland
 
 ### Block Page
 :warning: Enabling may cause breakage if the [NextDNS Root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca) is not on your devices. This setting also [breaks](https://help.nextdns.io/t/g9hdska) iCloud [Private Relay](https://support.apple.com/en-us/HT212614), [Yahoo! Mail](https://github.com/hagezi/dns-blocklists/issues/269#issuecomment-1409644343), and the [NAVER](https://channelsearch.naver.com) app.
