@@ -109,7 +109,7 @@ Blocklists are community generated lists that block ads and [trackers](https://f
 4) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
 5) **Aggressive**: frequent breakage; only experienced users should use this setup; use it on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
-We recommend you remove the NextDNS Ads & Trackers Blocklist and select the [minimum number of useful lists](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3). Here are the suggested blocklists for each category:
+We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.com/nextdns/blocklists/blob/main/blocklists/nextdns-recommended.json) and select the [minimum number of useful lists](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3). Here are the suggested blocklists for each category:
 
 <center>
 
