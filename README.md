@@ -113,12 +113,12 @@ We recommend you remove the NextDNS Ads & Trackers Blocklist and [select the min
 
 <center>
 
-|              |Recommended                            | Alternate              |
-|:------------:|:-------------------------------------:|:----------------------:|
-|   **Basic**  |HaGeZi - Multi LIGHT                   |1Hosts (mini)           |
-| **Balanced** |HaGeZi - Multi NORMAL                  |1Hosts (Lite) + oisd    |
-|  **Strict**  |HaGeZi - Multi PRO++                   |1Hosts (Pro) + oisd     |
-|**Aggressive**|HaGeZi - Multi ULTIMATE                |1Hosts (Xtra)           |
+|              |Recommended            |Optional     | Alternate          |
+|:------------:|:---------------------:|:-----------:|:------------------:|
+|**Basic**     |HaGeZi - Multi LIGHT   |             |1Hosts (mini)       |
+|**Balanced**  |HaGeZi - Multi NORMAL  |             |1Hosts (Lite) + oisd|
+|**Strict**    |HaGeZi - Multi PRO++   |             |1Hosts (Pro) + oisd |
+|**Aggressive**|HaGeZi - Multi ULTIMATE|1Hosts (Xtra)|                    |
 
 </center>
 
