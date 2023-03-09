@@ -118,7 +118,7 @@ We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.co
 |   **Basic**  |HaGeZi - Multi LIGHT                   |1Hosts (mini)           |
 | **Balanced** |HaGeZi - Multi NORMAL                  |1Hosts (Lite) + oisd    |
 |  **Strict**  |HaGeZi - Multi PRO++                   |1Hosts (Pro) + oisd     |
-|**Aggressive**|HaGeZi - Multi ULTIMATE                |1Hosts (Xtra)           |
+|**Aggressive**|HaGeZi - Multi ULTIMATE                |                        |
 
 </center>
 
