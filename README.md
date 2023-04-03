@@ -47,7 +47,8 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 :warning: Blocking NRDs may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3). Be selective when adding NRDs to your allowlist; and, if you do, **NEVER** give [sensitive information](https://egnyte.com/guides/governance/sensitive-information) to a NRD. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, disable this setting.*
 <br><br>![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs)
 ### Block Dynamic DNS Hostnames <sup><sup>[1](https://github.com/nextdns/ddns-domains/blob/main/suffixes) [2](https://unofficialbird.com/NextDNS/status/1541740963760144386) </sup></sup>
-:bulb: If you are using DDNS, note that this setting will not block the DDNS services' own website or their update API. <p>
+:warning: This feature is still in beta and may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive). <p>
+:bulb: If you are using Dynamic DNS (DDNS), this setting will **not** block the DDNS services' own website or their update API. <p>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
@@ -403,17 +404,6 @@ See [article](https://thenewoil.org/en/guides/prologue/secprivanon) | [video](ht
 * [Easylist](https://github.com/easylist/easylist/issues?q=author%3Ayokoffing)
 * [uBlock Origin](https://github.com/uBlockOrigin/uAssets/issues?q=author%3Ayokoffing)
 * [AdGuard](https://github.com/AdguardTeam/AdguardFilters/issues?q=author%3Ayokoffing)
-
-***
-
-# Support :heart:
-I’m a one-person operation, running this page as a passion project in my time off. If you enjoy my work, please leave a tip! Your support is incredibly appreciated and allows me to dedicate time to this project :blush:
-
-<img align="top" width="25px" src="https://coekuss.com/quietfox/bitcoin.png"> Bitcoin: 334gaiEjn6wY1VksQvYe5L668JjtPEPyiM
-
-<img align="top" width="20px" src="https://coekuss.com/quietfox/paypal.png"> PayPal: paypal.me (forthcoming)
-
-***
 
 <div align='center'><a href='https://websitecounterfree.com'><img src='https://websitecounterfree.com/c.php?d=9&id=19651&s=1' border='0' alt='Free Website Counter'></a><br / ></div>
 <div align='center'>since 23 July 2022</div>
