@@ -195,13 +195,6 @@ Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokof
 
 	events.gfe.nvidia.com
 
-### Junk surveillance software
-
-	a-spy.com
-	aispyer.com
-	alltracker.org
-	spappmonitoring.com
-
 </details>
 
 ***
