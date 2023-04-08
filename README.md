@@ -183,7 +183,6 @@ Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokof
 	iadsdk.apple.com
 	notes-analytics-events.apple.com
 	notes-analytics-events.news.apple-dns.net
-	stocks-analytics-events.news.apple-dns.net
 	weather-analytics-events.apple.com
 	weather-analytics-events.news.apple-dns.net
 	
@@ -194,13 +193,6 @@ Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokof
 ### NVIDIA Gefore Experience <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/650)</sup></sup>
 
 	events.gfe.nvidia.com
-
-### Junk surveillance software
-
-	a-spy.com
-	aispyer.com
-	alltracker.org
-	spappmonitoring.com
 
 </details>
 
