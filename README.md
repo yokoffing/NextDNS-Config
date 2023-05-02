@@ -9,7 +9,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FNextDNS-Config&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ***
-# Guidelines 🔖
+# Guidelines :bookmark:
 1) Prevent overblocking by utilizing the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (e.g., using [sane](https://privacyguides.org/basics/threat-modeling), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-5-); etc.).
 2) Pass the [girlfriend test](https://urbandictionary.com/define.php?term=Grandma%20Test) with few exceptions. These deviations are documented throughout the guide.
 
@@ -21,20 +21,21 @@ Sign up for NextDNS [here](https://nextdns.io/?from=xujj63g5)!
 
 ***
 
-# Security 👮‍♂️
+# Security :policeman:
 
 Security settings protect your data from harm, theft, and unauthorized use.<sup>*^[why does this matter?](https://thenewoil.org/en/guides/prologue/why)*</sup>
 
 ### Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/threat-intelligence-feeds.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
 ### AI-Driven Threat Detection <sup><sup>[1](https://unofficialbird.com/NextDNS/status/1440291577713233925?lang=en)</sup></sup>
-⚠️ This feature is still in beta and may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive).
+:warning: This feature is still in beta and may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive).
 <br><br>![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enable AI-Driven Threat Detection
 ### Google Safe Browsing <sup><sup> [1](https://safebrowsing.google.com/safebrowsing/report_general/) [2](https://blog.cryptographyengineering.com/2019/10/13/dear-apple-safe-browsing-might-not-be-that-safe/) [3](https://the8-bit.com/apple-proxies-google-safe-browsing-privacy/) [4](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#services-we-proxy-through-brave-servers) </sup></sup>
-💡 Unlike the version embedded in some browsers, this does not associate your public IP address to threats and does not allow bypassing the block. <p>
+:bulb: Unlike the version embedded in some browsers, this does not associate your public IP address to threats and does not allow bypassing the block. <p>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Google Safe Browsing
 ### Cryptojacking Protection <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/cryptojacking.json)</sup></sup>
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Cryptojacking Protection
+:warning: If you use something other than the [recommended blocklists](https://github.com/yokoffing/NextDNS-Config#privacy-lock), then you should leave this enabled.<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/31)</sup>
+<br><br>![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enable Cryptojacking Protection
 ### DNS Rebinding Protection <sup><sup>[1](https://help.nextdns.io/t/35hmval/what-is-dns-rebinding-protection) [2](https://old.reddit.com/r/nextdns/comments/t0ne8r/does_dns_rebinding_protection_block_remote_access/?context=3)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg)  Enable DNS Rebinding Protection
 ### IDN Homograph Attacks Protection <sup><sup>[1](https://blog.riotsecurityteam.com/idn-homograph-attacksprevention) [2](https://akamai.com/blog/security/watch-your-step-the-prevalence-of-idn-homograph-attacks)</sup></sup>
@@ -44,15 +45,16 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ### Domain Generation Algorithms (DGAs) Protection
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable DGA Protection
 ### Block Newly Registered Domains (NRDs) <sup><sup>[1](https://boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks) </sup></sup>
-⚠️ Blocking NRDs may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3). Be selective when adding NRDs to your allowlist; and, if you do, **NEVER** give [sensitive information](https://egnyte.com/guides/governance/sensitive-information) to a NRD. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, disable this setting.*
+:warning: Blocking NRDs may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) [occasionally](https://old.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3). Be selective when adding NRDs to your allowlist; and, if you do, **NEVER** give [sensitive information](https://egnyte.com/guides/governance/sensitive-information) to a NRD. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, disable this setting.*
 <br><br>![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs)
 ### Block Dynamic DNS Hostnames <sup><sup>[1](https://github.com/nextdns/ddns-domains/blob/main/suffixes) [2](https://unofficialbird.com/NextDNS/status/1541740963760144386) </sup></sup>
-💡 If you are using DDNS, note that this setting will not block the DDNS services' own website or their update API. <p>
+:warning: This feature is still in beta and may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive). <p>
+:bulb: If you are using Dynamic DNS (DDNS), this setting will **not** block the DDNS services' own website or their update API. <p>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
 ### Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 ### Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) [5](https://github.com/DandelionSprout/adfilt/issues/659#issuecomment-1284845803) </sup></sup>
-⚠️ Blocking [TLDs](https://geeksforgeeks.org/components-of-a-url) may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) since this feature blocks both site nagviations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs since they have no known legitimate uses.
+:warning: Blocking [TLDs](https://geeksforgeeks.org/components-of-a-url) may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) since this feature blocks both site nagviations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs since they have no known legitimate uses.
 
 ```
 .bid
@@ -65,7 +67,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .sbs
 ```
 
-🛑 Below are additional TLDs you may block, but you may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
+:stop_sign: Below are additional TLDs you may block, but you may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
 
 <details>
 
@@ -90,14 +92,14 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 
 </details>
 
-📝 If you would rather block TLDs with an adblocker (e.g., easier to troubleshoot breakage), add the first two filterlists [here](https://github.com/yokoffing/filterlists#security).
+:memo: If you would rather block TLDs with an adblocker (e.g., easier to troubleshoot breakage), add the first two filterlists [here](https://github.com/yokoffing/filterlists#security).
 
 ### Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
 
 ***
 
-# Privacy 🔒
+# Privacy :lock:
 Privacy features limit the amount of data that companies can collect about you. Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum). What you need varies on your [threat model](https://thenewoil.org/en/guides/prologue/threatmodel), interest, and skillset.<sup>^[*why should I care? I have nothing to hide*](https://aeon.co/essays/privacy-matters-because-it-empowers-us-all)</sup>
 
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/blocklists/tree/main/blocklists)</sup></sup>
@@ -107,9 +109,9 @@ Blocklists are community generated lists that block ads and [trackers](https://f
 2) **Basic**: rare breakage; prioritizes functionality over blocking; very forgiving
 3) **Balanced**: minimal breakage; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally to [unsubscribe from junk email](https://old.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1)
 4) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
-5) **Aggressive**: excessive breakage; many false positives; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
+5) **Aggressive**: frequent breakage; only for experienced users; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
-We recommend you remove the NextDNS Ads & Trackers Blocklist and [select the minimum number of useful lists](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3). Here are the suggested blocklists for each category:
+We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.com/nextdns/blocklists/blob/main/blocklists/nextdns-recommended.json) and select the [minimum number of useful lists](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3). Here are the suggested blocklists for each category:
 
 <center>
 
@@ -118,13 +120,13 @@ We recommend you remove the NextDNS Ads & Trackers Blocklist and [select the min
 |   **Basic**  |HaGeZi - Multi LIGHT                   |1Hosts (mini)           |
 | **Balanced** |HaGeZi - Multi NORMAL                  |1Hosts (Lite) + oisd    |
 |  **Strict**  |HaGeZi - Multi PRO++                   |1Hosts (Pro) + oisd     |
-|**Aggressive**|HaGeZi - Multi ULTIMATE                |1Hosts (Xtra)           |
+|**Aggressive**|HaGeZi - Multi ULTIMATE                |                        |
 
 </center>
 
-💡 The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/comment/iffd682/) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2) [5](https://old.reddit.com/r/nextdns/comments/yryq3c/comment/ivwr8tp/?context=3) [6](https://old.reddit.com/r/nextdns/comments/z49c93/state_of_affairs_at_the_moment_lol/ixtazg1/?context=2) </sup>
+:bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/comment/iffd682/) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2) [5](https://old.reddit.com/r/nextdns/comments/yryq3c/comment/ivwr8tp/?context=3) [6](https://old.reddit.com/r/nextdns/comments/z49c93/state_of_affairs_at_the_moment_lol/ixtazg1/?context=2) </sup>
 
-❓ You may wonder why other lists are not utilized. This is because many list maintainers:
+:question: You may wonder why other lists are not utilized. This is because many list maintainers:
 * do not remove [false positives](https://csrc.nist.gov/glossary/term/false_positive) and/or are no longer active <sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916)</sup>
 * already aggregate common blocklists into their own list (Easylist/Fanboy, AdGuard, Steven Black, etc.) <sup>[1](https://github.com/badmojr/1Hosts/blob/master/-data/lists/assets.txt) [2](https://oisd.nl/includedlists/big/0) [3](https://github.com/jerryn70/GoodbyeAds/blob/master/Docs/Sources.md) </sup>
 * offer no meaningful additional coverage when compared with the chart combinations above <sup>[1](https://old.reddit.com/r/nextdns/comments/ys3s1s/comment/ivxdcd2/?context=3)</sup>
@@ -150,8 +152,8 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
 
 ### Allow Affiliate & Tracking Links <sup><sup>[1](https://github.com/nextdns/click-tracking-domains) [2](https://unofficialbird.com/NextDNS/status/1539229377560461312) </sup></sup>
-💡 Your IP address will automatically be hidden (via [TCP](https://educba.com/what-is-tcp-ip) [proxying](https://en.wikipedia.org/wiki/Proxy_server#/media/File:Proxy_concept_en.svg)) to preserve your privacy.<p>
-⚠️ Disabling may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) when opening some emails. <p>
+:bulb: Your IP address will automatically be hidden (via [TCP](https://educba.com/what-is-tcp-ip) [proxying](https://en.wikipedia.org/wiki/Proxy_server#/media/File:Proxy_concept_en.svg)) to preserve your privacy.<p>
+:warning: Disabling may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) when opening some emails. <p>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Allow Affiliate & Tracking Links
 
 ***
@@ -160,12 +162,12 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 ### YouTube Restricted Mode
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enforce YouTube Restricted Mode
 ### Block Bypass Methods <sup><sup>[1](https://github.com/nextdns/dns-bypass-methods)</sup></sup>
-⚠️ Enabling may cause unintended breakage. <p>
+:warning: Enabling may cause unintended breakage. <p>
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Bypass Methods
 
 ***
 
-# Denylist ⛔
+# Denylist :no_entry:
 
 Denylist entries block any requests from that source. The entries below may further harden `Balanced` [blocklist](https://github.com/yokoffing/NextDNS-Config#blocklists-1) profiles while not interfering with everyday browsing.
 
@@ -182,7 +184,6 @@ Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokof
 	iadsdk.apple.com
 	notes-analytics-events.apple.com
 	notes-analytics-events.news.apple-dns.net
-	stocks-analytics-events.news.apple-dns.net
 	weather-analytics-events.apple.com
 	weather-analytics-events.news.apple-dns.net
 	
@@ -191,21 +192,14 @@ Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokof
 	syndication.twitter.com
 
 ### NVIDIA Gefore Experience <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/650)</sup></sup>
-	
+
 	events.gfe.nvidia.com
-
-### Junk surveillance software
-
-	a-spy.com
-	aispyer.com
-	alltracker.org
-	spappmonitoring.com
 
 </details>
 
 ***
 
-# Allowlist ✅
+# Allowlist :white_check_mark:
 
 Allowlist entries override any blocks. These entries may be needed for `Strict` and `Aggressive` [blocklist](https://github.com/yokoffing/NextDNS-Config#blocklists-1) profiles.
 
@@ -216,6 +210,7 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 	graph.facebook.com
 	graph.instagram.com
 	i.instagram.com
+	b-graph.facebook.com
 
 ### Apple device updates <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/536) [2](https://github.com/badmojr/1Hosts/issues/562) [3](https://github.com/nextdns/metadata/pull/1132#issuecomment-1331733770) [4](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558)
 A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558), but it's needed for device updates
@@ -311,26 +306,26 @@ Just in case a [filterlist goes haywire](https://github.com/yokoffing/NextDNS-Co
 
 ***
 
-# Settings ⚙️
+# Settings :gear:
 
 ### Logs
-**Storage location** → 🇨🇭 Switzerland
+**Storage location** → Switzerland
 
 ### Block Page
-⚠️ Enabling may cause breakage if the [NextDNS Root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca) is not on your devices. This setting also [breaks](https://help.nextdns.io/t/g9hdska) iCloud [Private Relay](https://support.apple.com/en-us/HT212614), [Yahoo! Mail](https://github.com/hagezi/dns-blocklists/issues/269#issuecomment-1409644343), and the [NAVER](https://channelsearch.naver.com) app.
+:warning: Enabling may cause breakage if the [NextDNS Root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca) is not on your devices. This setting also [breaks](https://help.nextdns.io/t/g9hdska) iCloud [Private Relay](https://support.apple.com/en-us/HT212614), [Yahoo! Mail](https://github.com/hagezi/dns-blocklists/issues/269#issuecomment-1409644343), and the [NAVER](https://channelsearch.naver.com) app.
 <br><br> ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enable Block Page
 ### Anonymized EDNS Client Subnet <sup><sup>[1](https://help.nextdns.io/t/m1hmv04/what-is-edns-client-subnet-ecs) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Anonymized EDNS Client Subnet
 ### Cache Boost <sup><sup>[1](https://old.reddit.com/r/nextdns/comments/girmcf/new_setting_cache_boost/)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Cache Boost
 ### CNAME Flattening <sup><sup>[1](https://medium.com/nextdns/nextdns-added-cname-uncloaking-support-becomes-the-first-cross-platform-solution-to-the-problem-e3f437f84342) [2](https://developers.cloudflare.com/dns/additional-options/cname-flattening) [3](https://advancedweb.hu/what-is-cname-flattening-and-how-it-helps-redirecting-the-apex-domain) </sup></sup>
-⚠️ Enabling may cause [breakage with Yahoo! Mail](https://github.com/hagezi/dns-blocklists/issues/269#issuecomment-1409644343), but is okay otherwise.
-<br><br>![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable CNAME Flattening → (optional)
+:warning: Enabling may cause [breakage with Yahoo! Mail](https://github.com/hagezi/dns-blocklists/issues/269#issuecomment-1409644343) and cause issues with some blocklists.
+<br><br> ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enable CNAME Flattening
 ### Web3 <sup><sup> [1](https://unofficialbird.com/NextDNS/status/1491034351391305731) [2](https://gabygoldberg.notion.site/f7050e62461143d49345e7b46eb5576b)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Web3 → (optional)
 
 ***
-# FAQ ❓
+# FAQ :question:
 
 ### How do I signup for NextDNS?
 Click [here](https://nextdns.io/?from=xujj63g5)!
@@ -385,7 +380,7 @@ See [article](https://thenewoil.org/en/guides/prologue/secprivanon) | [video](ht
 [No](https://old.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). NextDNS is only concerned about DNS traffic. You would need a [quality](https://youtu.be/cK4MQv-OwyM) [VPN](https://ivpn.net/blog/why-you-dont-need-a-vpn) to hide all activity from your ISP.
 
 ***
-# Mentions 📚
+# Mentions :books:
 
 #### User Comments
 [1](https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2)
@@ -417,17 +412,6 @@ See [article](https://thenewoil.org/en/guides/prologue/secprivanon) | [video](ht
 * [Easylist](https://github.com/easylist/easylist/issues?q=author%3Ayokoffing)
 * [uBlock Origin](https://github.com/uBlockOrigin/uAssets/issues?q=author%3Ayokoffing)
 * [AdGuard](https://github.com/AdguardTeam/AdguardFilters/issues?q=author%3Ayokoffing)
-
-***
-
-# Support ❤️
-I’m a one-person operation, running this page as a passion project in my time off. If you enjoy my work, please leave a tip! Your support is incredibly appreciated and allows me to dedicate time to this project 😊
-
-<img align="top" width="25px" src="https://coekuss.com/quietfox/bitcoin.png"> Bitcoin: 334gaiEjn6wY1VksQvYe5L668JjtPEPyiM
-
-<img align="top" width="20px" src="https://coekuss.com/quietfox/paypal.png"> PayPal: paypal.me (forthcoming)
-
-***
 
 <div align='center'><a href='https://websitecounterfree.com'><img src='https://websitecounterfree.com/c.php?d=9&id=19651&s=1' border='0' alt='Free Website Counter'></a><br / ></div>
 <div align='center'>since 23 July 2022</div>
