@@ -330,7 +330,7 @@ Just in case a [filterlist goes haywire](https://github.com/yokoffing/NextDNS-Co
 ### How do I signup for NextDNS?
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
-### "I'm thinking about having as less as possible activated so that NextDNS doesn't get slow, or does it not affect the speed of NextDNS?"<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12)</sup>
+### Does the number of features enabled affect the speed of NextDNS?<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12#issue-1465457977)</sup>
 
 The amount of settings your enable/disable does not affect your DNS latency.
 
@@ -340,35 +340,42 @@ Unless you use a separate profile for the browser, it is not neccessary.<sup>[1]
 ### If I have a profile for my router and another profile for my device, which one will my device use?
 The device will use the profile set by the NextDNS app or the installed [root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca). However, if the device has not been configured to use a separate profile, then it will use the wifi/router configuration.<sup>[1](https://old.reddit.com/r/nextdns/comments/yf4hnv/question_about_home_router_and_app_running_in/)</sup>
 
+### What is the difference between security, privacy, and anonymity?
+See [article](https://thenewoil.org/en/guides/prologue/secprivanon/) | [video](https://youtu.be/Wpkh-hfULgE)
+
+### Does NextDNS hide activity from my Internet Service Provider (ISP)?
+[No](https://old.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). NextDNS is only concerned about DNS traffic. You would need a [quality](https://www.youtube.com/watch?v=cK4MQv-OwyM) [VPN](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) to hide all activity from your ISP.
+
 ### Can I block YouTube ads with NextDNS only?
 [No, you cannot](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block first-party ads using only DNS-level blocking. You will need an adblocker.
 
 ### What browser should I use that has adblocking?
-* [Brave](https://brave.com) is a great choice [if you prefer Chrome](https://youtu.be/VHwIyR6ca4o?t=249), want uninstrusive [fingerprint protection](https://brave.com/privacy-updates/4-fingerprinting-defenses-2.0/), and don't enjoy doing a lot of tweaking.<sup>[1](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#what-chromium-features-are-removed-for-privacysecurity-reasons)</sup>
-* [Firefox](https://mozilla.org/en-US/firefox/new) with [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker)<sup>[1](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22)</sup> or [Ghostery](https://addons.mozilla.org/en-US/firefox/addon/ghostery), and configured using [Betterfox](https://github.com/yokoffing/Betterfox).
-* [Safari](https://apple.com/safari) with [Ghostery](https://ghostery.com/ghostery-ad-blocker-safari) or [AdGuard](https://adguard.com/en/adguard-ios/overview.html).
-* [Orion](https://browser.kagi.com) is a promising, [up-and-coming](https://idioms.thefreedictionary.com/up-and-coming) browser for Apple devices with native adblocking.
+Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY), so here's a few caveats:
+* Note that just because one browser or content blocker looks like the best on paper doesn't mean it is in real world usage (e.g. [Brave](https://brave.com/) is a buggy mess with video playback on iOS.)
+* Privacy best practices dictates that you use different browsers (or different browser profiles) for different areas of life: e.g. work, school, personal.
+* Browsers are tools. I use a variety of browsers depending on what I need to do, but everyone will have a personal preference towards what their favorite is.
+* The recommendations here are based on a combination of effectiveness, resource efficiency, features, and ease of use.
 
-Here are the suggested browsers for each operating system:
+Here are the suggested browsers for each operating system (OS):
 
-| Browser | Windows | macOS | Linux | iOS | Android |
-|:-------:|:-------:|:-----:|:-----:|:---:|:-------:|
-|  Brave  |    x    |   x   |   x   |  x  |    x    |
-| Firefox |    x    |   x   |   x   |     |         |
-|  Safari |         |   x   |       |  x  |         |
-|  Orion  |         |   x   |       |  x  |         |
+#### Mobile
 
-### What is the difference between security, privacy, and anonymity?
-See [article](https://thenewoil.org/en/guides/prologue/secprivanon) | [video](https://youtu.be/Wpkh-hfULgE)
+| OS | Browser | Content Blocker | Notes |
+|---|---|---|---|
+| iOS | [Safari](https://www.apple.com/safari) <br>[Orion](https://browser.kagi.com/) | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari) | [AdGuard](https://adguard.com/en/adguard-ios/overview.html) allows you to add custom filterlists but it's resource intensive.  |
+| Android | Firefox | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-firefox) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
 
-### Does NextDNS hide activity from my Internet Service Provider (ISP)?
-[No](https://old.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). NextDNS is only concerned about DNS traffic. You would need a [quality](https://youtu.be/cK4MQv-OwyM) [VPN](https://ivpn.net/blog/why-you-dont-need-a-vpn) to hide all activity from your ISP.
+#### Desktop
+
+| OS | Browser | Content Blocker | Notes |
+|---|---|---|---|
+| Any | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  | |
 
 ***
 # Mentions :books:
 
 #### User Comments
-[1](https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2)
+* [1](https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2)
 [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/?context=3)
 [3](https://old.reddit.com/r/nextdns/comments/vxh4pt/comment/ifykqyh/?conFMHYedFMHYeditittext=1)
 [4](https://old.reddit.com/r/nextdns/comments/y3zmhb/comment/isc2o4q/?context=3)
