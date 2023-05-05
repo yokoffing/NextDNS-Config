@@ -387,6 +387,9 @@ See [article](https://thenewoil.org/en/guides/prologue/secprivanon) | [video](ht
 [17](https://old.reddit.com/r/nextdns/comments/1026j01/first_account_setup/j2ryxf2/?context=2)
 [18](https://old.reddit.com/r/privacy/comments/yyrbiw/is_nextdns_better_than_trackercontrol/iy167mh/?context=2)
 
+#### Articles
+* [Knot Resolver — with ad blocking](https://blog.cavelab.dev/2022/12/knot-resolver-ad-blocking/) (Dec 2022)
+
 #### Guides
 * [FMHY: DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking) → NextDNS → Guide
 * [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists#nextdns---limited-freepaid-) → Online DNS services
