@@ -330,7 +330,7 @@ Just in case a [filterlist goes haywire](https://github.com/yokoffing/NextDNS-Co
 ### How do I signup for NextDNS?
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
-### Does the number of features enabled affect the speed of NextDNS?<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12)</sup>
+### Does the number of features enabled affect the speed of NextDNS?<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12#issue-1465457977)</sup>
 
 The amount of settings your enable/disable does not affect your DNS latency.
 
