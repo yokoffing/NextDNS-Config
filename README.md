@@ -330,7 +330,7 @@ Just in case a [filterlist goes haywire](https://github.com/yokoffing/NextDNS-Co
 ### How do I signup for NextDNS?
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
-### "I'm thinking about having as less as possible activated so that NextDNS doesn't get slow, or does it not affect the speed of NextDNS?"<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12)</sup>
+### Does the number of features enabled affect the speed of NextDNS?<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12)</sup>
 
 The amount of settings your enable/disable does not affect your DNS latency.
 
@@ -341,7 +341,7 @@ Unless you use a separate profile for the browser, it is not neccessary.<sup>[1]
 The device will use the profile set by the NextDNS app or the installed [root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca). However, if the device has not been configured to use a separate profile, then it will use the wifi/router configuration.<sup>[1](https://old.reddit.com/r/nextdns/comments/yf4hnv/question_about_home_router_and_app_running_in/)</sup>
 
 ### What is the difference between security, privacy, and anonymity?
-See [article](https://thenewoil.org/secprivanon.html) | [video](https://youtu.be/Wpkh-hfULgE)
+See [article](https://thenewoil.org/en/guides/prologue/secprivanon/) | [video](https://youtu.be/Wpkh-hfULgE)
 
 ### Does NextDNS hide activity from my Internet Service Provider (ISP)?
 [No](https://old.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). NextDNS is only concerned about DNS traffic. You would need a [quality](https://www.youtube.com/watch?v=cK4MQv-OwyM) [VPN](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) to hide all activity from your ISP.
@@ -360,30 +360,22 @@ Here are the suggested browsers for each operating system (OS):
 
 #### Mobile
 
-| OS | Browser | Adblocker / Content Blocker | Alternative/Notes |
+| OS | Browser | Content Blocker | Notes |
 |---|---|---|---|
-| iOS | [Safari](https://www.apple.com/safari) | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari) | [Orion](https://browser.kagi.com/). [AdGuard](https://adguard.com/en/adguard-ios/overview.html) allows you to add custom filterlists but it's resource intensive.  |
+| iOS | [Safari](https://www.apple.com/safari) <br>[Orion](https://browser.kagi.com/) | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari) | [AdGuard](https://adguard.com/en/adguard-ios/overview.html) allows you to add custom filterlists but it's resource intensive.  |
 | Android | Firefox | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-firefox) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
 
 #### Desktop
 
-| OS | Browser | Adblocker / Content Blocker | Alternative |
+| OS | Browser | Content Blocker | Notes |
 |---|---|---|---|
-| Windows | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
-| macOS | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) | [Orion](https://browser.kagi.com/) |
-| Linux | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox))  |  [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |       
-
-### What is the difference between security, privacy, and anonymity?
-See [article](https://thenewoil.org/en/guides/prologue/secprivanon) | [video](https://youtu.be/Wpkh-hfULgE)
-
-### Does NextDNS hide activity from my Internet Service Provider (ISP)?
-[No](https://old.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). NextDNS is only concerned about DNS traffic. You would need a [quality](https://youtu.be/cK4MQv-OwyM) [VPN](https://ivpn.net/blog/why-you-dont-need-a-vpn) to hide all activity from your ISP.
+| Any | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  | |
 
 ***
 # Mentions :books:
 
 #### User Comments
-[1](https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2)
+* [1](https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2)
 [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/?context=3)
 [3](https://old.reddit.com/r/nextdns/comments/vxh4pt/comment/ifykqyh/?conFMHYedFMHYeditittext=1)
 [4](https://old.reddit.com/r/nextdns/comments/y3zmhb/comment/isc2o4q/?context=3)
