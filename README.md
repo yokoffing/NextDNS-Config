@@ -330,9 +330,9 @@ Just in case a [filterlist goes haywire](https://github.com/yokoffing/NextDNS-Co
 ### How do I signup for NextDNS?
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
-### Does the number of features enabled affect the speed of NextDNS?<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12#issue-1465457977)</sup>
+### Does the amount of features enabled affect the speed of NextDNS?<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12#issue-1465457977) [2](https://old.reddit.com/r/nextdns/comments/135utai/comment/jilbus8/?=&context=3)</sup>
 
-The amount of settings your enable/disable does not affect your DNS latency.
+The number of settings you toggle on will not affect your DNS latency.
 
 ### Is it redundant to set DoH at browser-level if I'm already using it at system-level?
 Unless you use a separate profile for the browser, it is not neccessary.<sup>[1](https://old.reddit.com/r/nextdns/comments/yfjvqy/is_it_redundant_to_set_at_doh_at_browserlevel_if/iu3vjzt/?context=3)</sup> However, I recommend [setting it in your web browser](https://itechtics.com/dns-over-https/#how-to-enable-or-disable-dns-over-https-in-your-browsers) anyway. 
