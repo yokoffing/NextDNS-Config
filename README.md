@@ -64,6 +64,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .loans
 .ooo
 .sbs
+.zip
 ```
 
 :stop_sign: Below are additional TLDs you may block, but you may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
