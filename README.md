@@ -1,5 +1,4 @@
 [![GitHub issues](https://img.shields.io/github/issues/yokoffing/NextDNS-Config)](https://github.com/yokoffing/NextDNS-Config/issues)
-[![GitHub closed issues](https://badgen.net/github/closed-issues/yokoffing/NextDNS-Config?color=green)](https://github.com/yokoffing/NextDNS-Config/issues?q=is%3Aissue+is%3Aclosed)
 ![GitHub repo size](https://img.shields.io/github/repo-size/yokoffing/NextDNS-Config)
 ![GitHub](https://img.shields.io/github/license/yokoffing/NextDNS-Config?color=blue)
 ![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-green)
@@ -211,6 +210,14 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 	graph.instagram.com
 	i.instagram.com
 	b-graph.facebook.com
+
+If you're still having issues, try:
+	
+	connect.facebook.com
+	connect.facebook.net
+	graph-fallback.facebook.com
+	z-m-graph.facebook.com
+	graph-fallback.instagram.com
 
 ### Apple device updates <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/536) [2](https://github.com/badmojr/1Hosts/issues/562) [3](https://github.com/nextdns/metadata/pull/1132#issuecomment-1331733770) [4](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558)
 A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558), but it's needed for device updates
