@@ -211,7 +211,7 @@ Allowlist entries override any blocks. These entries may be needed for `Strict` 
 	i.instagram.com
 	b-graph.facebook.com
 
-If you're still having issues, try:
+If you're still having issues, try [these](https://raw.githubusercontent.com/hagezi/dns-data-collection/main/share/facebook.txt):
 	
 	connect.facebook.com
 	connect.facebook.net
