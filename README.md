@@ -80,9 +80,16 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .agency
 .buzz
 .cf
+.dad
+.esq
+.foo
 .ga
 .gq
 .ml
+.mov
+.nexus
+.phd
+.prof
 .pw
 .ru
 .tk
