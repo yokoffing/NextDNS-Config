@@ -112,7 +112,7 @@ Privacy features limit the amount of data that companies can collect about you. 
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/blocklists/tree/main/blocklists)</sup></sup>
 
 Blocklists are community generated lists that block ads and [trackers](https://freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Filters can be categorized into five tiers of coverage:
-1) **None**: no breakage; NextDNS still protects against malicious threats (à la [security settings](https://github.com/yokoffing/NextDNS-Config#security-policeman)) but will allow ads and trackers
+1) **None**: no breakage; [NextDNS](https://nextdns.io/?from=xujj63g5) still protects against malicious threats (à la [security settings](https://github.com/yokoffing/NextDNS-Config#security-policeman)) but will allow ads and trackers
 2) **Basic**: rare breakage; prioritizes functionality over blocking; very forgiving
 3) **Balanced**: minimal breakage; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally to [unsubscribe from junk email](https://old.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1)
 4) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
@@ -345,14 +345,17 @@ Just in case a [filterlist goes haywire](https://github.com/yokoffing/NextDNS-Co
 ### How do I signup for NextDNS?
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
+### Should I pay for NextDNS?
+For the rich features it provides, [NextDNS](https://nextdns.io/?from=xujj63g5) is very affordable at $19.90/year for unlimited devices. It pays for itself if it saves my family from a malicious incident.
+
 ### Does the amount of features enabled affect the speed of NextDNS?<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12#issue-1465457977) [2](https://old.reddit.com/r/nextdns/comments/135utai/comment/jilbus8/?=&context=3)</sup>
 
 The number of settings you toggle on will not affect your DNS latency.
 
-### Is it redundant to set DoH at browser-level if I'm already using it at system-level?
+### Do I need to set DoH at browser-level if I already use NextDNS at system-level?
 Unless you use a separate profile for the browser, it is not neccessary.<sup>[1](https://old.reddit.com/r/nextdns/comments/yfjvqy/is_it_redundant_to_set_at_doh_at_browserlevel_if/iu3vjzt/?context=3)</sup> However, I recommend [setting it in your web browser](https://itechtics.com/dns-over-https/#how-to-enable-or-disable-dns-over-https-in-your-browsers) anyway. 
 
-### If I have a profile for my router and another profile for my device, which one will my device use?
+### I have a router profile and a device profile. Which one does my device use?
 The device will use the profile set by the NextDNS app or the installed [root CA](https://help.nextdns.io/t/g9hmv0a/how-to-install-and-trust-nextdns-root-ca). However, if the device has not been configured to use a separate profile, then it will use the wifi/router configuration.<sup>[1](https://old.reddit.com/r/nextdns/comments/yf4hnv/question_about_home_router_and_app_running_in/)</sup>
 
 ### What is the difference between security, privacy, and anonymity?
@@ -364,14 +367,13 @@ See [article](https://thenewoil.org/en/guides/prologue/secprivanon/) | [video](h
 ### Can I block YouTube ads with NextDNS only?
 [No, you cannot](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block first-party ads using only DNS-level blocking. You will need an adblocker.
 
-### What browser should I use that has adblocking?
+### I need a browser that has adblocking. Which one should I choose?
 Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY), so here's a few caveats:
-* Note that just because one browser or content blocker looks like the best on paper doesn't mean it is in real world usage (e.g. [Brave](https://brave.com/) is a buggy mess with video playback on iOS.)
-* Privacy best practices dictates that you use different browsers (or different browser profiles) for different areas of life: e.g. work, school, personal.
-* Browsers are tools. I use a variety of browsers depending on what I need to do, but everyone will have a personal preference towards what their favorite is.
-* The recommendations here are based on a combination of effectiveness, resource efficiency, features, and ease of use.
+* The best browser or content blocker on paper may not work well in real world usage (e.g., [Brave](https://brave.com/) is wonky with video playback on iOS).
+* Browsers are tools! Use a variety of browsers depending on what you need to do.
+* You should use various browsers (or browser profiles) for different areas of life (e.g., work, school, personal).
 
-Here are the suggested browsers for each operating system (OS):
+We based the recommendations below on a combination of effectiveness, resource efficiency, features, and ease of use. Here are the suggested browsers for each operating system (OS):
 
 #### Mobile
 
@@ -390,27 +392,11 @@ Here are the suggested browsers for each operating system (OS):
 # Mentions :books:
 
 #### User Comments
-* [1](https://old.reddit.com/r/moddedandroidapps/comments/wbud1e/aerowitter_twifucker_non_root_twitter_mod/iiloq0p/?context=2)
-[2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/?context=3)
-[3](https://old.reddit.com/r/nextdns/comments/vxh4pt/comment/ifykqyh/?conFMHYedFMHYeditittext=1)
-[4](https://old.reddit.com/r/nextdns/comments/y3zmhb/comment/isc2o4q/?context=3)
-[5](https://old.reddit.com/r/nextdns/comments/yp6o09/comment/ivhwook/?context=3)
-[6](https://old.reddit.com/r/nextdns/comments/ys3s1s/comment/ivxdcd2/?context=3)
-[7](https://old.reddit.com/r/nextdns/comments/yzvnuw/nest_usage_metrics_being_blocked)
-[8](https://old.reddit.com/r/PrivacyGuides/comments/ywcqw2/best_secured_adblock/iwk6k72/?context=2)
-[9](https://old.reddit.com/r/privacy/comments/z8qxhe/which_device_offers_the_best_privacyconvenience/iyi2deg/?context=2)
-[10](https://old.reddit.com/r/GooglePixel/comments/zgr5a7/ads_in_the_feed_should_not_happen_on_a_pixel/izkcdvb/?context=2)
-[11](https://old.reddit.com/r/nextdns/comments/zmgc3j/windows_10_config_this_device_is_currently_using/j0ay0ac/?context=2)
-[12](https://old.reddit.com/r/nextdns/comments/znmt9e/what_do_you_whitelist/j0k6bsw/?context=2)
-[13](https://old.reddit.com/r/nextdns/comments/zt9wvl/macosios_idpauth_cant_connect/j1ebt7t/?context=2)
-[14](https://old.reddit.com/r/S22Ultra/comments/zvw6av/blocking_ads_tracking_w_private_dns_part_2/j1w4s8n/?context=2)
-[15](https://old.reddit.com/r/PFSENSE/comments/zu51od/a_better_pihole_with_pfsense_setup/j1x42mx/?context=2)
-[16](https://old.reddit.com/r/nextdns/comments/zzxpgh/kroger_app_will_not_work_with_nextdns_ive_tried/j2fp8hp/?context=2)
-[17](https://old.reddit.com/r/nextdns/comments/1026j01/first_account_setup/j2ryxf2/?context=2)
-[18](https://old.reddit.com/r/privacy/comments/yyrbiw/is_nextdns_better_than_trackercontrol/iy167mh/?context=2)
+* See [here](https://socialgrep.com/search?query=yokoffing%2Cnextdns)
 
 #### Articles
 * [Knot Resolver — with ad blocking](https://blog.cavelab.dev/2022/12/knot-resolver-ad-blocking/) (Dec 2022)
+* [Privacy Toolkit: NextDNS](https://stephenbolen.com/privacy-toolkit-nextdns/#:~:text=I%20found%20a%20wonderful%20guide%20on%20GitHub%20that%20walks%20through%20the%20optimal%20NextDNS%20configuration) (Sept 2022)
 
 #### Guides
 * [FMHY: DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking) → NextDNS → Guide
