@@ -113,30 +113,27 @@ Because privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-bina
 
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/blocklists/tree/main/blocklists)</sup></sup>
 
-Blocklists filter out ads, [trackers](https://freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/), and malicious sites.
-	
-Hundreds of volunteers contribute to these lists in the [open-source](https://opensource.com/resources/what-open-source) community, and they are the undercover heroes who make blocking ads at scale possible.
-
-Blocklists can be categorized into five tiers of coverage:
-
-1) **None**: no breakage; [NextDNS](https://nextdns.io/?from=xujj63g5) still protects against malicious threats (à la [security settings](https://github.com/yokoffing/NextDNS-Config#security-policeman)) but will allow ads and trackers
-2) **Basic**: rare breakage; prioritizes functionality over blocking; very forgiving
-3) **Balanced**: minimal breakage; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally to [unsubscribe from junk email](https://old.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1)
-4) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
-5) **Aggressive**: frequent breakage; only for experienced users; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
+Blocklists filter out ads, [trackers](https://freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/), and malicious sites. Hundreds of volunteers contribute to these lists in the [open-source](https://opensource.com/resources/what-open-source) community, and they are the undercover heroes who make blocking ads at scale possible.
 
 We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.com/nextdns/blocklists/blob/main/blocklists/nextdns-recommended.json) and select the [minimum](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3) number of useful lists.
+
+Blocklists can be categorized into four tiers of coverage:
+
+1) **Basic**: rare breakage; prioritizes functionality over blocking; very forgiving
+2) **Balanced**: minimal breakage; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally to [unsubscribe from junk email](https://old.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1)
+3) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
+4) **Aggressive**: frequent breakage; only for experienced users; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
 Here are the suggested blocklists for each category:
 
 <center>
 
-|              |Recommended                            | Alternate              |
-|:------------:|:-------------------------------------:|:----------------------:|
-|   **Basic**  |HaGeZi - Multi LIGHT                   |1Hosts (mini)           |
-| **Balanced** |HaGeZi - Multi NORMAL                  |1Hosts (Lite) + oisd    |
-|  **Strict**  |HaGeZi - Multi PRO++                   |1Hosts (Pro) + oisd     |
-|**Aggressive**|HaGeZi - Multi ULTIMATE                |                        |
+|              |Recommended                            | Alternate              |Use Case                |
+|:------------:|:-------------------------------------:|:----------------------:|:----------------------:|
+|   **Basic**  |HaGeZi - Multi LIGHT                   |1Hosts (mini)           |Router                  |
+| **Balanced** |HaGeZi - Multi NORMAL                  |1Hosts (Lite) + oisd    |Everyday browsing (low tolerance for false positives |
+|  **Strict**  |HaGeZi - Multi PRO++                   |1Hosts (Pro) + oisd     |Everyday browsing (moderate tolerance for false positives |
+|**Aggressive**|HaGeZi - Multi ULTIMATE                |                        |Privacy Aficionados (high tolerance) |
 
 </center>
 
