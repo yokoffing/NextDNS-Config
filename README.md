@@ -125,6 +125,10 @@ Blocklists can be categorized into four tiers of coverage:
 4) **Aggressive**: frequent breakage; only for experienced users; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
 
 Here are the suggested blocklists for each category:
+	
+I’m not comfortable troubleshooting breakage.
+I’m comfortable troubleshooting breakage.
+Nuke it all
 
 <center>
 
