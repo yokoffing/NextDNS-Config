@@ -369,6 +369,9 @@ Click [here](https://nextdns.io/?from=xujj63g5)!
 ### Should I pay for NextDNS?
 For the rich features it provides, [NextDNS](https://nextdns.io/?from=xujj63g5) is very affordable at $19.90/year for unlimited devices. It pays for itself if it saves my family from a malicious incident.
 
+### Why am I still seeing ads?
+Not all ads can be blocked at the DNS level ([example](https://old.reddit.com/r/nextdns/comments/13urdda/ads_on_manga_sites/)). You will need an [ad blocker](https://www.0x65.dev/blog/2019-12-20/not-all-adblockers-are-born-equal.html#:~:text=What%E2%80%99s%20in%20an%20adblocker%3F) to block what's leftover. This is because not all ads come from third-party domains; some ads come directly from the site you're visitng, like [YouTube](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2). Click [here](https://www.ghostery.com/ghostery-ad-blocker) to easily install a lightweight ad blocker.
+
 ### Does the amount of features enabled affect the speed of NextDNS?<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12#issue-1465457977) [2](https://old.reddit.com/r/nextdns/comments/135utai/comment/jilbus8/?=&context=3)</sup>
 
 The number of settings you toggle on will not affect your DNS latency.
@@ -384,9 +387,6 @@ See [article](https://thenewoil.org/en/guides/prologue/secprivanon/) | [video](h
 
 ### Does NextDNS hide activity from my Internet Service Provider (ISP)?
 [No](https://old.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). [NextDNS](https://nextdns.io/?from=xujj63g5) is only concerned about DNS traffic. You would need a [quality](https://www.youtube.com/watch?v=cK4MQv-OwyM) [VPN](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) to hide all activity from your ISP.
-
-### Can I block YouTube ads with NextDNS only?
-No, you [cannot](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block first-party ads using only DNS-level blocking. You will need an [ad blocker](https://www.0x65.dev/blog/2019-12-20/not-all-adblockers-are-born-equal.html#:~:text=What%E2%80%99s%20in%20an%20adblocker%3F).
 
 ### I need a browser with ad blocking. Which one should I choose?
 Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY), so here's a few caveats:
