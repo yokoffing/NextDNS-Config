@@ -192,7 +192,7 @@ Add all the device brands you use. There's no advantage in adding brands you don
 Denylist entries are always blocked. The entries below may further harden `Balanced` [blocklist](https://github.com/yokoffing/NextDNS-Config#blocklists-1) profiles while not interfering with everyday browsing.
 
 <details>
-	
+
 ### Apple tracking domains <sup><sup>[1](https://unofficialbird.com/mysk_co/status/1588308341780262912) [2](https://github.com/nextdns/metadata/pull/1132) [3](https://github.com/badmojr/1Hosts/issues/536) [4](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558)</sup></sup>
 Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokoffing/NextDNS-Config#native-tracking-protection-1) [list](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/privacy/native/apple): <sup>[1](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.apple.txt)</sup>
 
@@ -224,6 +224,12 @@ Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokof
 Allowlist entries always resolve. These entries may be needed for `Strict` and `Aggressive` [blocklist](https://github.com/yokoffing/NextDNS-Config#blocklists-1) profiles to relax their rules.
 
 <details>
+
+### NextDNS
+
+Just in case a filterlist goes [haywire](https://help.nextdns.io/t/m1hs207/energized-ultimate-lists-blocking-nextdns) and blocks your access
+
+	nextdns.io
 
 ### Facebook / Instagram <sup><sup>[1](https://github.com/jerryn70/GoodbyeAds/issues/309)</sup></sup> 
 
@@ -333,10 +339,6 @@ User data is [removed](https://0x65.dev/blog/2019-12-04/human-web-proxy-network-
 	collector-hpn.privacy.ghostery.net
 	d.ghostery.com
 
-### NextDNS
-Just in case a filterlist goes [haywire](https://github.com/yokoffing/NextDNS-Config/issues/10#issuecomment-1327956655) and blocks your access
-
-	nextdns.io
 
 </details>
 
