@@ -10,7 +10,7 @@
 ***
 # Guidelines :bookmark:
 1) Prevent overblocking by utilizing the [law of diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (e.g., using [sane](https://privacyguides.org/basics/threat-modeling), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-5-); etc.).
-2) Pass the [grandma test](https://urbandictionary.com/define.php?term=Grandma%20Test) with few exceptions. These deviations are documented throughout the guide.
+2) Follow the [KISS usability principle](https://www.interaction-design.org/literature/article/kiss-keep-it-simple-stupid-a-design-principle) with few exceptions. These deviations are documented throughout the guide.
 
 ***
 
