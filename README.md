@@ -132,7 +132,7 @@ Nuke it all
 
 <center>
 
-|              |Recommended                            | Alternate              |Use Case                |
+| **Tier**     | **Recommended**                       | **Alternate**          | **Example Use Case**   |
 |:------------:|:-------------------------------------:|:----------------------:|:----------------------:|
 |   **Basic**  |HaGeZi - Multi LIGHT                   |1Hosts (mini)           |Router                  |
 | **Balanced** |HaGeZi - Multi NORMAL                  |1Hosts (Lite) + oisd    |Everyday browsing (low tolerance for false positives |
