@@ -141,7 +141,7 @@ Nuke it all
 
 </center>
 
-Rationale:
+Rationale: Hagezi's lists block ads, trackers, native device trackers, badware, and more. Hagezi maintains a sensible allowlist and handles false positives quickly. He also communicates known issues to community blocklists maintainers. Hagezi's primary DNS lists combine respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus).
 <details>
 
 The most egregious trackers are blocked in Light and Normal already.
