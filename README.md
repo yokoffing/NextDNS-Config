@@ -146,6 +146,8 @@ Rationale: Hagezi's lists block ads, trackers, native device trackers, badware, 
 
 The most egregious trackers are blocked in Light and Normal already.
 
+Normal blocks more malware domains, but malware domains [change quickly](https://youtu.be/9SraN9V23WA?t=71).
+
 </details>
 
 :bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.
