@@ -148,6 +148,12 @@ The most egregious trackers are blocked in Light and Normal already.
 
 Normal blocks more malware domains, but malware domains [change quickly](https://youtu.be/9SraN9V23WA?t=71).
 
+blocking pop-up ads on adult sites.
+
+If you don't want to block aggressively, choose the Pro.
+Otherwise the Pro++
+or if you want more, the Ultimate.
+
 </details>
 
 :bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.
