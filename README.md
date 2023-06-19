@@ -117,46 +117,20 @@ Blocklists filter out ads, [trackers](https://freecodecamp.org/news/what-you-sho
 
 We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.com/nextdns/blocklists/blob/main/blocklists/nextdns-recommended.json) and select the [minimum](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3) number of useful lists.
 
-Blocklists can be categorized into four tiers of coverage:
+**Here are the suggested blocklists for each use case:**
 
-1) **Basic**: rare breakage; prioritizes functionality over blocking; very forgiving
-2) **Balanced**: minimal breakage; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally to [unsubscribe from junk email](https://old.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1)
-3) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
-4) **Aggressive**: frequent breakage; only for experienced users; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
+|     **Blocklist**    |                              **Use Case**                                              |
+|:--------------------:|:--------------------------------------------------------------------------------------:|
+| HaGeZi - Multi **LIGHT*** | I want to block the most tracker and ad requests with no app or website issues. |
+|  HaGeZi - Multi **PRO** | Additionally, I need to stop pop-ups on streaming sites or adult advertising.       |
+| HaGeZi - Multi **PRO++** | I'm an advanced user; I don't mind [reporting](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
 
-Here are the suggested blocklists for each category:
-	
-I’m not comfortable troubleshooting breakage.
-I’m comfortable troubleshooting breakage.
-Nuke it all
+<sup>*If LIGHT isn't available (e.g., Control D users), use NORMAL. The main difference between the two is the latter blocks more malware domains, but know that malware domains change [quickly](https://youtu.be/9SraN9V23WA?t=71).</sup>
 
-<center>
+:bulb: Keep in mind that you can mix and match these at different levels (e.g., use LIGHT for your router and PRO++ for your web browser).
 
-| **Tier**     | **Recommended**                       | **Alternate**          | **Example Use Case**   |
-|:------------:|:-------------------------------------:|:----------------------:|:----------------------:|
-|   **Basic**  |HaGeZi - Multi LIGHT                   |1Hosts (mini)           |Router                  |
-| **Balanced** |HaGeZi - Multi NORMAL                  |1Hosts (Lite) + oisd    |Everyday browsing (low tolerance for false positives |
-|  **Strict**  |HaGeZi - Multi PRO++                   |1Hosts (Pro) + oisd     |Everyday browsing (moderate tolerance for false positives |
-|**Aggressive**|HaGeZi - Multi ULTIMATE                |                        |Privacy Aficionados (high tolerance) |
-
-</center>
-
-Rationale: Hagezi's lists block ads, trackers, native device trackers, badware, and more. Hagezi maintains a sensible allowlist and handles false positives quickly. He also communicates known issues to community blocklists maintainers. Hagezi's primary DNS lists combine respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus).
-<details>
-
-The most egregious trackers are blocked in Light and Normal already.
-
-Normal blocks more malware domains, but malware domains [change quickly](https://youtu.be/9SraN9V23WA?t=71).
-
-blocking pop-up ads on adult sites.
-
-If you don't want to block aggressively, choose the Pro.
-Otherwise the Pro++
-or if you want more, the Ultimate.
-
-</details>
-
-:bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.
+#### Why Hagezi?
+[Hagezi](https://github.com/hagezi/dns-blocklists) block ads, trackers, native device trackers, badware, and more. He maintains a sensible allowlist, handles false positives quickly, an communicates known issues to blocklists maintainers. Hagezi's primary DNS lists combine respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus).
 
 :question: You may wonder why other lists are not utilized. This is because many list maintainers:
 * do not remove [false positives](https://csrc.nist.gov/glossary/term/false_positive) and/or are no longer active <sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916)</sup>
