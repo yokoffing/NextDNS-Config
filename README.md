@@ -121,13 +121,13 @@ We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.co
 
 |     **Blocklist**    |                              **Use Case**                                              |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
-| HaGeZi - Multi **LIGHT*** | I want to block the most tracker and ad requests with no app or website issues. |
+| HaGeZi - Multi **LIGHT*** | I want to block almost all tracker and ad requests without app or website issues. |
 |  HaGeZi - Multi **PRO** | Additionally, I need to stop pop-ups on streaming sites or adult advertising.       |
-| HaGeZi - Multi **PRO++** | I'm an advanced user; I don't mind [reporting](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
+| HaGeZi - Multi **PRO++** | I'm an advanced user; I will [submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
 
 <sup>*If LIGHT isn't available (e.g., Control D users), use NORMAL. The main difference between the two is the latter blocks more malware domains, but know that malware domains change [quickly](https://youtu.be/9SraN9V23WA?t=71).</sup>
 
-:bulb: Keep in mind that you can mix and match these at different levels (e.g., use LIGHT for your router and PRO++ for your web browser).
+:bulb: You can mix and match these on separate DNS profiles (e.g., use LIGHT for your router and PRO++ for your web browser).
 
 #### Why Hagezi?
 [Hagezi](https://github.com/hagezi/dns-blocklists) block ads, trackers, native device trackers, badware, and more. He maintains a sensible allowlist, handles false positives quickly, an communicates known issues to blocklists maintainers. Hagezi's primary DNS lists combine respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus).
