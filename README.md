@@ -107,40 +107,39 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ***
 
 # Privacy :lock:
-Privacy features limit the amount of data that companies can collect about you. Privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum). What you need varies on your [threat model](https://thenewoil.org/en/guides/prologue/threatmodel), interest, and skillset.<sup>^[*why should I care? I have nothing to hide*](https://aeon.co/essays/privacy-matters-because-it-empowers-us-all)</sup>
+Privacy features limit the amount of data companies can collect about you.
+
+Because privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum), what you need varies on your [threat model](https://thenewoil.org/en/guides/prologue/threatmodel), interest, and skillset.<sup>^[*why should I care? I have nothing to hide*](https://aeon.co/essays/privacy-matters-because-it-empowers-us-all)</sup>
 
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/blocklists/tree/main/blocklists)</sup></sup>
 
-Blocklists are community generated lists that block ads and [trackers](https://freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Filters can be categorized into five tiers of coverage:
-1) **None**: no breakage; [NextDNS](https://nextdns.io/?from=xujj63g5) still protects against malicious threats (à la [security settings](https://github.com/yokoffing/NextDNS-Config#security-policeman)) but will allow ads and trackers
-2) **Basic**: rare breakage; prioritizes functionality over blocking; very forgiving
-3) **Balanced**: minimal breakage; largely [set-and-forget](https://glosbe.com/en/en/set-and-forget) but you may need to allowlist occasionally to [unsubscribe from junk email](https://old.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1)
-4) **Strict**: moderate breakage; prioritizes privacy over user experience; must [manage your allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) regularly
-5) **Aggressive**: frequent breakage; only for experienced users; use on a separate profile to [lockdown single-purpose devices](https://old.reddit.com/r/nextdns/comments/uqap3n/comment/i8q8alf/?context=3)
+Blocklists filter out ads, [trackers](https://freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/), and malicious sites. Hundreds of volunteers contribute to these lists in the [open-source](https://opensource.com/resources/what-open-source) community, and they are the undercover heroes who make blocking ads at scale possible.
 
-We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.com/nextdns/blocklists/blob/main/blocklists/nextdns-recommended.json) and select the [minimum number of useful lists](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3). Here are the suggested blocklists for each category:
+We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.com/nextdns/blocklists/blob/main/blocklists/nextdns-recommended.json) and select the [minimum](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3) number of useful lists.
 
-<center>
+**Here are the suggested blocklists for each use case:**
 
-|              |Recommended                            | Alternate              |
-|:------------:|:-------------------------------------:|:----------------------:|
-|   **Basic**  |HaGeZi - Multi LIGHT                   |1Hosts (mini)           |
-| **Balanced** |HaGeZi - Multi NORMAL                  |1Hosts (Lite) + oisd    |
-|  **Strict**  |HaGeZi - Multi PRO++                   |1Hosts (Pro) + oisd     |
-|**Aggressive**|HaGeZi - Multi ULTIMATE                |                        |
+|     **Blocklist**    |                              **Use Case**                                              |
+|:--------------------:|:--------------------------------------------------------------------------------------:|
+| HaGeZi - Multi **LIGHT*** | I want to block almost all tracker and ad requests without app or website issues. |
+|  HaGeZi - Multi **PRO** | Additionally, I need to stop pop-ups on streaming sites or adult advertising.       |
+| HaGeZi - Multi **PRO++** | I'm an advanced user; I will [submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
 
-</center>
+<sup>*If LIGHT isn't available (e.g., Control D users), use NORMAL. The main difference between the two is the latter blocks more malware domains, but know that malware domains change [quickly](https://youtu.be/9SraN9V23WA?t=71).</sup>
 
-:bulb: The **Balanced** tier is recommended for everyday browsing, based on my testing and user feedback.<sup>[1](https://old.reddit.com/r/nextdns/comments/s2gzc5/oisd_vs_1hostsminiliteproxtra/hsgmp5n/) [2](https://old.reddit.com/r/nextdns/comments/xoyyw2/nextdns_as_a_set_it_and_forget_it_solution/iq1k6tx/) [3](https://old.reddit.com/r/nextdns/comments/vuon2a/comment/iffd682/) [4](https://old.reddit.com/r/nextdns/comments/vn8olr/please_could_someone_recommend_me_a_good/ie5meel/?context=2) [5](https://old.reddit.com/r/nextdns/comments/yryq3c/comment/ivwr8tp/?context=3) [6](https://old.reddit.com/r/nextdns/comments/z49c93/state_of_affairs_at_the_moment_lol/ixtazg1/?context=2) </sup>
+:bulb: You can mix and match these on separate DNS profiles (e.g., use LIGHT for your router and PRO++ for your web browser).
+
+#### Why Hagezi?
+[Hagezi](https://github.com/hagezi/dns-blocklists) block ads, trackers, native device trackers, badware, and more. He maintains a sensible allowlist, handles false positives quickly, an communicates known issues to blocklists maintainers. Hagezi's primary DNS lists combine respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus).
 
 :question: You may wonder why other lists are not utilized. This is because many list maintainers:
 * do not remove [false positives](https://csrc.nist.gov/glossary/term/false_positive) and/or are no longer active <sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916)</sup>
-* already aggregate common blocklists into their own list (Easylist/Fanboy, AdGuard, Steven Black, etc.) <sup>[1](https://github.com/badmojr/1Hosts/blob/master/-data/lists/assets.txt) [2](https://oisd.nl/includedlists/big/0) [3](https://github.com/jerryn70/GoodbyeAds/blob/master/Docs/Sources.md) </sup>
-* offer no meaningful additional coverage when compared with the chart combinations above <sup>[1](https://old.reddit.com/r/nextdns/comments/ys3s1s/comment/ivxdcd2/?context=3)</sup>
+* already [aggregate](https://old.reddit.com/r/nextdns/comments/ys3s1s/confused_about_blocklists/ivxdcd2/?context=3) common blocklists into their own list (Easylist/Fanboy, AdGuard, Steven Black, etc.) <sup>[1](https://github.com/badmojr/1Hosts/blob/master/-data/lists/assets.txt) [2](https://oisd.nl/includedlists/big/0) [3](https://github.com/jerryn70/GoodbyeAds/blob/master/Docs/Sources.md) [4](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus) </sup>
+* offer no meaningful additional coverage when compared with the chart combinations above
 
 ### Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/native-tracking-domains/tree/main/domains)</sup></sup>
 
-Add all the device brands that you use. There's no advantage in adding brands you don't have; however, there’s no disadvantage in adding unused brands, either.
+Add all the device brands you use. There's no advantage in adding brands you don't have; however, there’s no disadvantage in adding unused brands, either.
 
 <details>
 
@@ -176,10 +175,10 @@ Add all the device brands that you use. There's no advantage in adding brands yo
 
 # Denylist :no_entry:
 
-Denylist entries block any requests from that source. The entries below may further harden `Balanced` [blocklist](https://github.com/yokoffing/NextDNS-Config#blocklists-1) profiles while not interfering with everyday browsing.
+Denylist entries are always blocked. The entries below may further harden `Balanced` [blocklist](https://github.com/yokoffing/NextDNS-Config#blocklists-1) profiles while not interfering with everyday browsing.
 
 <details>
-	
+
 ### Apple tracking domains <sup><sup>[1](https://unofficialbird.com/mysk_co/status/1588308341780262912) [2](https://github.com/nextdns/metadata/pull/1132) [3](https://github.com/badmojr/1Hosts/issues/536) [4](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558)</sup></sup>
 Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokoffing/NextDNS-Config#native-tracking-protection-1) [list](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/privacy/native/apple): <sup>[1](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.apple.txt)</sup>
 
@@ -208,9 +207,15 @@ Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokof
 
 # Allowlist :white_check_mark:
 
-Allowlist entries override any blocks. These entries may be needed for `Strict` and `Aggressive` [blocklist](https://github.com/yokoffing/NextDNS-Config#blocklists-1) profiles.
+Allowlist entries always resolve. These entries may be needed for `Strict` and `Aggressive` [blocklist](https://github.com/yokoffing/NextDNS-Config#blocklists-1) profiles to relax their rules.
 
 <details>
+
+### NextDNS
+
+Just in case a filterlist goes [haywire](https://help.nextdns.io/t/m1hs207/energized-ultimate-lists-blocking-nextdns) and blocks your access
+
+	nextdns.io
 
 ### Facebook / Instagram <sup><sup>[1](https://github.com/jerryn70/GoodbyeAds/issues/309)</sup></sup> 
 
@@ -228,6 +233,7 @@ If you're still having issues, try [these](https://raw.githubusercontent.com/hag
 	graph-fallback.instagram.com
 
 ### Apple device updates <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/536) [2](https://github.com/badmojr/1Hosts/issues/562) [3](https://github.com/nextdns/metadata/pull/1132#issuecomment-1331733770) [4](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558)
+
 A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558), but it's needed for device updates
 
 	xp.apple.com
@@ -240,6 +246,12 @@ A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-ev
 
 	amp-api-edge.apps.apple.com
 	amp-api-search-edge.apps.apple.com
+
+### Windows
+
+This [request](https://oisd.nl/excludes.php?w=settings-win.data.microsoft.com) is blocked when using NextDNS' [Native Tracking](https://github.com/yokoffing/NextDNS-Config#native-tracking-protection-1) list (Windows)
+
+	settings-win.data.microsoft.com
 
 ### Xiaomi device updates <sup><sup>[1](https://blocklist-tools.developerdan.com/entries/search?q=update.intl.miui.com)</sup></sup> 
 
@@ -306,16 +318,13 @@ A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-ev
 	glimmer.hearstapps.com
 
 ### [Ghostery](https://ghostery.com/ghostery-ad-blocker) Analytics (opt-in)
-User data is [removed](https://0x65.dev/blog/2019-12-04/human-web-proxy-network-hpn.html). Contributes to [the Human Web](https://0x65.dev/blog/2019-12-03/human-web-collecting-data-in-a-socially-responsible-manner.html) and [WhoTracks.me](https://whotracks.me) data.
+
+User data is [removed](https://0x65.dev/blog/2019-12-04/human-web-proxy-network-hpn.html). Contributes to the [Human Web](https://0x65.dev/blog/2019-12-03/human-web-collecting-data-in-a-socially-responsible-manner.html) and [WhoTracks.me](https://whotracks.me) data
 
 	collector-hpn.ghostery.net
 	collector-hpn.privacy.ghostery.net
 	d.ghostery.com
 
-### NextDNS
-Just in case a [filterlist goes haywire](https://github.com/yokoffing/NextDNS-Config/issues/10#issuecomment-1327956655) and blocks your access
-
-	nextdns.io
 
 </details>
 
@@ -348,6 +357,9 @@ Click [here](https://nextdns.io/?from=xujj63g5)!
 ### Should I pay for NextDNS?
 For the rich features it provides, [NextDNS](https://nextdns.io/?from=xujj63g5) is very affordable at $19.90/year for unlimited devices. It pays for itself if it saves my family from a malicious incident.
 
+### Why am I still seeing ads?
+Not all ads can be blocked at the DNS level ([example](https://old.reddit.com/r/nextdns/comments/13urdda/ads_on_manga_sites/)). You will need an [ad blocker](https://www.0x65.dev/blog/2019-12-20/not-all-adblockers-are-born-equal.html#:~:text=What%E2%80%99s%20in%20an%20adblocker%3F) to block what's leftover. This is because not all ads come from third-party domains; some ads come directly from the site you're visitng, like [YouTube](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2). DNS blockers [stop](https://github.com/hagezi/dns-blocklists/discussions/1030#discussioncomment-5884270) the resolution of a domain, and content blockers filter page content. Click [here](https://www.ghostery.com/ghostery-ad-blocker) to easily install a lightweight ad blocker.
+
 ### Does the amount of features enabled affect the speed of NextDNS?<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12#issue-1465457977) [2](https://old.reddit.com/r/nextdns/comments/135utai/comment/jilbus8/?=&context=3)</sup>
 
 The number of settings you toggle on will not affect your DNS latency.
@@ -364,16 +376,15 @@ See [article](https://thenewoil.org/en/guides/prologue/secprivanon/) | [video](h
 ### Does NextDNS hide activity from my Internet Service Provider (ISP)?
 [No](https://old.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). [NextDNS](https://nextdns.io/?from=xujj63g5) is only concerned about DNS traffic. You would need a [quality](https://www.youtube.com/watch?v=cK4MQv-OwyM) [VPN](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) to hide all activity from your ISP.
 
-### Can I block YouTube ads with NextDNS only?
-[No, you cannot](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2) block first-party ads using only DNS-level blocking. You will need an adblocker.
-
-### I need a browser that has adblocking. Which one should I choose?
+### I need a browser with ad blocking. Which one should I choose?
 Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY), so here's a few caveats:
-* The best browser or content blocker on paper may not work well in real world usage (e.g., [Brave](https://brave.com/) is wonky with video playback on iOS).
+* The best browser on paper may not work well in real world usage (e.g., [Brave](https://brave.com/) is wonky with video playback on iOS).
 * Browsers are tools! Use a variety of browsers depending on what you need to do.
 * You should use various browsers (or browser profiles) for different areas of life (e.g., work, school, personal).
 
-We based the recommendations below on a combination of effectiveness, resource efficiency, features, and ease of use. Here are the suggested browsers for each operating system (OS):
+We based the recommendations below on a combination of effectiveness, resource efficiency, features, and ease of use.
+
+Here are the suggested browsers for each operating system (OS):
 
 #### Mobile
 
