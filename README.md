@@ -56,7 +56,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 :warning: Blocking [TLDs](https://geeksforgeeks.org/components-of-a-url) may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) since this feature blocks both site nagviations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs since they have no known legitimate uses.
 
 ```
-.bid
+
 .cfd
 .discount
 .gdn
@@ -78,6 +78,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .monster
 ---
 .agency
+.bid
 .buzz
 .cf
 .dad
