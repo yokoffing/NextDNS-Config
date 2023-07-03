@@ -364,7 +364,7 @@ For the rich features it provides, [NextDNS](https://nextdns.io/?from=xujj63g5) 
 ### Why am I still seeing ads?
 Not all ads can be blocked at the DNS level ([example](https://old.reddit.com/r/nextdns/comments/13urdda/ads_on_manga_sites/)). You will need an [ad blocker](https://www.0x65.dev/blog/2019-12-20/not-all-adblockers-are-born-equal.html#:~:text=What%E2%80%99s%20in%20an%20adblocker%3F) to block what's leftover.
 
-This is because not all ads come from third-party domains; some ads come directly from the site you're visiting, like [YouTube](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2). DNS blockers [stop](https://github.com/hagezi/dns-blocklists/discussions/1030#discussioncomment-5884270) the resolution of a domain, and content blockers filter page content. Click [here](https://www.ghostery.com/ghostery-ad-blocker) to easily install a lightweight ad blocker.
+This is because not all ads come from third-party domains; some ads come directly from the site you're visiting, like [YouTube](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2). DNS blockers [stop](https://github.com/hagezi/dns-blocklists/discussions/1030#discussioncomment-5884270) the resolution of a domain, and content blockers filter page content. Click [here](https://github.com/yokoffing/NextDNS-Config/tree/main#i-need-a-browser-with-ad-blocking-which-one-should-i-choose) to easily install a lightweight ad blocker.
 
 ### Does the amount of features enabled affect the speed of NextDNS?<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12#issue-1465457977) [2](https://old.reddit.com/r/nextdns/comments/135utai/comment/jilbus8/?=&context=3)</sup>
 
@@ -401,9 +401,9 @@ Here are the suggested browsers for each operating system (OS):
 
 #### Desktop
 
-| OS | Browser | Content Blocker | Notes |
-|---|---|---|---|
-| Any | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  | |
+| OS | Browser | Content Blocker |
+|---|---|---|
+| Any | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
 
 ***
 # Mentions :books:
