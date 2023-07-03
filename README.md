@@ -163,7 +163,7 @@ Add all the device brands you use. There's no advantage in adding brands you don
 
 ### Allow Affiliate & Tracking Links <sup><sup>[1](https://github.com/nextdns/click-tracking-domains) [2](https://unofficialbird.com/NextDNS/status/1539229377560461312) </sup></sup>
 :bulb: Your IP address will automatically be hidden (via [TCP](https://educba.com/what-is-tcp-ip) [proxying](https://en.wikipedia.org/wiki/Proxy_server#/media/File:Proxy_concept_en.svg)) to preserve your privacy.<p>
-:warning: Disabling causes [false positives](https://csrc.nist.gov/glossary/term/false_positive) when opening some emails. <p>
+:warning: Disabling causes [false positives](https://csrc.nist.gov/glossary/term/false_positive) when opening some email links. <p>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Allow Affiliate & Tracking Links
 
 ***
