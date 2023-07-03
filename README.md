@@ -112,19 +112,24 @@ Privacy features limit the amount of data companies can collect about you.
 
 Because privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum), what you need varies on your [threat model](https://thenewoil.org/en/guides/prologue/threatmodel), interest, and skillset.<sup>^[*why should I care? I have nothing to hide*](https://aeon.co/essays/privacy-matters-because-it-empowers-us-all)</sup>
 
+A great question to ask is: "How much do I want to deal with the inconveniences of false positives?"
+
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/blocklists/tree/main/blocklists)</sup></sup>
 
 Blocklists filter out ads, [trackers](https://freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/), and malicious sites. Hundreds of volunteers contribute to these lists in the [open-source](https://opensource.com/resources/what-open-source) community, and they are the undercover heroes who make blocking ads at scale possible.
 
 We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.com/nextdns/blocklists/blob/main/blocklists/nextdns-recommended.json) and select the [minimum](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3) number of useful lists.
 
+#### Which blocklist do I use?
+
+The blocklist you pick boils down to your threat model this all comes down down to how much you want to deal with the inconveniences of possible false positives.
+
 **Here are the suggested blocklists for each use case:**
 
 |     **Blocklist**    |                              **Use Case**                                              |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
-| HaGeZi - Multi **LIGHT*** | I want to block almost all tracker and ad requests without app or website issues. |
-|  HaGeZi - Multi **PRO** | Additionally, I need to stop pop-ups on streaming sites or adult advertising.       |
-| HaGeZi - Multi **PRO++** | I'm an advanced user; I will [submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
+| HaGeZi - Multi **LIGHT*** | I want to block almost all tracker and ad requests without app or website issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
+| HaGeZi - Multi **PRO++** | I'm an advanced user; I will [submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues; you may need to allowlist occasionally to [unsubscribe from junk email](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1), . |
 
 <sup>*If LIGHT isn't available (e.g., Control D users), use NORMAL. The main difference between the two is the latter blocks more malware domains, but know that malware domains change [quickly](https://youtu.be/9SraN9V23WA?t=71).</sup>
 
@@ -132,6 +137,8 @@ We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.co
 
 #### Why Hagezi?
 [Hagezi](https://github.com/hagezi/dns-blocklists) block ads, trackers, native device trackers, badware, and more. He maintains a sensible allowlist, handles false positives quickly, an communicates known issues to blocklists maintainers. Hagezi's primary DNS lists combine respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus).
+
+You can read the full rationale for Hagezi's lists [here](https://github.com/hagezi/dns-blocklists/discussions/1093).
 
 :question: You may wonder why other lists are not utilized. This is because many list maintainers:
 * do not remove [false positives](https://csrc.nist.gov/glossary/term/false_positive) and/or are no longer active <sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916)</sup>
