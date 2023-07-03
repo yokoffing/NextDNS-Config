@@ -56,7 +56,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 :warning: Blocking [TLDs](https://geeksforgeeks.org/components-of-a-url) may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) since this feature blocks both site nagviations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs since they have no known legitimate uses.
 
 ```
-.bid
+
 .cfd
 .discount
 .gdn
@@ -78,6 +78,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .monster
 ---
 .agency
+.bid
 .buzz
 .cf
 .dad
@@ -117,17 +118,20 @@ Blocklists filter out ads, [trackers](https://freecodecamp.org/news/what-you-sho
 
 We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.com/nextdns/blocklists/blob/main/blocklists/nextdns-recommended.json) and select the [minimum](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3) number of useful lists.
 
-**Here are the suggested blocklists for each use case:**
+#### Which blocklist should I use?
 
-|     **Blocklist**    |                              **Use Case**                                              |
+A great question to ask is: "How much do I want to deal with the inconveniences of [false positives](https://csrc.nist.gov/glossary/term/false_positive)?"
+
+Here are the suggested blocklists:
+
+|     **Blocklist**    |                              **Rationale**                                             |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
-| HaGeZi - Multi **LIGHT*** | I want to block almost all tracker and ad requests without app or website issues. |
-|  HaGeZi - Multi **PRO** | Additionally, I need to stop pop-ups on streaming sites or adult advertising.       |
-| HaGeZi - Multi **PRO++** | I'm an advanced user; I will [submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
+| HaGeZi - Multi **LIGHT** | Block most tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)) |
+| HaGeZi - Multi **PRO++** | Block 9-15% more requests <br> Occasionally allowlist requests for [email unsubscriptions](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1) <br> [Submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues |
 
-<sup>*If LIGHT isn't available (e.g., Control D users), use NORMAL. The main difference between the two is the latter blocks more malware domains, but know that malware domains change [quickly](https://youtu.be/9SraN9V23WA?t=71).</sup>
+:book: Read the full analysis for Hagezi's lists [here](https://github.com/hagezi/dns-blocklists/discussions/1093).
 
-:bulb: You can mix and match these on separate DNS profiles (e.g., use LIGHT for your router and PRO++ for your web browser).
+:bulb: Use different blocklists on separate DNS profiles (e.g., LIGHT for your router and PRO++ for your web browser).
 
 #### Why Hagezi?
 [Hagezi](https://github.com/hagezi/dns-blocklists) block ads, trackers, native device trackers, badware, and more. He maintains a sensible allowlist, handles false positives quickly, an communicates known issues to blocklists maintainers. Hagezi's primary DNS lists combine respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus).
@@ -159,7 +163,7 @@ Add all the device brands you use. There's no advantage in adding brands you don
 
 ### Allow Affiliate & Tracking Links <sup><sup>[1](https://github.com/nextdns/click-tracking-domains) [2](https://unofficialbird.com/NextDNS/status/1539229377560461312) </sup></sup>
 :bulb: Your IP address will automatically be hidden (via [TCP](https://educba.com/what-is-tcp-ip) [proxying](https://en.wikipedia.org/wiki/Proxy_server#/media/File:Proxy_concept_en.svg)) to preserve your privacy.<p>
-:warning: Disabling may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) when opening some emails. <p>
+:warning: Disabling causes [false positives](https://csrc.nist.gov/glossary/term/false_positive) when opening some email links. <p>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Allow Affiliate & Tracking Links
 
 ***
@@ -355,10 +359,12 @@ User data is [removed](https://0x65.dev/blog/2019-12-04/human-web-proxy-network-
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
 ### Should I pay for NextDNS?
-For the rich features it provides, [NextDNS](https://nextdns.io/?from=xujj63g5) is very affordable at $19.90/year for unlimited devices. It pays for itself if it saves my family from a malicious incident.
+For the rich features it provides, [NextDNS](https://nextdns.io/?from=xujj63g5) is very affordable at $19.90/year for unlimited devices. NextDNS pays for itself if it saves my family from a malicious incident.
 
 ### Why am I still seeing ads?
-Not all ads can be blocked at the DNS level ([example](https://old.reddit.com/r/nextdns/comments/13urdda/ads_on_manga_sites/)). You will need an [ad blocker](https://www.0x65.dev/blog/2019-12-20/not-all-adblockers-are-born-equal.html#:~:text=What%E2%80%99s%20in%20an%20adblocker%3F) to block what's leftover. This is because not all ads come from third-party domains; some ads come directly from the site you're visitng, like [YouTube](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2). DNS blockers [stop](https://github.com/hagezi/dns-blocklists/discussions/1030#discussioncomment-5884270) the resolution of a domain, and content blockers filter page content. Click [here](https://www.ghostery.com/ghostery-ad-blocker) to easily install a lightweight ad blocker.
+Not all ads can be blocked at the DNS level ([example](https://old.reddit.com/r/nextdns/comments/13urdda/ads_on_manga_sites/)). You will need an [ad blocker](https://www.0x65.dev/blog/2019-12-20/not-all-adblockers-are-born-equal.html#:~:text=What%E2%80%99s%20in%20an%20adblocker%3F) to block what's leftover.
+
+This is because not all ads come from third-party domains; some ads come directly from the site you're visiting, like [YouTube](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2). DNS blockers [stop](https://github.com/hagezi/dns-blocklists/discussions/1030#discussioncomment-5884270) the resolution of a domain, and content blockers filter page content. Click [here](https://github.com/yokoffing/NextDNS-Config/tree/main#i-need-a-browser-with-ad-blocking-which-one-should-i-choose) to easily install a lightweight ad blocker.
 
 ### Does the amount of features enabled affect the speed of NextDNS?<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12#issue-1465457977) [2](https://old.reddit.com/r/nextdns/comments/135utai/comment/jilbus8/?=&context=3)</sup>
 
@@ -395,25 +401,28 @@ Here are the suggested browsers for each operating system (OS):
 
 #### Desktop
 
-| OS | Browser | Content Blocker | Notes |
-|---|---|---|---|
-| Any | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  | |
+| OS | Browser | Content Blocker |
+|---|---|---|
+| Any | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
 
 ***
 # Mentions :books:
 
-#### User Comments
+### User Comments
 * See [here](https://socialgrep.com/search?query=yokoffing%2Cnextdns)
 
-#### Articles
+### YouTube
+* [The ULTIMATE Guide to Mastering NextDNS!](https://youtu.be/WUG57ynLb8I?t=2230) (July 2023) | [clarifications](https://github.com/techlore/channel-content/issues/43)
+
+### Articles
 * [Knot Resolver — with ad blocking](https://blog.cavelab.dev/2022/12/knot-resolver-ad-blocking/) (Dec 2022)
 * [Privacy Toolkit: NextDNS](https://stephenbolen.com/privacy-toolkit-nextdns/#:~:text=I%20found%20a%20wonderful%20guide%20on%20GitHub%20that%20walks%20through%20the%20optimal%20NextDNS%20configuration) (Sept 2022)
 
-#### Guides
+### Guides
 * [FMHY: DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking) → NextDNS → Guide
 * [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists#nextdns---limited-freepaid-) → Online DNS services
 
-#### Contributions
+### Contributions
 * [Hagezi](https://github.com/hagezi/dns-blocklists/issues?q=author%3Ayokoffing) | [mentions](https://github.com/hagezi/dns-blocklists/issues?q=mentions%3Ayokoffing)
 * [1Hosts](https://github.com/badmojr/1Hosts/issues?q=author%3Ayokoffing)
 * [Easylist](https://github.com/easylist/easylist/issues?q=author%3Ayokoffing)
