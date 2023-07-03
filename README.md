@@ -118,11 +118,11 @@ Blocklists filter out ads, [trackers](https://freecodecamp.org/news/what-you-sho
 
 We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.com/nextdns/blocklists/blob/main/blocklists/nextdns-recommended.json) and select the [minimum](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3) number of useful lists.
 
-#### Which blocklist do I use?
+#### Which blocklist should I use?
 
 A great question to ask is: "How much do I want to deal with the inconveniences of [false positives](https://csrc.nist.gov/glossary/term/false_positive)?"
 
-**Here are the suggested blocklists for each use case:**
+Here are the suggested blocklists for each use case:
 
 |     **Blocklist**    |                              **Use Case**                                              |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
@@ -408,21 +408,21 @@ Here are the suggested browsers for each operating system (OS):
 ***
 # Mentions :books:
 
-#### User Comments
+### User Comments
 * See [here](https://socialgrep.com/search?query=yokoffing%2Cnextdns)
 
-#### YouTube
-* [The ULTIMATE Guide to Mastering NextDNS!](https://youtu.be/WUG57ynLb8I?t=2230) (July 2023)
+### YouTube
+* [The ULTIMATE Guide to Mastering NextDNS!](https://youtu.be/WUG57ynLb8I?t=2230) (July 2023) | [clarifications](https://github.com/techlore/channel-content/issues/43)
 
-#### Articles
+### Articles
 * [Knot Resolver — with ad blocking](https://blog.cavelab.dev/2022/12/knot-resolver-ad-blocking/) (Dec 2022)
 * [Privacy Toolkit: NextDNS](https://stephenbolen.com/privacy-toolkit-nextdns/#:~:text=I%20found%20a%20wonderful%20guide%20on%20GitHub%20that%20walks%20through%20the%20optimal%20NextDNS%20configuration) (Sept 2022)
 
-#### Guides
+### Guides
 * [FMHY: DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking) → NextDNS → Guide
 * [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists#nextdns---limited-freepaid-) → Online DNS services
 
-#### Contributions
+### Contributions
 * [Hagezi](https://github.com/hagezi/dns-blocklists/issues?q=author%3Ayokoffing) | [mentions](https://github.com/hagezi/dns-blocklists/issues?q=mentions%3Ayokoffing)
 * [1Hosts](https://github.com/badmojr/1Hosts/issues?q=author%3Ayokoffing)
 * [Easylist](https://github.com/easylist/easylist/issues?q=author%3Ayokoffing)
