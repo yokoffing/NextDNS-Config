@@ -129,7 +129,7 @@ The blocklist you pick boils down to your threat model this all comes down down 
 |     **Blocklist**    |                              **Use Case**                                              |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
 | HaGeZi - Multi **LIGHT*** | I want to block almost all tracker and ad requests without app or website issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
-| HaGeZi - Multi **PRO++** | I'm an advanced user; I will [submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues; you may need to allowlist occasionally to [unsubscribe from junk email](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1), . |
+| HaGeZi - Multi **PRO++** | I'm an advanced user; I will [submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues; you may need to allowlist occasionally for [email unsubscriptions](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1), . |
 
 <sup>*If LIGHT isn't available (e.g., Control D users), use NORMAL. The main difference between the two is the latter blocks more malware domains, but know that malware domains change [quickly](https://youtu.be/9SraN9V23WA?t=71).</sup>
 
@@ -412,6 +412,9 @@ Here are the suggested browsers for each operating system (OS):
 
 #### User Comments
 * See [here](https://socialgrep.com/search?query=yokoffing%2Cnextdns)
+
+#### YouTube
+* [The ULTIMATE Guide to Mastering NextDNS!](https://youtu.be/WUG57ynLb8I?t=2230) (July 2023)
 
 #### Articles
 * [Knot Resolver — with ad blocking](https://blog.cavelab.dev/2022/12/knot-resolver-ad-blocking/) (Dec 2022)
