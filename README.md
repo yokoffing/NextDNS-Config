@@ -126,17 +126,15 @@ A great question to ask is: "How much do I want to deal with the inconveniences 
 
 |     **Blocklist**    |                              **Use Case**                                              |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
-| HaGeZi - Multi **LIGHT** | Block most tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
-| HaGeZi - Multi **PRO++** | Block [9% more](https://github.com/hagezi/dns-blocklists/discussions/1093#discussioncomment-6041370) requests; occasionally allowlist requests for [email unsubscriptions](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1) and [submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
+| HaGeZi - Multi **LIGHT** | Block most tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)) |
+| HaGeZi - Multi **PRO++** | Block [9% more](https://github.com/hagezi/dns-blocklists/discussions/1093#discussioncomment-6041370) requests <br> Occasionally allowlist requests for [email unsubscriptions](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1) <br> [Submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues |
 
-<sup>*If LIGHT isn't available (Control D users), then use NORMAL. The main difference between the two is the latter uses [OISD](https://oisd.nl/) and blocks more known malware domains. (Be aware that malware domains change [quickly](https://youtu.be/9SraN9V23WA?t=71).)</sup>
+You can read the full rationale for Hagezi's lists [here](https://github.com/hagezi/dns-blocklists/discussions/1093).
 
 :bulb: You can mix and match these on separate DNS profiles (e.g., use LIGHT for your router and PRO++ for your web browser).
 
 #### Why Hagezi?
 [Hagezi](https://github.com/hagezi/dns-blocklists) block ads, trackers, native device trackers, badware, and more. He maintains a sensible allowlist, handles false positives quickly, an communicates known issues to blocklists maintainers. Hagezi's primary DNS lists combine respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus).
-
-You can read the full rationale for Hagezi's lists [here](https://github.com/hagezi/dns-blocklists/discussions/1093).
 
 :question: You may wonder why other lists are not utilized. This is because many list maintainers:
 * do not remove [false positives](https://csrc.nist.gov/glossary/term/false_positive) and/or are no longer active <sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916)</sup>
@@ -361,7 +359,7 @@ User data is [removed](https://0x65.dev/blog/2019-12-04/human-web-proxy-network-
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
 ### Should I pay for NextDNS?
-For the rich features it provides, [NextDNS](https://nextdns.io/?from=xujj63g5) is very affordable at $19.90/year for unlimited devices. It pays for itself if it saves my family from a malicious incident.
+For the rich features it provides, [NextDNS](https://nextdns.io/?from=xujj63g5) is very affordable at $19.90/year for unlimited devices. NextDNS pays for itself if it saves my family from a malicious incident.
 
 ### Why am I still seeing ads?
 Not all ads can be blocked at the DNS level ([example](https://old.reddit.com/r/nextdns/comments/13urdda/ads_on_manga_sites/)). You will need an [ad blocker](https://www.0x65.dev/blog/2019-12-20/not-all-adblockers-are-born-equal.html#:~:text=What%E2%80%99s%20in%20an%20adblocker%3F) to block what's leftover.
