@@ -20,7 +20,7 @@ Sign up for NextDNS [here](https://nextdns.io/?from=xujj63g5)!
 
 ***
 
-# Security :policeman:
+# Security :police_officer:
 
 Security settings protect your data from harm, theft, and unauthorized use.<sup>*^[why does this matter?](https://thenewoil.org/en/guides/prologue/why)*</sup>
 
