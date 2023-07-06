@@ -412,7 +412,7 @@ Here are the suggested browsers for each operating system (OS):
 * See [here](https://socialgrep.com/search?query=yokoffing%2Cnextdns)
 
 ### YouTube
-* [The ULTIMATE Guide to Mastering NextDNS!](https://youtu.be/WUG57ynLb8I?t=2230) (July 2023) | [clarifications](https://github.com/techlore/channel-content/issues/43)
+* [The ULTIMATE Guide to Mastering NextDNS!](https://youtu.be/WUG57ynLb8I?t=2230) | [clarifications](https://github.com/techlore/channel-content/issues/43) (July 2023) 
 
 ### Articles
 * [Knot Resolver — with ad blocking](https://blog.cavelab.dev/2022/12/knot-resolver-ad-blocking/) (Dec 2022)
