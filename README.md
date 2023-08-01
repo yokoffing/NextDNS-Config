@@ -110,7 +110,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 # Privacy :lock:
 Privacy features limit the amount of data companies can collect about you.
 
-Because privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum), what you need varies on your [threat model](https://thenewoil.org/en/guides/prologue/threatmodel), interest, and skillset.<sup>^[*why should I care? I have nothing to hide*](https://aeon.co/essays/privacy-matters-because-it-empowers-us-all)</sup>
+Because privacy is a [spectrum](https://blog.thenewoil.org/the-privacy-myth-binary-vs-spectrum), what you need varies on your [threat model](https://thenewoil.org/en/guides/prologue/threatmodel), interest, and skillset.<sup>^[*why should I care? I have nothing to hide*](https://medium.com/@FabioAEsteves/i-have-nothing-to-hide-why-should-i-care-about-my-privacy-f488281b8f1d)</sup>
 
 ### Blocklists <sup><sup>[1](https://github.com/nextdns/blocklists/tree/main/blocklists)</sup></sup>
 
