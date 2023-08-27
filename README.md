@@ -126,15 +126,15 @@ Here are the suggested blocklists:
 
 |     **Blocklist**    |                              **Rationale**                                             |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
-| HaGeZi - Multi **LIGHT** | Block most tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)) |
-| HaGeZi - Multi **PRO++** | Block 9-15% more requests <br> Occasionally allowlist requests for [email unsubscriptions](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1) <br> [Submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues |
+| HaGeZi - Multi **LIGHT**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#light)</sup> | Block most tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)) |
+| HaGeZi - Multi **PRO++**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> | Block 9-15% more requests <br> Occasionally allowlist requests for [email unsubscriptions](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1) <br> [Submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues |
 
 :book: Read the full analysis of Hagezi's lists [here](https://github.com/hagezi/dns-blocklists/discussions/1093).
 
 :bulb: Use different blocklists on separate DNS profiles (e.g., LIGHT for your router and PRO++ for your web browser).
 
 #### Why Hagezi?
-[Hagezi](https://github.com/hagezi/dns-blocklists) block ads, trackers, native device trackers, badware, and more. He maintains a sensible allowlist, handles false positives quickly, an communicates known issues to blocklists maintainers. Hagezi's primary DNS lists combine respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus).
+[Hagezi](https://github.com/hagezi/dns-blocklists) block ads, trackers, native device trackers, badware, and more. He maintains a sensible allowlist, handles false positives quickly, an communicates known issues to blocklists maintainers. Hagezi's primary DNS lists combine respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/sources.md).
 
 :question: You may wonder why other lists are not utilized. This is because many list maintainers:
 * do not remove [false positives](https://csrc.nist.gov/glossary/term/false_positive) and/or are no longer active <sup>[1](https://github.com/lightswitch05/hosts/issues/356) [2](https://github.com/EnergizedProtection/block/issues/916)</sup>
