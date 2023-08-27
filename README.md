@@ -126,8 +126,8 @@ Here are the suggested blocklists:
 
 |     **Blocklist**    |                              **Rationale**                                             |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
-| HaGeZi - Multi **LIGHT** | Block most tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)) |
-| HaGeZi - Multi **PRO++** | Block 9-15% more requests <br> Occasionally allowlist requests for [email unsubscriptions](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1) <br> [Submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues |
+| HaGeZi - Multi **LIGHT**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#light)</sup> | Block most tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)) |
+| HaGeZi - Multi **PRO++**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> | Block 9-15% more requests <br> Occasionally allowlist requests for [email unsubscriptions](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1) <br> [Submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues |
 
 :book: Read the full analysis of Hagezi's lists [here](https://github.com/hagezi/dns-blocklists/discussions/1093).
 
