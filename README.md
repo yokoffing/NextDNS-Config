@@ -370,20 +370,13 @@ Choosing a browser is about as intimate as [choosing a starter Pokémon](https:/
 
 We based the recommendations below on a combination of effectiveness, resource efficiency, features, and ease of use.
 
-Here are the suggested browsers for each operating system (OS):
-
-### Mobile
-
 | OS | Browser | Content Blocker |
 |---|---|---|
-| iOS | [Safari](https://www.apple.com/safari) | [AdGuard](https://adguard.com/en/adguard-ios/overview.html) or [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari) |
-| Android | Firefox | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-firefox) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |
+| iOS | [Safari](https://www.apple.com/safari) | [AdGuard](https://adguard.com/en/adguard-ios/overview.html) or [Ghostery](https://www.ghostery.com/ghostery-ad-blocker) |
+| Android | [Firefox](https://www.mozilla.org/en-US/firefox/new/) | [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) or [Ghostery](https://www.ghostery.com/ghostery-ad-blocker) |
+| Windows <br> macOS <br> Linux | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) or [Ghostery](https://www.ghostery.com/ghostery-ad-blocker) |  |
 
-### Desktop
-
-| OS | Browser | Content Blocker |
-|---|---|---|
-| Any | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
+At the end of the day, if you're using [NextDNS](https://nextdns.io/?from=xujj63g5) + any browser with an ad blocker, you have more coverage than most people.
 
 ## Should I pay for NextDNS?
 For the rich features it provides, [NextDNS](https://nextdns.io/?from=xujj63g5) is very affordable at $19.90/year for unlimited devices. NextDNS pays for itself if it saves my family from a malicious incident.
