@@ -1,5 +1,4 @@
 [![GitHub issues](https://img.shields.io/github/issues/yokoffing/NextDNS-Config)](https://github.com/yokoffing/NextDNS-Config/issues)
-![GitHub repo size](https://img.shields.io/github/repo-size/yokoffing/NextDNS-Config)
 ![GitHub](https://img.shields.io/github/license/yokoffing/NextDNS-Config?color=blue)
 ![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-green)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/yokoffing/NextDNS-Config)
@@ -125,8 +124,8 @@ Here are the suggested blocklists:
 
 |     **Blocklist**    |                              **Rationale**                                             |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
-| HaGeZi - Multi **LIGHT**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#light)</sup> | Block most tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)) |
-| HaGeZi - Multi **PRO++**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> | Block 9-15% more requests <br> Occasionally allowlist requests for [email unsubscriptions](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1) <br> [Submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues |
+| HaGeZi - Multi **NORMAL**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#multi)</sup> | Block most tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
+| HaGeZi - Multi **PRO++**<sup>[2](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> | Block 9-15% more requests. <br> Occasionally allowlist requests for [email unsubscriptions](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1). <br> [Submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
 
 :book: Read the full analysis of Hagezi's lists [here](https://github.com/hagezi/dns-blocklists/discussions/1093).
 
