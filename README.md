@@ -357,13 +357,36 @@ User data is [removed](https://0x65.dev/blog/2019-12-04/human-web-proxy-network-
 ## How do I signup for NextDNS?
 Click [here](https://nextdns.io/?from=xujj63g5)!
 
-## Should I pay for NextDNS?
-For the rich features it provides, [NextDNS](https://nextdns.io/?from=xujj63g5) is very affordable at $19.90/year for unlimited devices. NextDNS pays for itself if it saves my family from a malicious incident.
-
 ## Why am I still seeing ads?
 Not all ads can be blocked at the DNS level.<sup>[1](https://www.reddit.com/r/nextdns/comments/14nsfhv/comment/jq982bi/?context=3) [2](https://www.reddit.com/r/nextdns/comments/13urdda/ads_on_manga_sites/)</sup> You will need an [ad blocker](https://github.com/yokoffing/NextDNS-Config#i-need-a-browser-with-ad-blocking-which-one-should-i-choose) to block what's leftover.
 
 This is because not all ads come from third-party domains; some ads come directly from the site you're visiting, like [YouTube](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2). DNS blockers [stop](https://github.com/hagezi/dns-blocklists/discussions/1030#discussioncomment-5884270) the resolution of a domain, and content blockers filter page content. Click [here](https://github.com/yokoffing/NextDNS-Config/tree/main#i-need-a-browser-with-ad-blocking-which-one-should-i-choose) to easily install a lightweight ad blocker.
+
+## I need a browser with ad blocking. Which one should I choose?
+Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY), so here's a few caveats:
+* The best browser on paper may not work well in real world usage (e.g., [Brave](https://brave.com/) is wonky with video playback on iOS).
+* Browsers are tools! Use a variety of browsers depending on what you need to do.
+* You should use various browsers (or browser profiles) for different areas of life (e.g., work, school, personal).
+
+We based the recommendations below on a combination of effectiveness, resource efficiency, features, and ease of use.
+
+Here are the suggested browsers for each operating system (OS):
+
+### Mobile
+
+| OS | Browser | Content Blocker |
+|---|---|---|
+| iOS | [Safari](https://www.apple.com/safari) | [AdGuard](https://adguard.com/en/adguard-ios/overview.html) or [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari) |
+| Android | Firefox | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-firefox) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |
+
+### Desktop
+
+| OS | Browser | Content Blocker |
+|---|---|---|
+| Any | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
+
+## Should I pay for NextDNS?
+For the rich features it provides, [NextDNS](https://nextdns.io/?from=xujj63g5) is very affordable at $19.90/year for unlimited devices. NextDNS pays for itself if it saves my family from a malicious incident.
 
 ## Does the amount of features enabled affect the speed of NextDNS?<sup>[1](https://github.com/yokoffing/NextDNS-Config/issues/12#issue-1465457977) [2](https://www.reddit.com/r/nextdns/comments/135utai/comment/jilbus8/?=&context=3)</sup>
 
@@ -380,29 +403,6 @@ See [article](https://thenewoil.org/en/guides/prologue/secprivanon/) | [video](h
 
 ## Does NextDNS hide activity from my Internet Service Provider (ISP)?
 [No](https://www.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). [NextDNS](https://nextdns.io/?from=xujj63g5) is only concerned about DNS traffic. You would need a [quality](https://www.youtube.com/watch?v=cK4MQv-OwyM) [VPN](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) to hide all activity from your ISP.
-
-## I need a browser with ad blocking. Which one should I choose?
-Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY), so here's a few caveats:
-* The best browser on paper may not work well in real world usage (e.g., [Brave](https://brave.com/) is wonky with video playback on iOS).
-* Browsers are tools! Use a variety of browsers depending on what you need to do.
-* You should use various browsers (or browser profiles) for different areas of life (e.g., work, school, personal).
-
-We based the recommendations below on a combination of effectiveness, resource efficiency, features, and ease of use.
-
-Here are the suggested browsers for each operating system (OS):
-
-### Mobile
-
-| OS | Browser | Content Blocker | Notes |
-|---|---|---|---|
-| iOS | [Safari](https://www.apple.com/safari) <br>[Orion](https://browser.kagi.com/) | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-safari) | [AdGuard](https://adguard.com/en/adguard-ios/overview.html) allows you to add custom filterlists but it's resource intensive.  |
-| Android | Firefox | [Ghostery](https://www.ghostery.com/ghostery-ad-blocker-firefox) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
-
-### Desktop
-
-| OS | Browser | Content Blocker |
-|---|---|---|
-| Any | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [Ghostery](https://www.ghostery.com) or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
 
 ***
 # Mentions :books:
