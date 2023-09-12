@@ -124,12 +124,12 @@ Here are the suggested blocklists:
 
 |     **Blocklist**    |                              **Rationale**                                             |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
-| HaGeZi - Multi **NORMAL**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#multi)</sup> | Block most tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
-| HaGeZi - Multi **PRO++**<sup>[2](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> | Block 9-15% more requests. <br> Occasionally allowlist requests for [email unsubscriptions](https://www.reddit.com/r/nextdns/comments/y3zmhb/new_on_nextdns_and_im_loving_it_any_advices_about/ish8dla/?context=1). <br> [Submit](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
+| HaGeZi - Multi **NORMAL**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#multi)</sup> | Block tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
+| HaGeZi - Multi **PRO++**<sup>[2](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> | Block signficantly more requests at the risk of site breakage. <br> [Report](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
 
 :book: Read the full analysis of Hagezi's lists [here](https://github.com/hagezi/dns-blocklists/discussions/1093).
 
-:bulb: Use different blocklists on separate DNS profiles (e.g., LIGHT for your router and PRO++ for your web browser).
+:bulb: You can use different blocklists on separate DNS profiles (e.g., NORMAL for your router and PRO++ for your web browser).
 
 ### Why Hagezi?
 [Hagezi](https://github.com/hagezi/dns-blocklists) block ads, trackers, native device trackers, badware, and more. He maintains a sensible allowlist, handles false positives quickly, an communicates known issues to blocklists maintainers. Hagezi's primary DNS lists combine respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/sources.md).
