@@ -23,7 +23,7 @@ Sign up for NextDNS [here](https://nextdns.io/?from=xujj63g5)!
 
 Security settings protect your data from harm, theft, and unauthorized use.<sup>*^[why does this matter?](https://thenewoil.org/en/guides/prologue/why)*</sup>
 
-## Threat Intelligence Feeds <sup><[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/threat-intelligence-feeds.json)</sup></sup>
+## Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/threat-intelligence-feeds.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
 ## AI-Driven Threat Detection <sup><sup>[1](https://unofficialbird.com/NextDNS/status/1440291577713233925?lang=en)</sup></sup>
 :warning: This feature is still in beta and may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive).
