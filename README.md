@@ -23,7 +23,7 @@ Sign up for NextDNS [here](https://nextdns.io/?from=xujj63g5)!
 
 Security settings protect your data from harm, theft, and unauthorized use.<sup>*^[why does this matter?](https://thenewoil.org/en/guides/prologue/why)*</sup>
 
-## Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/threat-intelligence-feeds.json)</sup></sup>
+## Threat Intelligence Feeds <sup><[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/threat-intelligence-feeds.json)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
 ## AI-Driven Threat Detection <sup><sup>[1](https://unofficialbird.com/NextDNS/status/1440291577713233925?lang=en)</sup></sup>
 :warning: This feature is still in beta and may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive).
@@ -120,14 +120,14 @@ We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.co
 
 A great question to ask is: "How much do I want to deal with the inconveniences of [false positives](https://csrc.nist.gov/glossary/term/false_positive)?"
 
-Here are the suggested blocklists:
+Here are the suggested blocklists, based on past [issues](https://github.com/hagezi/dns-blocklists/issues?q=author%3Ayokoffing) and [observations](https://github.com/hagezi/dns-blocklists/discussions/1093):
 
 |     **Blocklist**    |                              **Rationale**                                             |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
 | HaGeZi - Multi **NORMAL**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#multi)</sup> | Block tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
 | HaGeZi - Multi **PRO++**<sup>[2](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> | Block signficantly more requests at the risk of site breakage. <br> [Report](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
 
-:book: Read the full analysis of Hagezi's lists [here](https://github.com/hagezi/dns-blocklists/discussions/1093).
+:book: Check out Hagezi's own [recommendations](https://github.com/hagezi/dns-blocklists/tree/main#whatshouldiuse).
 
 :bulb: You can use different blocklists on separate DNS profiles (e.g., NORMAL for your router and PRO++ for your web browser).
 
