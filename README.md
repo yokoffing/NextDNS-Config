@@ -410,6 +410,7 @@ See [article](https://thenewoil.org/en/guides/prologue/secprivanon/) | [video](h
 * [Privacy Toolkit: NextDNS](https://stephenbolen.com/privacy-toolkit-nextdns/#:~:text=I%20found%20a%20wonderful%20guide%20on%20GitHub%20that%20walks%20through%20the%20optimal%20NextDNS%20configuration) (Sept 2022)
 
 ### Guides
+* [A comprehensive guide to setting up NextDNS](https://itsjake.me/blog/a-comprehensive-guide-to-setting-up-nextdns/) (Sept 2023)
 * [FMHY: DNS Adblocking](https://github.com/nbats/FMHYedit/blob/main/AdblockVPNGuide.md#-dns-adblocking) → NextDNS → Guide
 * [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists#nextdns---limited-freepaid-) → Online DNS services
 
