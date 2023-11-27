@@ -259,6 +259,10 @@ This [request](https://oisd.nl/excludes.php?w=settings-win.data.microsoft.com) i
 
 	update.intl.miui.com
 
+### Xiaomi USB debugging (Security settings)
+
+	srv.sec.intl.miui.com
+
 ### Google Nest usage metrics <sup><sup>[1](https://www.reddit.com/r/nextdns/comments/yzvnuw/nest_usage_metrics_being_blocked)</sup></sup> 
 
 	logsink.devices.nest.com
