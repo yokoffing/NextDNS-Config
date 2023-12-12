@@ -15,7 +15,7 @@
 
 ## Create your account
 
-Sign up for NextDNS [here](https://nextdns.io/?from=xujj63g5)!
+Sign up for NextDNS [here](https://nextdns.io/?from=xujj63g5) and support this page!
 
 ***
 
