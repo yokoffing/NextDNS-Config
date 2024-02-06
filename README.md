@@ -317,15 +317,14 @@ This [request](https://oisd.nl/excludes.php?w=settings-win.data.microsoft.com) i
 
 ### [Paramount+](https://www.paramountplus.com/)
 
-These domains are used by Paramount+ to display ads. Even if you have an ad-free plan, these domains must be
-resolvable to view Paramount+ content. They are in most blocklists, so will need to be added to your allowlist. 
-Unfortunately they are widely used, so unblocking them will likely decrease the number of ads blocked elsewhere.
+Paramount+ uses certain domains to display ads. These domains must be accessible to allow Paramount+ content to load (even for viewers with ad-free plans).
+
+:warning: However, because many sites use these domains for ads, allowing them could result in more ads being shown on other sites you visit.
 
     imasdk.googleapis.com
     pubads.g.doubleclick.net
 
-It [has been reported](https://www.reddit.com/r/nextdns/comments/v84ag6/paramount_plus/) that you might need to
-unblock the following, if any of them are in a blocklist you're using.
+Users have [reported](https://www.reddit.com/r/nextdns/comments/v84ag6/paramount_plus/) that the following domains also may need to be allowed:
 
     cbsaavideo.com
     cbsi.com
