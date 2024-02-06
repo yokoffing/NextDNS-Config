@@ -321,22 +321,22 @@ These domains are used by Paramount+ to display ads. Even if you have an ad-free
 resolvable to view Paramount+ content. They are in most blocklists, so will need to be added to your allowlist. 
 Unfortunately they are widely used, so unblocking them will likely decrease the number of ads blocked elsewhere.
 
-        imasdk.googleapis.com
-        pubads.g.doubleclick.net
+    imasdk.googleapis.com
+    pubads.g.doubleclick.net
 
 It [has been reported](https://www.reddit.com/r/nextdns/comments/v84ag6/paramount_plus/) that you might need to
 unblock the following, if any of them are in a blocklist you're using.
 
-        cbsaavideo.com
-        cbsi.com
-	conviva.com
-        convivia.com
-	demdex.net
-        dns-clientinfo.cbsivideo.com
-	partnerad.l.doubleclick.net
-        saa.cbsi.com
-	summerhamster.com (yes, really)
-        udm.scorecardresearch.com
+    cbsaavideo.com
+    cbsi.com
+    conviva.com
+    convivia.com
+    demdex.net
+    dns-clientinfo.cbsivideo.com
+    partnerad.l.doubleclick.net
+    saa.cbsi.com
+    summerhamster.com (yes, really)
+    udm.scorecardresearch.com
 
 ### [FiveThirtyEight](https://fivethirtyeight.com) videos / [National Geographic](https://nationalgeographic.com) website <sup><sup>[1](https://github.com/notracking/hosts-blocklists/issues/788)</sup></sup>
 
