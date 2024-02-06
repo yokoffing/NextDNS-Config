@@ -315,6 +315,28 @@ This [request](https://oisd.nl/excludes.php?w=settings-win.data.microsoft.com) i
 	pubads.g.doubleclick.net
 	tags.tiqcdn.com 
 
+### [Paramount+](https://www.paramountplus.com/)
+
+Paramount+ uses certain domains to display ads. These domains must be accessible to allow Paramount+ content to load (even for viewers with ad-free plans).
+
+:warning: However, because many sites use these domains for ads, allowing them could result in more ads being shown on other sites you visit.
+
+    imasdk.googleapis.com
+    pubads.g.doubleclick.net
+
+Users have [reported](https://www.reddit.com/r/nextdns/comments/v84ag6/paramount_plus/) that the following domains also may need to be allowed:
+
+    cbsaavideo.com
+    cbsi.com
+    conviva.com
+    convivia.com
+    demdex.net
+    dns-clientinfo.cbsivideo.com
+    partnerad.l.doubleclick.net
+    saa.cbsi.com
+    summerhamster.com (yes, really)
+    udm.scorecardresearch.com
+
 ### [FiveThirtyEight](https://fivethirtyeight.com) videos / [National Geographic](https://nationalgeographic.com) website <sup><sup>[1](https://github.com/notracking/hosts-blocklists/issues/788)</sup></sup>
 
 	dcf.espn.com
@@ -322,15 +344,6 @@ This [request](https://oisd.nl/excludes.php?w=settings-win.data.microsoft.com) i
 ### [Men's Health](https://menshealth.com/nutrition/a40868905/chris-hemsworth-chicken-pasta-bake-recipe-centr) videos <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/651)</sup></sup>
 
 	glimmer.hearstapps.com
-
-### [Ghostery](https://ghostery.com/ghostery-ad-blocker) Analytics (opt-in)
-
-User data is [removed](https://0x65.dev/blog/2019-12-04/human-web-proxy-network-hpn.html). Contributes to the [Human Web](https://0x65.dev/blog/2019-12-03/human-web-collecting-data-in-a-socially-responsible-manner.html) and [WhoTracks.me](https://whotracks.me) data
-
-	collector-hpn.ghostery.net
-	collector-hpn.privacy.ghostery.net
-	d.ghostery.com
-
 
 </details>
 
