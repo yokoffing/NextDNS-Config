@@ -345,15 +345,6 @@ Users have [reported](https://www.reddit.com/r/nextdns/comments/v84ag6/paramount
 
 	glimmer.hearstapps.com
 
-### [Ghostery](https://ghostery.com/ghostery-ad-blocker) Analytics (opt-in)
-
-User data is [removed](https://0x65.dev/blog/2019-12-04/human-web-proxy-network-hpn.html). Contributes to the [Human Web](https://0x65.dev/blog/2019-12-03/human-web-collecting-data-in-a-socially-responsible-manner.html) and [WhoTracks.me](https://whotracks.me) data
-
-	collector-hpn.ghostery.net
-	collector-hpn.privacy.ghostery.net
-	d.ghostery.com
-
-
 </details>
 
 ***
