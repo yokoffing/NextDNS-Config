@@ -153,7 +153,7 @@ We recommend you remove the [NextDNS Ads & Trackers Blocklist](https://github.co
 
 A great question to ask is: "How much do I want to deal with the inconveniences of [false positives](https://csrc.nist.gov/glossary/term/false_positive)?"
 
-Here are the suggested blocklists, based on past [issues](https://github.com/hagezi/dns-blocklists/issues?q=author%3Ayokoffing) and [observations](https://github.com/hagezi/dns-blocklists/discussions/1093):
+Here are the suggested blocklists, based on past [issues](https://github.com/hagezi/dns-blocklists/issues?q=author%3Ayokoffing) and observations:
 
 |     **Blocklist**    |                              **Rationale**                                             |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
@@ -409,11 +409,11 @@ Click [here](https://nextdns.io/?from=xujj63g5)!
 ## Why am I still seeing ads?
 Not all ads can be blocked at the DNS level.<sup>[1](https://www.reddit.com/r/nextdns/comments/14nsfhv/comment/jq982bi/?context=3) [2](https://www.reddit.com/r/nextdns/comments/13urdda/ads_on_manga_sites/)</sup> You will need an [ad blocker](https://github.com/yokoffing/NextDNS-Config#i-need-a-browser-with-ad-blocking-which-one-should-i-choose) to block what's leftover.
 
-This is because not all ads come from third-party domains; some ads come directly from the site you're visiting, like [YouTube](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2). DNS blockers [stop](https://github.com/hagezi/dns-blocklists/discussions/1030#discussioncomment-5884270) the resolution of a domain, and content blockers filter page content. Click [here](https://github.com/yokoffing/NextDNS-Config/tree/main#i-need-a-browser-with-ad-blocking-which-one-should-i-choose) to easily install a lightweight ad blocker.
+This is because not all ads come from third-party domains; some ads come directly from the site you're visiting, like [YouTube](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/2). DNS blockers stop the resolution of a domain, and content blockers filter page content. Click [here](https://github.com/yokoffing/NextDNS-Config/tree/main#i-need-a-browser-with-ad-blocking-which-one-should-i-choose) to easily install a lightweight ad blocker.
 
 ## I need a browser with ad blocking. Which one should I choose?
 Choosing a browser is about as intimate as [choosing a starter Pokémon](https://youtu.be/F_8htiBjTCY), so here's a few caveats:
-* The best browser on paper may not work well in real world usage (e.g., [Brave](https://brave.com/) is wonky with video playback on iOS).
+* The best browser on paper may not work well in real world usage.
 * Browsers are tools! Use a variety of browsers depending on what you need to do.
 * You should use various browsers (or browser profiles) for different areas of life (e.g., work, school, personal).
 
@@ -421,9 +421,9 @@ We based the recommendations below on a combination of effectiveness, resource e
 
 | OS | Browser | Content Blocker |
 |---|---|---|
-| iOS | [Safari](https://www.apple.com/safari) | [AdGuard](https://adguard.com/en/adguard-ios/overview.html) or [Ghostery](https://www.ghostery.com/ghostery-ad-blocker) |
-| Android | [Firefox](https://www.mozilla.org/en-US/firefox/new/) | [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) or [Ghostery](https://www.ghostery.com/ghostery-ad-blocker) |
-| Windows <br> macOS <br> Linux | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) | [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) or [Ghostery](https://www.ghostery.com/ghostery-ad-blocker) |  |
+| iOS | [Safari](https://www.privacyguides.org/en/mobile-browsers/#safari) | [AdGuard](https://www.privacyguides.org/en/mobile-browsers/#adguard) |
+| Android | [Brave](https://www.privacyguides.org/en/mobile-browsers/#brave) | Built-in blocker |
+| Windows <br> macOS <br> Linux | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) <p><p> [Brave](https://www.privacyguides.org/en/desktop-browsers/#brave) | [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) <p><p> Built-in blocker or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
 
 At the end of the day, if you're using [NextDNS](https://nextdns.io/?from=xujj63g5) + any browser with an ad blocker, you have more coverage than most people.
 
