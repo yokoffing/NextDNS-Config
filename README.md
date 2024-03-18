@@ -52,7 +52,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ## Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 ## Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/statistics/tlds/) [3](https://bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) [5](https://github.com/DandelionSprout/adfilt/issues/659#issuecomment-1284845803) </sup></sup>
-*Updated: 16 March 2024* <p>
+*Updated: 18 March 2024* <p>
 :warning: Blocking [TLDs](https://geeksforgeeks.org/components-of-a-url) may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) since this feature blocks both site navigations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs since they have no known legitimate uses.
 
 <details>
@@ -78,60 +78,16 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 .name
 .review
 .rip
-.sbs
 .skin
 .support
 .tattoo
 .tokyo
-.uno
 .voto
-.рус
 ```
 
 </details>
 
-:stop_sign: Below are additional TLDs you may block, but you may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
-
-<details>
-
-```
-.fit
-.surf
-.cn
-.monster
----
-.agency
-.bid
-.buzz
-.cf
-.cfd
-.dad
-.discount
-.esq
-.foo
-.ga
-.gdn
-.gq
-.ml
-.mov
-.nexus
-.ooo
-.phd
-.prof
-.pw
-.ru
-.sbs
-.tk
-.top
-.zip
-.zone
-```
-
-</details>
-
-You can find even more on Hagezi's [Most Abused TLDs](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt) list.
-
-:memo: If you would rather block TLDs with an adblocker (e.g., easier to troubleshoot breakage), add the first two filterlists [here](https://github.com/yokoffing/filterlists#security).
+:stop_sign: You can find additional TLDs on [Most Abused TLDs](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#tlds), but you may need to [allowlist](https://github.com/yokoffing/NextDNS-Config#allowlist-white_check_mark) sites on occasion. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this setting.*
 
 ## Block Child Sexual Abuse Material
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
