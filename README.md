@@ -400,7 +400,22 @@ The device will use the profile set by the [NextDNS](https://nextdns.io/?from=xu
 See [article](https://thenewoil.org/en/guides/prologue/secprivanon/) | [video](https://youtu.be/Wpkh-hfULgE)
 
 ## Does NextDNS hide activity from my Internet Service Provider (ISP)?
-[No](https://www.reddit.com/r/nextdns/comments/tavcgm/comment/i039u1r/?context=3). [NextDNS](https://nextdns.io/?from=xujj63g5) is only concerned about DNS traffic. You would need a [quality](https://www.youtube.com/watch?v=cK4MQv-OwyM) [VPN](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) to hide all activity from your ISP.
+DNS protocols like DoH/DoT/DoQ are designed to increase privacy and security by encrypting DNS queries. They prevent your ISP from seeing your web searches and browsing history, which significantly contributes to protecting your privacy.
+
+However, encrypted DNS does not hide the IP addresses of the websites you visit from your ISP. So while they cannot see the content of the encrypted DNS query (i.e., your ISP can't see what specific domain you're trying to access), they can see that you're making a request to a particular DNS server like Cloudflare or AWS. And if you're constantly sending packets to a particular IP address, it's likely that you're visiting a website hosted at that address.
+
+That being said, IVPN [argues](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) that you only need a VPN for three reasons:
+
+<details>
+
+1. Maintaining control over your privacy by hiding your real IP address from websites and peer-to-peer nodes, preventing ISPs and mobile network operators from tracking the domains and IPs you visit.
+
+2. Protecting your connection from [man in the middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) and other [common attacks](https://en.wikipedia.org/wiki/Evil_twin_(wireless_networks)) on untrusted networks, such as Wi-Fi in airports, hotels, cafes, and libraries.
+
+3. Circumventing censorship or geographical blocks on websites and content, allowing you to retrieve otherwise inaccessible information and media.
+</details>
+
+You don't need a VPN unless your [threat model](https://thenewoil.org/en/guides/prologue/threatmodel/) demands it. Here are VPN suggestions from [Techlore](https://www.techlore.tech/vpn.html) and [Tom Spark Reviews](https://www.vpntierlist.com/vpn-tier-list-2024) if it does.
 
 ***
 # Mentions :books:
