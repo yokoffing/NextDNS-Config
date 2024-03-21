@@ -113,8 +113,9 @@ Here are the suggested blocklists, based on past [issues](https://github.com/hag
 
 |     **Blocklist**    |                              **Rationale**                                             |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
-| HaGeZi - Multi **NORMAL**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#multi)</sup> | Block tracker and ad requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
-| HaGeZi - Multi **PRO++**<sup>[2](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> | Block signficantly more requests at the risk of site breakage. <br> [Report](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
+| HaGeZi - Multi **NORMAL**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#multi)</sup> | Block tracker, ad, and badware requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
+| HaGeZi - Multi **PRO**<sup>[2](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#pro)</sup> | Block more requests, usually without issues (recommended). |
+| HaGeZi - Multi **PRO++**<sup>[3](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> | Block more requests at the risk of site breakage. <br> [Report](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
 
 :book: Check out Hagezi's own [recommendations](https://github.com/hagezi/dns-blocklists/tree/main#whatshouldiuse).
 
