@@ -422,21 +422,16 @@ See [article](https://thenewoil.org/en/guides/prologue/secprivanon/) | [video](h
 ## Does NextDNS hide activity from my Internet Service Provider (ISP)?
 Encrypted DNS queries boost privacy and security. This encryption stops your ISP from seeing what websites you search for and visit.
 
-DNS protocols like DoH/DoT/DoQ are designed to increase privacy and security by encrypting DNS queries. They prevent your ISP from seeing your web searches and browsing history, which significantly contributes to protecting your privacy.
-
 However, encrypted DNS does not hide website IP addresses from your ISP. While your ISP cannot see the specific domain you want to access, they can see that you contact DNS servers like Cloudflare or AWS. If you repeatedly send data to a certain IP address, your ISP can guess you are visiting a website at that address.
 
 ## Do I need a VPN?
 IVPN [argues](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) you only need a VPN for three reasons. Mainly, in order to:
-
-<details>
 
 1. Protect your privacy by hiding your real IP address from websites and peer-to-peer networks, which prevents ISPs and mobile carriers from tracking your online activity.
 
 2. Guard against [man in the middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) and other [common attacks](https://en.wikipedia.org/wiki/Evil_twin_(wireless_networks)) on public Wi-Fi networks in places like airports, hotels, cafes, and libraries.
 
 3. Bypass censorship or geographic restrictions, allowing you to access blocked websites and content.
-</details>
 
 Ultimately, you don't need a VPN unless your [threat model](https://thenewoil.org/en/guides/prologue/threat-model/) demands it. Here are VPN suggestions from [Techlore](https://www.techlore.tech/vpn.html) and [Tom Spark Reviews](https://www.vpntierlist.com/vpn-tier-list-2024) if it does.
 
