@@ -171,7 +171,7 @@ Add all the device brands you use.
 > Your IP address will automatically be hidden (via [TCP](https://educba.com/what-is-tcp-ip) [proxying](https://en.wikipedia.org/wiki/Proxy_server#/media/File:Proxy_concept_en.svg)) to preserve your privacy.<p>
 
 > [!WARNING]
-> Disabling this setting causes prevent site navgiation when opening some email links.
+> Disabling this setting prevents some email links from opening properly.
 
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Allow Affiliate & Tracking Links
 
@@ -181,6 +181,7 @@ Add all the device brands you use.
 ## YouTube Restricted Mode
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enforce YouTube Restricted Mode
 ## Block Bypass Methods <sup><sup>[1](https://github.com/nextdns/dns-bypass-methods)</sup></sup>
+Block tools that can bypass NextDNS filtering, such as VPNs, proxies, Tor software, and encrypted DNS services.
 > [!CAUTION]
 > Enabling this setting causes unintended behavior.
 
@@ -190,40 +191,16 @@ Add all the device brands you use.
 
 # Denylist :no_entry:
 
-Denylist entries are always blocked. The entries below may further harden some profiles while not interfering with everyday browsing.
+Denylist entries are always blocked. These entries may further harden some profiles while not interfering with everyday browsing.
 
-<details>
+### iCloud Private Relay
 
+[iCloud Private Relay](https://support.apple.com/en-us/102602) can override DNS settings on devices, preventing NextDNS from protecting them.
 
-### Block access to iCloud Private Relay
-
-Devices that use iCloud Private Relay may ignore their DNS settings, so NextDNS cannot protect them. A few other DoH providers block it by default.
+Some DoH providers block this feature automatically.
 
 	mask.icloud.com
 
-### Apple tracking domains <sup><sup>[1](https://unofficialbird.com/mysk_co/status/1588308341780262912) [2](https://github.com/nextdns/metadata/pull/1132) [3](https://github.com/badmojr/1Hosts/issues/536) [4](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558)</sup></sup>
-Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokoffing/NextDNS-Config#native-tracking-protection-1) [list](https://github.com/nextdns/native-tracking-domains/blob/main/domains/apple): <sup>[1](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.apple.txt)</sup>
-
-	xp.apple.com (unblock for device updates!)
-	acfeedbackws.icloud.com
-	api-adservices.apple.com
-	feedbackws.fe.apple-dns.net
-	feedbackws.icloud.com
-	iadsdk.apple.com
-	notes-analytics-events.apple.com
-	notes-analytics-events.news.apple-dns.net
-	weather-analytics-events.apple.com
-	weather-analytics-events.news.apple-dns.net
-	
-### Twitter tracker
-
-	syndication.twitter.com
-
-### NVIDIA Gefore Experience <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/650)</sup></sup>
-
-	events.gfe.nvidia.com
-
-</details>
 
 ***
 
@@ -231,13 +208,13 @@ Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokof
 
 Allowlist entries always resolve. These entries may be needed for aggressive DNS profiles to relax their rules.
 
-<details>
-
 ### NextDNS
 
-Just in case a filterlist goes [haywire](https://help.nextdns.io/t/m1hs207/energized-ultimate-lists-blocking-nextdns) and blocks your access
+Allow NextDNS itself in case a filterlist goes [haywire](https://help.nextdns.io/t/m1hs207/energized-ultimate-lists-blocking-nextdns) and blocks your access.
 
 	nextdns.io
+
+<details><summary>Click here to view more entries</summary>
 
 ### Facebook / Instagram <sup><sup>[1](https://github.com/jerryn70/GoodbyeAds/issues/309)</sup></sup> 
 
@@ -443,22 +420,25 @@ The device will use the profile set by the [NextDNS](https://nextdns.io/?from=xu
 See [article](https://thenewoil.org/en/guides/prologue/secprivanon/) | [video](https://www.youtube.com/watch?v=Wpkh-hfULgE)
 
 ## Does NextDNS hide activity from my Internet Service Provider (ISP)?
+Encrypted DNS queries boost privacy and security. This encryption stops your ISP from seeing what websites you search for and visit.
+
 DNS protocols like DoH/DoT/DoQ are designed to increase privacy and security by encrypting DNS queries. They prevent your ISP from seeing your web searches and browsing history, which significantly contributes to protecting your privacy.
 
-However, encrypted DNS does not hide the IP addresses of the websites you visit from your ISP. So while they cannot see the content of the encrypted DNS query (i.e., your ISP can't see what specific domain you're trying to access), they can see that you're making a request to a particular DNS server like Cloudflare or AWS. And if you're constantly sending packets to a particular IP address, it's likely that you're visiting a website hosted at that address.
+However, encrypted DNS does not hide website IP addresses from your ISP. While your ISP cannot see the specific domain you want to access, they can see that you contact DNS servers like Cloudflare or AWS. If you repeatedly send data to a certain IP address, your ISP can guess you are visiting a website at that address.
 
-That being said, IVPN [argues](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) that you only need a VPN for three reasons:
+## Do I need a VPN?
+IVPN [argues](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) you only need a VPN for three reasons. Mainly, in order to:
 
 <details>
 
-1. Maintaining control over your privacy by hiding your real IP address from websites and peer-to-peer nodes, preventing ISPs and mobile network operators from tracking the domains and IPs you visit.
+1. Protect your privacy by hiding your real IP address from websites and peer-to-peer networks, which prevents ISPs and mobile carriers from tracking your online activity.
 
-2. Protecting your connection from [man in the middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) and other [common attacks](https://en.wikipedia.org/wiki/Evil_twin_(wireless_networks)) on untrusted networks, such as Wi-Fi in airports, hotels, cafes, and libraries.
+2. Guard against [man in the middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) and other [common attacks](https://en.wikipedia.org/wiki/Evil_twin_(wireless_networks)) on public Wi-Fi networks in places like airports, hotels, cafes, and libraries.
 
-3. Circumventing censorship or geographical blocks on websites and content, allowing you to retrieve otherwise inaccessible information and media.
+3. Bypass censorship or geographic restrictions, allowing you to access blocked websites and content.
 </details>
 
-You don't need a VPN unless your [threat model](https://thenewoil.org/en/guides/prologue/threat-model/) demands it. Here are VPN suggestions from [Techlore](https://www.techlore.tech/vpn.html) and [Tom Spark Reviews](https://www.vpntierlist.com/vpn-tier-list-2024) if it does.
+Ultimately, you don't need a VPN unless your [threat model](https://thenewoil.org/en/guides/prologue/threat-model/) demands it. Here are VPN suggestions from [Techlore](https://www.techlore.tech/vpn.html) and [Tom Spark Reviews](https://www.vpntierlist.com/vpn-tier-list-2024) if it does.
 
 ***
 # Mentions :books:
