@@ -268,6 +268,11 @@ This [request](https://oisd.nl/excludes.php?w=settings-win.data.microsoft.com) i
 
 	settings-win.data.microsoft.com
 
+### Xbox achievements
+
+	v10.events.data.microsoft.com
+	v20.events.data.microsoft.com
+
 ### Xiaomi device updates
 
 	update.intl.miui.com
