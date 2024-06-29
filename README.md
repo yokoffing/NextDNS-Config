@@ -194,6 +194,13 @@ Denylist entries are always blocked. The entries below may further harden some p
 
 <details>
 
+
+### Block access to iCloud Private Relay
+
+Devices that use iCloud Private Relay may ignore their DNS settings, so NextDNS cannot protect them. A few other DoH providers block it by default.
+
+	mask.icloud.com
+
 ### Apple tracking domains <sup><sup>[1](https://unofficialbird.com/mysk_co/status/1588308341780262912) [2](https://github.com/nextdns/metadata/pull/1132) [3](https://github.com/badmojr/1Hosts/issues/536) [4](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558)</sup></sup>
 Not currently in NextDNS's [Native Tracking Protection](https://github.com/yokoffing/NextDNS-Config#native-tracking-protection-1) [list](https://github.com/nextdns/native-tracking-domains/blob/main/domains/apple): <sup>[1](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.apple.txt)</sup>
 
@@ -249,7 +256,7 @@ If you're still having issues, try [these](https://raw.githubusercontent.com/hag
 
 ### Apple device updates <sup><sup>[1](https://github.com/badmojr/1Hosts/issues/536) [2](https://github.com/badmojr/1Hosts/issues/562) [3](https://github.com/nextdns/metadata/pull/1132#issuecomment-1331733770)
 
-A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558), but it's needed for device updates
+A [known tracking domain](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558), but it's needed for device updates.
 
 	xp.apple.com
 
