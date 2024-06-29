@@ -129,9 +129,9 @@ Here are the suggested blocklists, based on past issues and observations:
 
 |     **Blocklists**   |                              **Rationale**                                             |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
-| HaGeZi - Multi **NORMAL**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#multi)</sup> <p><p>OISD</p> | Block tracker, ad, and badware requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
-| HaGeZi - Multi **PRO**<sup>[2](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#pro)</sup> <p><p>OISD</p> | Block more requests, usually without issues (recommended). |
-| HaGeZi - Multi **PRO++**<sup>[3](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> <p><p>OISD</p> | Block more requests at the risk of site breakage. <br> [Report](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
+| HaGeZi - <br>Multi **NORMAL**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#multi)</sup> <p><p>OISD</p> | Block tracker, ad, and badware requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
+| HaGeZi - <br>Multi **PRO**<sup>[2](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#pro)</sup> <p><p>OISD</p> | Block more requests, usually without issues (recommended). |
+| HaGeZi - <br>Multi **PRO++**<sup>[3](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> <p><p>OISD</p> | Block more requests at the risk of site breakage. <br> [Report](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
 
 > [!TIP]
 > Use different blocklists on separate DNS profiles (e.g., NORMAL for your router and PRO++ for your web browser).
