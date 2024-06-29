@@ -427,7 +427,7 @@ However, encrypted DNS does not hide website IP addresses from your ISP. While y
 ## Do I need a VPN?
 IVPN [argues](https://www.ivpn.net/blog/why-you-dont-need-a-vpn/) you only need a VPN for three reasons. Mainly, in order to:
 
-1. Protect your privacy by hiding your real IP address from websites and peer-to-peer networks, which prevents ISPs and mobile carriers from tracking your online activity.
+1. Hide your real IP address from websites and peer-to-peer networks, which prevents ISPs and mobile carriers from tracking your online activity.
 
 2. Guard against [man in the middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) and other [common attacks](https://en.wikipedia.org/wiki/Evil_twin_(wireless_networks)) on public Wi-Fi networks in places like airports, hotels, cafes, and libraries.
 
