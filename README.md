@@ -125,16 +125,19 @@ We recommend you **remove** the [NextDNS Ads & Trackers Blocklist](https://githu
 
 A great question to ask is: "How much do I want to deal with the inconveniences of [false positives](https://csrc.nist.gov/glossary/term/false_positive)?"
 
-Here are the suggested blocklists, based on past [issues](https://github.com/hagezi/dns-blocklists/issues?q=author%3Ayokoffing) and observations:
+Here are the suggested blocklists, based on past issues and observations:
 
-|     **Blocklist**    |                              **Rationale**                                             |
+|     **Blocklists**   |                              **Rationale**                                             |
 |:--------------------:|:--------------------------------------------------------------------------------------:|
-| HaGeZi - Multi **NORMAL**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#multi)</sup> | Block tracker, ad, and badware requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
-| HaGeZi - Multi **PRO**<sup>[2](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#pro)</sup> | Block more requests, usually without issues (recommended). |
-| HaGeZi - Multi **PRO++**<sup>[3](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> | Block more requests at the risk of site breakage. <br> [Report](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
+| HaGeZi - Multi **NORMAL**<sup>[1](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#multi)</sup> <p>OISD</p> | Block tracker, ad, and badware requests without issues ([set-and-forget](https://glosbe.com/en/en/set-and-forget)). |
+| HaGeZi - Multi **PRO**<sup>[2](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#pro)</sup> <p>OISD</p> | Block more requests, usually without issues (recommended). |
+| HaGeZi - Multi **PRO++**<sup>[3](https://github.com/hagezi/dns-blocklists/blob/main/statistics.md#proplus)</sup> <p>OISD</p> | Block more requests at the risk of site breakage. <br> [Report](https://github.com/hagezi/dns-blocklists/issues/new/choose) occasional site and app issues. |
 
 > [!TIP]
 > Use different blocklists on separate DNS profiles (e.g., NORMAL for your router and PRO++ for your web browser).
+
+> [!NOTE]
+>  NextDNS does not offer Hagezi's Threat Intelligence Feed (TIF). We suggest using the OISD list, which includes which contains some TIF sources missing from NextDNS security features.
 
 You can also check out Hagezi's own [recommendations](https://github.com/hagezi/dns-blocklists/tree/main#whatshouldiuse).
 
