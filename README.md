@@ -203,6 +203,7 @@ Denylist entries are always blocked. These entries may further harden some profi
 Some DoH providers block this feature automatically.
 
 	mask.icloud.com
+	mask-h2.icloud.com
 
 
 ***
