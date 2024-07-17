@@ -206,6 +206,7 @@ Some DoH providers block this feature automatically.
 	mask-h2.icloud.com
 	doh.dns.apple.com
 	doh.dns.apple.com.v.aaplimg.com
+ 	apple-relay.cloudfare.com
  	
 ***
 
