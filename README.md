@@ -204,9 +204,11 @@ Some DoH providers block this feature automatically.
 
 	mask.icloud.com
 	mask-h2.icloud.com
+
+ 	possibly:
+  	apple-relay.cloudfare.com
 	doh.dns.apple.com
 	doh.dns.apple.com.v.aaplimg.com
- 	apple-relay.cloudfare.com
  	
 ***
 
