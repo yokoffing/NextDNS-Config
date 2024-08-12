@@ -137,7 +137,7 @@ Here are the suggested blocklists, based on past issues and observations:
 > Use different blocklists on separate DNS profiles (e.g., NORMAL for your router and PRO++ for your web browser).
 
 > [!NOTE]
->  NextDNS does not offer Hagezi's Threat Intelligence Feed (TIF). We suggest using the OISD list, which includes which contains some TIF sources missing from NextDNS security features.
+>  NextDNS does not offer Hagezi's Threat Intelligence Feed (TIF). We suggest using the OISD list, which contains some TIF sources missing from NextDNS security features.
 
 You can also check out Hagezi's own [recommendations](https://github.com/hagezi/dns-blocklists/tree/main#whatshouldiuse).
 
