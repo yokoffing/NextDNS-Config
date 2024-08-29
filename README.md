@@ -209,7 +209,7 @@ Some DoH providers block this feature automatically.
   	apple-relay.cloudfare.com
 	doh.dns.apple.com
 	doh.dns.apple.com.v.aaplimg.com
- 	
+ 	apple-relay.fastly-edge.com
 ***
 
 # Allowlist :white_check_mark:
