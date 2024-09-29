@@ -204,6 +204,7 @@ Some DoH providers block this feature automatically.
 
 	mask.icloud.com
 	mask-h2.icloud.com
+	mask-canary.icloud.com
 
 And possibly:
 
