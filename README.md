@@ -4,7 +4,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/yokoffing/NextDNS-Config)
 ![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/NextDNS-Config)
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter)       
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FNextDNS-Config&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)    
 
 ***
 # Guidelines :bookmark:
