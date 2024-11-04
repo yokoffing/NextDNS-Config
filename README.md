@@ -4,7 +4,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/yokoffing/NextDNS-Config)
 ![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/NextDNS-Config)
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)
-[![Hits]()](https://hits.seeyoufarm.com)
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter)       
 
 ***
 # Guidelines :bookmark:
@@ -210,10 +210,12 @@ Some DoH providers block this feature automatically.
 
 And possibly:
 
-  	apple-relay.cloudfare.com
+  	apple-relay.cloudflare.com
     apple-relay.fastly-edge.com
 	doh.dns.apple.com
 	doh.dns.apple.com.v.aaplimg.com
+    mask-api.icloud.com
+    mask.apple-dns.net
 
 ***
 
