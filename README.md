@@ -384,6 +384,10 @@ Users have [reported](https://www.reddit.com/r/nextdns/comments/v84ag6/paramount
 > [!WARNING]
 > Enabling this feature may break compatibility with [Yahoo! Mail](https://github.com/hagezi/dns-blocklists/issues/269#issuecomment-1409644343) and cause issues with certain blocklists.
 
+## Storage location
+> change the position in the European Union 🇪🇺
+> Why? because the european union laws grant better privacy than U.S
+
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enable CNAME Flattening
 
 ## Web3 <sup><sup> [1](https://x.com/NextDNS/status/1491034351391305731) [2](https://gabygoldberg.notion.site/f7050e62461143d49345e7b46eb5576b)</sup></sup>
