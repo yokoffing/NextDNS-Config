@@ -1,12 +1,3 @@
-[![GitHub issues](https://img.shields.io/github/issues/yokoffing/NextDNS-Config)](https://github.com/yokoffing/NextDNS-Config/issues)
-![GitHub](https://img.shields.io/github/license/yokoffing/NextDNS-Config?color=blue)
-![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-green)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/yokoffing/NextDNS-Config)
-![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/NextDNS-Config)
-![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FNextDNS-Config&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)    
-
-***
 # Guidelines :bookmark:
 1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-5-); etc.).
 2) Pass the [girlfriend test](https://www.urbandictionary.com/define.php?term=Grandma%20Test) with few exceptions. These deviations are documented throughout the guide.
@@ -164,7 +155,9 @@ Add all the device brands you use.
 </details>
 
 ## Block Disguised Third-Party Trackers <sup><sup>[1](https://github.com/nextdns/cname-cloaking-blocklist/blob/master/domains) [2](https://www.reddit.com/r/nextdns/comments/10nenu3/disguised_trackers_are_blocked_regardless_of) [3](https://medium.com/nextdns/cname-cloaking-the-dangerous-disguise-of-third-party-trackers-195205dc522a) [4](https://arxiv.org/pdf/2102.09301.pdf) [5](https://tma.ifip.org/2020/wp-content/uploads/sites/9/2020/06/tma2020-camera-paper66.pdf) </sup></sup>
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
+![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Disguised Third-Party Trackers
+
+The domain [list](https://github.com/nextdns/cname-cloaking-blocklist/blob/master/domains) hasn't been updated in years, and it blocks some referral domains that **Allow Affiliate & Tracking Links** doesn't unblock. NextDNS blocks [CNAME records](https://en.wikipedia.org/wiki/CNAME_record) by default, even with this list disabled.
 
 ## Allow Affiliate & Tracking Links <sup><sup>[1](https://github.com/nextdns/click-tracking-domains) [2](https://x.com/NextDNS/status/1539229377560461312) </sup></sup>
 > [!TIP]
