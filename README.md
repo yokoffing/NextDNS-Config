@@ -142,6 +142,8 @@ You may also wonder why other lists are not utilized. This is because many list 
 * offer no meaningful additional coverage when compared with the chart combinations above
 
 ## Native Tracking Protection <sup><sup>[1](https://github.com/nextdns/native-tracking-domains/tree/main/domains)</sup></sup>
+> [!CAUTION]
+> Leave this feature enabled if you use something other than the [recommended blocklists](https://github.com/yokoffing/NextDNS-Config#privacy-lock) (see https://github.com/yokoffing/NextDNS-Config/issues/76).
 
 Add all the device brands you use.
 
