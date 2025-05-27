@@ -131,7 +131,7 @@ Here are the suggested blocklists, based on past issues and observations:
 > [!TIP]
 > Use different blocklists on separate DNS profiles (e.g., NORMAL for your router and PRO++ for your web browser).
 
-You can also check out Hagezi's own [recommendations](https://github.com/hagezi/dns-blocklists/tree/main#whatshouldiuse).
+You can also check out Hagezi's own [recommendations](https://github.com/hagezi/dns-blocklists/wiki/FAQ#whatshouldiuse).
 
 ### Why Hagezi?
 [Hagezi](https://github.com/hagezi/dns-blocklists) block ads, trackers, native device trackers, and badware. He maintains a sensible allowlist, handles false positives quickly, and communicates known issues to blocklists maintainers. Hagezi's primary DNS lists combine multiple [sources](https://github.com/hagezi/dns-blocklists/wiki/FAQ#-which-sources-are-used-for-the-lists-and-how-are-the-lists-compiled-on-the-basis-of-these-sources) including respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/sources.md).
