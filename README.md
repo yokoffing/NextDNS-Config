@@ -211,6 +211,9 @@ And possibly:
     mask-api.icloud.com
     mask.apple-dns.net
 
+> [!CAUTION]
+> This may prevent external images from loading in Apple mail clients. 
+
 ***
 
 # Allowlist :white_check_mark:
