@@ -202,6 +202,9 @@ Some DoH providers block this feature automatically.
 	mask-h2.icloud.com
 	mask-canary.icloud.com
 
+> [!CAUTION]
+> This may prevent external images from loading in Apple mail clients.
+
 And possibly:
 
   	apple-relay.cloudflare.com
@@ -211,8 +214,7 @@ And possibly:
     mask-api.icloud.com
     mask.apple-dns.net
 
-> [!CAUTION]
-> This may prevent external images from loading in Apple mail clients. 
+
 
 ***
 
