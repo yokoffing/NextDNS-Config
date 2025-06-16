@@ -203,7 +203,7 @@ Some DoH providers block this feature automatically.
 	mask-canary.icloud.com
 
 > [!CAUTION]
-> This may prevent external images from loading in Apple mail clients.
+> The domains below may prevent external images from loading in Apple mail clients. You don't need these unless you're running a very aggressive profile.
 
 And possibly:
 
@@ -213,8 +213,6 @@ And possibly:
 	doh.dns.apple.com.v.aaplimg.com
     mask-api.icloud.com
     mask.apple-dns.net
-
-
 
 ***
 
