@@ -202,6 +202,9 @@ Some DoH providers block this feature automatically.
 	mask-h2.icloud.com
 	mask-canary.icloud.com
 
+> [!CAUTION]
+> The domains below may prevent external images from loading in Apple mail clients. You don't need these unless you're running a very aggressive profile.
+
 And possibly:
 
   	apple-relay.cloudflare.com
