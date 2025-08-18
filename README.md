@@ -385,6 +385,9 @@ Users have [reported](https://www.reddit.com/r/nextdns/comments/v84ag6/paramount
 
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enable CNAME Flattening
 
+## Bypass Age Verification
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Bypass Age Verification
+
 ## Web3 <sup><sup> [1](https://x.com/NextDNS/status/1491034351391305731) [2](https://gabygoldberg.notion.site/f7050e62461143d49345e7b46eb5576b)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Web3 → (optional)
 
@@ -471,6 +474,3 @@ Ultimately, you don't need a VPN unless your [threat model](https://thenewoil.or
 * [Easylist](https://github.com/easylist/easylist/issues?q=author%3Ayokoffing)
 * [uBlock Origin](https://github.com/uBlockOrigin/uAssets/issues?q=author%3Ayokoffing)
 * [AdGuard](https://github.com/AdguardTeam/AdguardFilters/issues?q=author%3Ayokoffing)
-
-<div align='center'><a href='https://websitecounterfree.com'><img src='https://websitecounterfree.com/c.php?d=9&id=19651&s=1' border='0' alt='Free Website Counter'></a><br / ></div>
-<div align='center'>since 23 July 2022</div>
