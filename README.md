@@ -145,7 +145,7 @@ You may also wonder why other lists are not utilized. This is because many list 
 > [!CAUTION]
 > Leave this feature enabled if you use something other than the [recommended blocklists](https://github.com/yokoffing/NextDNS-Config#privacy-lock) (see https://github.com/yokoffing/NextDNS-Config/issues/76).
 
-Add all the device brands you use.
+If you decide to use this feature, then add all the device brands that you use.
 
 <details>
 
