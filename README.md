@@ -16,9 +16,9 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 
 ## Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/threat-intelligence-feeds.json)</sup></sup>
 > [!CAUTION]
-> Leave this feature enabled if you use something other than the [recommended blocklists](https://github.com/yokoffing/NextDNS-Config#privacy-lock) (see https://github.com/yokoffing/NextDNS-Config/issues/74).
+> Leave this feature enabled if you use something other than the [recommended blocklists](https://github.com/yokoffing/NextDNS-Config#privacy-lock) (see https://github.com/yokoffing/NextDNS-Config/issues/74 and https://github.com/yokoffing/NextDNS-Config/issues/86).
 
-![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Use Threat Intelligence Feeds
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
 
 ## AI-Driven Threat Detection <sup><sup>[1](https://x.com/NextDNS/status/1440291577713233925)</sup></sup>
 
@@ -412,7 +412,7 @@ We based the recommendations below on a combination of effectiveness, resource e
 
 | OS | Browser | Content Blocker |
 |---|---|---|
-| iOS | [Safari](https://www.privacyguides.org/en/mobile-browsers/#safari) | [AdGuard](https://www.privacyguides.org/en/browser-extensions/?h=adguard#adguard) |
+| iOS | [Safari](https://www.privacyguides.org/en/mobile-browsers/#safari) | [wBlock](https://apps.apple.com/us/app/wblock/id6746388723) or [AdGuard](https://www.privacyguides.org/en/browser-extensions/?h=adguard#adguard) |
 | Android | [Brave](https://www.privacyguides.org/en/mobile-browsers/#brave) | Built-in blocker |
 | Windows <br> macOS <br> Linux | [Firefox](https://www.mozilla.org/en-US/firefox/new/) (with [Betterfox](https://github.com/yokoffing/Betterfox#betterfox)) <p><p> [Brave](https://www.privacyguides.org/en/desktop-browsers/#brave) | [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) <p><p> Built-in blocker or [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) |  |
 
