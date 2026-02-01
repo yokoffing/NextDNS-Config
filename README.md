@@ -389,7 +389,9 @@ Users have [reported](https://www.reddit.com/r/nextdns/comments/v84ag6/paramount
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Bypass Age Verification
 
 ## Web3 <sup><sup> [1](https://x.com/NextDNS/status/1491034351391305731) [2](https://gabygoldberg.notion.site/f7050e62461143d49345e7b46eb5576b)</sup></sup>
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Web3 → (optional)
+![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enable Web3
+<p>
+Leave disabled unless you use crypto-related stuff.
 
 ***
 # FAQ :question:
