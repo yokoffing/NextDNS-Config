@@ -198,9 +198,7 @@ Denylist entries are always blocked. These entries may further harden some profi
 
 Some DoH providers block this feature automatically.
 
-	mask.icloud.com
-	mask-h2.icloud.com
-	mask-canary.icloud.com
+	mask.icloud.com	
 
 > [!CAUTION]
 > The domains below may prevent external images from loading in Apple mail clients. You don't need these unless you're running a very aggressive profile.
@@ -212,6 +210,8 @@ And possibly:
 	doh.dns.apple.com
 	doh.dns.apple.com.v.aaplimg.com
     mask-api.icloud.com
+    mask-h2.icloud.com
+    mask-canary.icloud.com
     mask.apple-dns.net
 
 ***
