@@ -48,7 +48,7 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Tunneling Endpoints
 
 ## Residential Hosting
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Residential Hosting
+![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Residential Hosting
 
 ## Untrusted Certificates
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Untrusted Certificates
