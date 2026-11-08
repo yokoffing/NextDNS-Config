@@ -45,22 +45,23 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Dynamic DNS Hostnames
 
 ## Tunneling Endpoints
-![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Tunneling Endpoints
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Tunneling Endpoints
 
 ## Residential Hosting
-![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Residential Hosting
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Residential Hosting
 
 ## Untrusted Certificates
-![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Untrusted Certificates
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Untrusted Certificates
 
 ## Data Drop Services
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Data Drop Services
 
 ## DNS Payload Delivery
-![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Disrupt DNS Payload Delivery
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Disrupt DNS Payload Delivery
 
 ## Local Network Addresses <sup><sup>[1](https://help.nextdns.io/t/35hmval/what-is-dns-rebinding-protection) [2](https://www.reddit.com/r/nextdns/comments/t0ne8r/does_dns_rebinding_protection_block_remote_access/?context=3)</sup></sup>
 aka DNS Rebinding Protection
+
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Local Network Addresses
 
 ## Cryptocurrency Mining <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/cryptojacking.json)</sup></sup>
@@ -76,6 +77,8 @@ aka DNS Rebinding Protection
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
 
 ## High-Risk TLDs
+ *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this step.*
+ 
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block High-Risk TLDs
 
 ## Domain Generation Algorithms
@@ -176,28 +179,33 @@ If you decide to use this feature, then add all the device brands that you use.
 	Amazon Alexa
 	Roku
 	Sonos
+	LG
 
 </details>
+
+## Block Rotating Ad Domains
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Rotating Ad Domains
 
 ## Block Disguised Third-Party Trackers <sup><sup>[1](https://github.com/nextdns/cname-cloaking-blocklist/blob/master/domains) [2](https://www.reddit.com/r/nextdns/comments/10nenu3/disguised_trackers_are_blocked_regardless_of) [3](https://medium.com/nextdns/cname-cloaking-the-dangerous-disguise-of-third-party-trackers-195205dc522a) [4](https://arxiv.org/pdf/2102.09301.pdf) [5](https://tma.ifip.org/2020/wp-content/uploads/sites/9/2020/06/tma2020-camera-paper66.pdf) </sup></sup>
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Disguised Third-Party Trackers
 
-The domain [list](https://github.com/nextdns/cname-cloaking-blocklist/blob/master/domains) hasn't been updated in years, and it blocks some referral domains that **Allow Affiliate & Tracking Links** doesn't unblock. NextDNS blocks [CNAME records](https://en.wikipedia.org/wiki/CNAME_record) by default, even with this list disabled.
+This list blocks some referral domains that **Allow Tracking Links** doesn't unblock. NextDNS blocks [CNAME records](https://en.wikipedia.org/wiki/CNAME_record) by default, even with this list disabled.
 
-## Allow Affiliate & Tracking Links <sup><sup>[1](https://github.com/nextdns/click-tracking-domains) [2](https://x.com/NextDNS/status/1539229377560461312) </sup></sup>
+## Allow Tracking Links <sup><sup>[1](https://github.com/nextdns/click-tracking-domains) [2](https://x.com/NextDNS/status/1539229377560461312) </sup></sup>
 > [!TIP]
 > Your IP address will automatically be hidden (via [TCP](https://educba.com/what-is-tcp-ip) [proxying](https://en.wikipedia.org/wiki/Proxy_server#/media/File:Proxy_concept_en.svg)) to preserve your privacy.<p>
 
 > [!WARNING]
 > Disabling this setting prevents some email links from opening properly.
 
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Allow Affiliate & Tracking Links
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Allow Tracking Links
 
 ***
 
 # Parental Control :family_man_woman_boy:
 ## YouTube Restricted Mode
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enforce YouTube Restricted Mode
+
 ## Block Bypass Methods <sup><sup>[1](https://github.com/nextdns/dns-bypass-methods)</sup></sup>
 Block tools that can bypass NextDNS filtering, such as VPNs, proxies, Tor software, and encrypted DNS services.
 > [!CAUTION]
@@ -395,6 +403,7 @@ Users have [reported](https://www.reddit.com/r/nextdns/comments/v84ag6/paramount
 
 ## Anonymized EDNS Client Subnet <sup><sup>[1](https://help.nextdns.io/t/m1hmv04/what-is-edns-client-subnet-ecs) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Anonymized EDNS Client Subnet
+
 ## Cache Boost <sup><sup>[1](https://www.reddit.com/r/nextdns/comments/girmcf/new_setting_cache_boost/)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Cache Boost
 
