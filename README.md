@@ -15,15 +15,9 @@ Sign up for NextDNS [here](https://nextdns.io/?from=xujj63g5) and support this p
 Security settings protect your data from harm, theft, and unauthorized use.<sup>*^[why does this matter?](https://thenewoil.org/en/guides/prologue/why)*</sup>
 
 ## Threat Intelligence Feeds <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/threat-intelligence-feeds.json)</sup></sup>
-> [!CAUTION]
-> Leave this feature enabled if you use something other than the [recommended blocklists](https://github.com/yokoffing/NextDNS-Config#privacy-lock) (see https://github.com/yokoffing/NextDNS-Config/issues/74 and https://github.com/yokoffing/NextDNS-Config/issues/86).
-
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
 
 ## AI-Driven Threat Detection <sup><sup>[1](https://x.com/NextDNS/status/1440291577713233925)</sup></sup>
-
-NextDNS labels this feature as [beta](https://www.vocabulary.com/dictionary/beta), although most users report it works well.
-
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enable AI-Driven Threat Detection
 
 ## Google Safe Browsing <sup><sup> [1](https://safebrowsing.google.com/safebrowsing/report_general/) [2](https://blog.cryptographyengineering.com/2019/10/13/dear-apple-safe-browsing-might-not-be-that-safe/) [3](https://the8-bit.com/apple-proxies-google-safe-browsing-privacy/) [4](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#services-we-proxy-through-brave-servers) </sup></sup>
@@ -32,37 +26,65 @@ NextDNS labels this feature as [beta](https://www.vocabulary.com/dictionary/beta
 
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enable Google Safe Browsing
 
-## Cryptojacking Protection <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/cryptojacking.json)</sup></sup>
-> [!CAUTION]
-> Leave this feature enabled if you use something other than the [recommended blocklists](https://github.com/yokoffing/NextDNS-Config#privacy-lock) (see https://github.com/yokoffing/NextDNS-Config/issues/31).
-
-![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enable Cryptojacking Protection
-
-## DNS Rebinding Protection <sup><sup>[1](https://help.nextdns.io/t/35hmval/what-is-dns-rebinding-protection) [2](https://www.reddit.com/r/nextdns/comments/t0ne8r/does_dns_rebinding_protection_block_remote_access/?context=3)</sup></sup>
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg)  Enable DNS Rebinding Protection
-
-## IDN Homograph Attacks Protection <sup><sup>[1](https://web.archive.org/web/20230325073817/https://blog.riotsecurityteam.com/idn-homograph-attacksprevention) [2](https://akamai.com/blog/security/watch-your-step-the-prevalence-of-idn-homograph-attacks)</sup></sup>
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Homograph Attacks Protection
-
-## Typosquatting Protection <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/typosquatting/protected-domains)</sup></sup>
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Typosquatting Protection
-## Domain Generation Algorithms (DGAs) Protection
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable DGA Protection
-## Block Newly Registered Domains (NRDs) <sup><sup>[1](https://boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks) </sup></sup>
+## Newly Registered Domains (NRDs) <sup><sup>[1](https://boldgrid.com/instagram-influencer-accounts-are-being-hacked-phishing-attacks) </sup></sup>
 > [!WARNING]
 > Blocking NRDs may cause [false positives](https://csrc.nist.gov/glossary/term/false_positive) [occasionally](https://www.reddit.com/r/InternetIsBeautiful/comments/w2wdro/comment/iguvg8y/?context=3). Be selective when adding NRDs to your allowlist; and, if you do, **NEVER** give [sensitive information](https://egnyte.com/guides/governance/sensitive-information) to a NRD. *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, disable this setting.*
 
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs)
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains
 
-## Block Dynamic DNS Hostnames <sup><sup>[1](https://github.com/nextdns/ddns-domains/blob/main/suffixes) [2](https://x.com/NextDNS/status/1541740963760144386) </sup></sup>
+## Newly Active Domains
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Newly Active Domains
+
+## Free Hosting Domains
+![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Free Hosting Domains
+
+## Dynamic DNS Hostnames <sup><sup>[1](https://github.com/nextdns/ddns-domains/blob/main/suffixes) [2](https://x.com/NextDNS/status/1541740963760144386) </sup></sup>
 > [!TIP]
 > Dynamic DNS (DDNS) services can still access their own website and update API when you use this setting.
 
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Block Dynamic DNS Hostnames
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Dynamic DNS Hostnames
 
-## Block Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/parked-domains-cname)</sup></sup>
+## Tunneling Endpoints
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Tunneling Endpoints
+
+## Residential Hosting
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Residential Hosting
+
+## Untrusted Certificates
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Untrusted Certificates
+
+## Data Drop Services
+![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Data Drop Services
+
+## DNS Payload Delivery
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Disrupt DNS Payload Delivery
+
+## Local Network Addresses <sup><sup>[1](https://help.nextdns.io/t/35hmval/what-is-dns-rebinding-protection) [2](https://www.reddit.com/r/nextdns/comments/t0ne8r/does_dns_rebinding_protection_block_remote_access/?context=3)</sup></sup>
+aka DNS Rebinding Protection
+
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Local Network Addresses
+
+## Cryptocurrency Mining <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/cryptojacking.json)</sup></sup>
+> [!CAUTION]
+> Leave this feature enabled if you use something other than the [recommended blocklists](https://github.com/yokoffing/NextDNS-Config#privacy-lock) (see https://github.com/yokoffing/NextDNS-Config/issues/31).
+
+![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Cryptocurrency Mining
+
+## Decentralized Web Gateways
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Decentralized Web Gateways
+
+## Parked Domains <sup><sup>[1](https://github.com/nextdns/metadata/blob/6f9b6cd0670e7e31ad2ca716742088c2fc0616c2/security/parked-domains-cname)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
-## Block Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/reputation-statistics/cctlds/domains/) [3](https://bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) [5](https://github.com/DandelionSprout/adfilt/issues/659#issuecomment-1284845803) </sup></sup>
+
+## High-Risk TLDs
+ *If you plan to [set-and-forget](https://glosbe.com/en/en/set-and-forget) your configuration, skip this step.*
+ 
+![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block High-Risk TLDs
+
+## Domain Generation Algorithms
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block DGA Domains
+
+## Top-Level Domains (TLDs) <sup><sup>[1](https://webtribunal.net/blog/tld-statistics/) [2](https://www.spamhaus.org/reputation-statistics/cctlds/domains/) [3](https://bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/) [4](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt) [5](https://github.com/DandelionSprout/adfilt/issues/659#issuecomment-1284845803) </sup></sup>
 
 > [!IMPORTANT]
 > Blocking [TLDs](https://www.geeksforgeeks.org/components-of-a-url) risks blocking legitimate sites along with malicious ones, since this feature stops both site navigations and subrequests. However, the entries below should allow for everyday browsing while offering protection against commonly abused TLDs.
@@ -157,28 +179,33 @@ If you decide to use this feature, then add all the device brands that you use.
 	Amazon Alexa
 	Roku
 	Sonos
+	LG
 
 </details>
+
+## Block Rotating Ad Domains
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Rotating Ad Domains
 
 ## Block Disguised Third-Party Trackers <sup><sup>[1](https://github.com/nextdns/cname-cloaking-blocklist/blob/master/domains) [2](https://www.reddit.com/r/nextdns/comments/10nenu3/disguised_trackers_are_blocked_regardless_of) [3](https://medium.com/nextdns/cname-cloaking-the-dangerous-disguise-of-third-party-trackers-195205dc522a) [4](https://arxiv.org/pdf/2102.09301.pdf) [5](https://tma.ifip.org/2020/wp-content/uploads/sites/9/2020/06/tma2020-camera-paper66.pdf) </sup></sup>
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Disguised Third-Party Trackers
 
-The domain [list](https://github.com/nextdns/cname-cloaking-blocklist/blob/master/domains) hasn't been updated in years, and it blocks some referral domains that **Allow Affiliate & Tracking Links** doesn't unblock. NextDNS blocks [CNAME records](https://en.wikipedia.org/wiki/CNAME_record) by default, even with this list disabled.
+This list blocks some referral domains that **Allow Tracking Links** doesn't unblock. NextDNS blocks [CNAME records](https://en.wikipedia.org/wiki/CNAME_record) by default, even with this list disabled.
 
-## Allow Affiliate & Tracking Links <sup><sup>[1](https://github.com/nextdns/click-tracking-domains) [2](https://x.com/NextDNS/status/1539229377560461312) </sup></sup>
+## Allow Tracking Links <sup><sup>[1](https://github.com/nextdns/click-tracking-domains) [2](https://x.com/NextDNS/status/1539229377560461312) </sup></sup>
 > [!TIP]
 > Your IP address will automatically be hidden (via [TCP](https://educba.com/what-is-tcp-ip) [proxying](https://en.wikipedia.org/wiki/Proxy_server#/media/File:Proxy_concept_en.svg)) to preserve your privacy.<p>
 
 > [!WARNING]
 > Disabling this setting prevents some email links from opening properly.
 
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Allow Affiliate & Tracking Links
+![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Allow Tracking Links
 
 ***
 
 # Parental Control :family_man_woman_boy:
 ## YouTube Restricted Mode
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Enforce YouTube Restricted Mode
+
 ## Block Bypass Methods <sup><sup>[1](https://github.com/nextdns/dns-bypass-methods)</sup></sup>
 Block tools that can bypass NextDNS filtering, such as VPNs, proxies, Tor software, and encrypted DNS services.
 > [!CAUTION]
@@ -376,6 +403,7 @@ Users have [reported](https://www.reddit.com/r/nextdns/comments/v84ag6/paramount
 
 ## Anonymized EDNS Client Subnet <sup><sup>[1](https://help.nextdns.io/t/m1hmv04/what-is-edns-client-subnet-ecs) </sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Anonymized EDNS Client Subnet
+
 ## Cache Boost <sup><sup>[1](https://www.reddit.com/r/nextdns/comments/girmcf/new_setting_cache_boost/)</sup></sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Enable Cache Boost
 
