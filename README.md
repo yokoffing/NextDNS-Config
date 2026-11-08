@@ -45,6 +45,9 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Dynamic DNS Hostnames
 
 ## Tunneling Endpoints
+> [!WARNING]
+> May break developer workflows, hosting, or remote home server access.
+
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Tunneling Endpoints
 
 ## Residential Hosting
