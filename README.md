@@ -33,7 +33,10 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains
 
 ## Newly Active Domains
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Newly Active Domains
+> [!NOTE]
+> This feature tends to flag pages that receive low traffic but are not malicious ([false positives](https://csrc.nist.gov/glossary/term/false_positive)).
+
+![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Newly Active Domains
 
 ## Free Hosting Domains
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Free Hosting Domains
@@ -54,7 +57,10 @@ Security settings protect your data from harm, theft, and unauthorized use.<sup>
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Residential Hosting
 
 ## Untrusted Certificates
-![Enabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/enabled.svg) Block Untrusted Certificates
+> [!NOTE]
+> Certificates are usually handled by your web browser, but feel free to enable this and give it a try.
+
+![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Untrusted Certificates
 
 ## Data Drop Services
 ![Disabled](https://raw.githubusercontent.com/yokoffing/NextDNS-Config/main/icons/disabled.svg) Block Data Drop Services
